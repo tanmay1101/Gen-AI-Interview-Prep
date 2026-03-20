@@ -7,6 +7,28 @@ When I explain transformer architecture, I start from the problem it solved: RNN
 Quick visualization I use in interviews:  
 For the sentence `"The server crashed after the payment API timeout"`, the token `crashed` can directly look at `payment`, `API`, and `timeout` in one attention step (not after many sequential steps). At the same time, `timeout` can also attend to `crashed` and `after`, so the model links cause and effect quickly. Think of it like every word joining the same meeting and listening to all other words, but with different attention weights.
 
+Simple attention chart (example weights):
+
+| Query token \\ Key token | crashed | payment | API | timeout | after |
+|---|---:|---:|---:|---:|---:|
+| **crashed** | 0.05 | 0.20 | 0.22 | 0.33 | 0.20 |
+| **timeout** | 0.28 | 0.18 | 0.16 | 0.08 | 0.30 |
+
+How to read this quickly:
+- In row `crashed`, the highest weight is on `timeout` (0.33), so `crashed` strongly uses `timeout` context.
+- In row `timeout`, high weights on `after` and `crashed` help encode temporal cause-effect.
+- Each row sums to around `1.0` after softmax, so weights are a probability-like distribution.
+
+Mini multi-head visualization (same sentence, different heads learn different things):
+
+| Head | Learned focus | Strong attention pattern (example) | What it captures |
+|---|---|---|---|
+| **Head 1** | Syntax / structure | `crashed -> server`, `timeout -> API` | Who did what (event-object relation) |
+| **Head 2** | Causality / time | `crashed -> timeout`, `timeout -> after` | Why/when event happened |
+
+Quick interview line:
+"One head understands sentence structure, another head captures cause-effect. Their outputs are concatenated, so the model gets both views at the same time."
+
 Core blocks I cover:
 
 1. Input Embedding + Positional Encoding  
