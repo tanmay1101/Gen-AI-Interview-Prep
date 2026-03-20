@@ -4,6 +4,74 @@
 
 When I explain transformer architecture, I start from the problem it solved: RNN/LSTM pipelines struggled with long-range dependencies and poor parallelism. Transformers replaced recurrence with self-attention, which lets every token directly attend to every other token in the same sequence.
 
+### Classroom-style intuition (human task analogy, English only)
+
+Think of a sentence as a team in a project room. Each word is one team member:
+`The | server | crashed | after | payment | API | timeout`
+
+In older sequential models, information is passed person-to-person in a line. By the time it reaches the end, some details weaken.
+
+In a transformer, everyone is in one live meeting. Any member can listen to everyone else instantly.
+
+- `crashed` asks: "Who explains why this happened?"
+- `timeout` responds with strong relevance.
+- `payment` and `API` add domain context.
+- `after` adds time order.
+
+So the meaning of `crashed` is updated using the most relevant teammates in one step.
+
+How I explain Q, K, V in this analogy:
+- **Query (Q):** What information am I looking for?
+- **Key (K):** What type of information do I contain?
+- **Value (V):** What actual information can I contribute?
+
+Self-attention is the matching process:
+each word's query compares against all keys, then collects weighted values.
+
+Why multi-head attention helps:
+it is like having multiple expert teachers in the same class:
+- one focuses on grammar/structure,
+- one on cause-effect,
+- one on domain/entity links.
+
+Their perspectives are combined, giving richer understanding than a single viewpoint.
+
+### Classroom Analogy (Human Task View) - Hindi+English Mix (Fast Recall)
+
+Socho sentence ek classroom project team hai:
+`The | server | crashed | after | payment | API | timeout`
+
+Yahan har word ek student hai.
+
+- Old RNN/LSTM style: ek student se next student tak note pass hota hai (sequential), beech me context weak ho sakta hai.
+- Transformer style: sab students ek round-table discussion me hain, sab ek doosre ki baat sun sakte hain at the same time.
+
+Ab token `crashed` ko samajhna hai ki issue kya hai:
+- wo poochta hai: "Mere liye kaun relevant hai?"
+- `timeout` bolta hai: "Main cause bata raha hoon."
+- `payment` + `API` bolte hain: "Hum domain context de rahe hain."
+- `after` bolta hai: "Main timeline/sequence clear kar raha hoon."
+
+Final meaning: `crashed` becomes "payment API timeout related crash", not generic crash.
+
+QKV ko class language me yaad rakho:
+- **Q (Query):** Mujhe kya samajhna hai?
+- **K (Key):** Mere paas kis type ki info hai?
+- **V (Value):** Main actual kya contribution de raha hoon?
+
+Self-attention ka simple rule:
+"Har word sab words ko score karta hai, phir weighted important context lekar apni understanding update karta hai."
+
+Multi-head ko aise yaad rakho:
+- Head 1: grammar teacher (structure)
+- Head 2: logic teacher (cause-effect)
+- Head 3: domain teacher (API/payment relation)
+
+Sab teachers ka output combine hota hai, isliye final understanding richer hoti hai.
+
+Interview one-liner (Hinglish):
+"Transformer me har token ek smart student ki tarah sabse poochta hai, jo important ho uski baat weight dekar sunta hai, aur multi-head se multiple expert views combine karke final meaning banata hai."
+
 Quick visualization I use in interviews:  
 For the sentence `"The server crashed after the payment API timeout"`, the token `crashed` can directly look at `payment`, `API`, and `timeout` in one attention step (not after many sequential steps). At the same time, `timeout` can also attend to `crashed` and `after`, so the model links cause and effect quickly. Think of it like every word joining the same meeting and listening to all other words, but with different attention weights.
 
