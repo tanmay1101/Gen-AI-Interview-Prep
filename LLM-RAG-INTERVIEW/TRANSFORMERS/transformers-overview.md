@@ -4,6 +4,9 @@
 
 When I explain transformer architecture, I start from the problem it solved: RNN/LSTM pipelines struggled with long-range dependencies and poor parallelism. Transformers replaced recurrence with self-attention, which lets every token directly attend to every other token in the same sequence.
 
+Quick visualization I use in interviews:  
+For the sentence `"The server crashed after the payment API timeout"`, the token `crashed` can directly look at `payment`, `API`, and `timeout` in one attention step (not after many sequential steps). At the same time, `timeout` can also attend to `crashed` and `after`, so the model links cause and effect quickly. Think of it like every word joining the same meeting and listening to all other words, but with different attention weights.
+
 Core blocks I cover:
 
 1. Input Embedding + Positional Encoding  
