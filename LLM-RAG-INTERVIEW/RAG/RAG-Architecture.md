@@ -10,7 +10,7 @@ The LLM is powerful, but without retrieval it is guessing. With retrieval, it be
 
 ## Big-Picture Diagram (mental model)
 
-```mermaid
+```text
 flowchart LR
   U[User Question] --> QP[Query Processing Layer]
   QP --> R[Retrieve top-k chunks]
@@ -24,6 +24,36 @@ flowchart LR
     C --> E[Embedding Model]
     E --> V[Vector DB / Index]
   end
+```
+
+ASCII mental-model diagram (renders everywhere):
+
+```
+                ┌──────────────────────┐
+User Question  │ Query Processing      │
+──────────────>│  - retrieve top-k    │
+                │  - (optional) rerank│
+                └──────────┬───────────┘
+                           │context chunks
+                           v
+                ┌──────────────────────┐
+                │ Prompt + Grounding   │
+                │ (instructions +       │
+                │  retrieved citations) │
+                └──────────┬───────────┘
+                           │
+                           v
+                ┌──────────────────────┐
+                │ LLM Generation        │
+                └──────────┬───────────┘
+                           │
+                           v
+                ┌──────────────────────┐
+                │ Answer + Final checks│
+                └──────────────────────┘
+
+Offline ingestion (one-time / batch):
+Sources → Document Loader → Document Splitter → Embedding Model → Vector DB / Index
 ```
 
 ---
