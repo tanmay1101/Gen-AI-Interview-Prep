@@ -186,30 +186,72 @@ Interview line I use:
 ## 2) Working of Transformer (Practical, Step-by-Step)
 
 ### A) Encoder-only flow (example: BERT-style classification)
+Think of encoder-only as: **"Read everything first, then decide."**
+
+Flow diagram (mental model):
+`Input text -> Embeddings+Pos -> (Encoder x N) -> CLS -> Classifier`
+
+Step-by-step (human task view):
 1. Tokenize text and create embeddings.
+   - Human analogy: students get converted into “learnable cards” (token vectors).
+   - Backend: tokenizer IDs -> `LongTensor [batch, seq_len]`, then `nn.Embedding` -> `FloatTensor [batch, seq_len, d_model]`.
 2. Add positional signals.
-3. Pass through N encoder blocks:
-   - self-attention -> add & norm
-   - FFN -> add & norm
-4. Use final contextual embeddings for downstream task:
-   - CLS token for classification, or token-level outputs for NER.
+   - Human analogy: seat numbers / ordering is attached so the model knows who came first and who came later.
+   - Backend: `x = token_embeds + pos_embeds` (element-wise add) to make order available.
+3. Pass through N encoder blocks.
+   - self-attention (bidirectional): every token updates by attending to *all* other tokens.
+   - FFN: each token refines its understanding with an MLP (still parallel across tokens).
+   - Human analogy: each round, every student consults the entire class, then rewrites their notes.
+4. Use final contextual embeddings for downstream task.
+   - CLS token for classification (or token outputs for NER).
+   - Human analogy: “the class captain” (CLS) collects the final class understanding and votes a label.
+   - Backend: take final hidden state for `[CLS]` -> `Linear(d_model, num_labels)` -> logits/softmax.
 Use case to explain in interview:  
 "In a support-ticket triage system, I used an encoder model to classify tickets into Billing, Access, and Incident classes. Because encoder attention reads both left and right context, it handled phrases like 'not able to login after password reset' better than keyword rules."
 
 ### B) Decoder-only flow (example: GPT-style generation)
+Think of decoder-only as: **"Write one word at a time, without peeking ahead."**
+
+Flow diagram (mental model):
+`Prompt -> (Decoder x N with causal mask) -> next token -> append -> repeat`
+
+Step-by-step (human task view):
 1. Input prompt tokens.
+   - Human analogy: the student starts with the first lines they are allowed to see.
+   - Backend: prompt IDs become the initial `[batch, seq_len]` input.
 2. Masked self-attention ensures token t cannot see future tokens.
+   - Human analogy: strict rule in an exam: you can only look left, not right.
+   - Backend: apply a causal mask so attention logits for future positions are blocked.
 3. Model predicts next token probability distribution.
+   - Human analogy: the model proposes the “best next word” given what has been written so far.
+   - Backend: hidden states -> vocabulary `Linear` head -> softmax probabilities.
 4. Decode one token at a time (greedy, beam, top-k, nucleus, etc.).
+   - Human analogy: after choosing one word, the student updates the paragraph and continues.
+   - Backend: iterative generation; often uses KV cache to reuse past `K/V` tensors for speed.
 Use case to explain in interview:  
 "For an internal DevOps assistant, I used a decoder-only model to generate step-by-step runbooks from incident context. Autoregressive generation made it ideal for producing coherent multi-step instructions."
 
 ### C) Encoder-decoder flow (example: T5/BART translation/summarization)
+Think of encoder-decoder as: **"Read the source, then write the target while citing the source."**
+
+Flow diagram (mental model):
+```text
+Source -> Encoder -> Memory
+Target so-far -> Decoder (causal self-attn + cross-attn to Memory) -> next token -> repeat
+```
+
+Step-by-step (human task view):
 1. Encoder builds source representation.
+   - Human analogy: teacher reads the entire document and prepares a structured memory.
+   - Backend: encoder hidden states are computed from the source tokens.
 2. Decoder uses:
-   - masked self-attention on generated target tokens
-   - cross-attention over encoder outputs
+   - masked self-attention on generated target tokens (left-to-right writing)
+   - cross-attention over encoder outputs (grounding to the source)
+   - Human analogy: the writer can’t look ahead in the target, but they can consult the teacher’s prepared notes.
+   - Backend: decoder uses encoder outputs as `K/V` in cross-attention.
 3. Generate target sequence autoregressively.
+   - Human analogy: produce sentence-by-sentence until completion.
+   - Backend: loop until EOS, usually with KV cache and careful length control.
 Use case to explain in interview:  
 "In compliance reporting, I used an encoder-decoder model to convert long audit notes into executive summaries. Cross-attention helped the decoder stay grounded in source content while generating concise output."
 
