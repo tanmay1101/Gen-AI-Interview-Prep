@@ -19,6 +19,22 @@ How to read this quickly:
 - In row `timeout`, high weights on `after` and `crashed` help encode temporal cause-effect.
 - Each row sums to around `1.0` after softmax, so weights are a probability-like distribution.
 
+Diagram in my mind (single self-attention flow):
+
+```mermaid
+flowchart LR
+    A["Input tokens<br/>The | server | crashed | after | payment | API | timeout"]
+    B["Embeddings + Position"]
+    C["Build Q, K, V for each token"]
+    D["Attention scores<br/>softmax(QK^T / sqrt(d_k))"]
+    E["Weighted context vectors"]
+    F["Updated token meaning"]
+    G["Example focus for token: crashed<br/>timeout:0.33, API:0.22, payment:0.20, after:0.20"]
+
+    A --> B --> C --> D --> E --> F
+    D --> G
+```
+
 Mini multi-head visualization (same sentence, different heads learn different things):
 
 | Head | Learned focus | Strong attention pattern (example) | What it captures |
@@ -28,6 +44,27 @@ Mini multi-head visualization (same sentence, different heads learn different th
 
 Quick interview line:
 "One head understands sentence structure, another head captures cause-effect. Their outputs are concatenated, so the model gets both views at the same time."
+
+Diagram in my mind (multi-head flow):
+
+```mermaid
+flowchart LR
+    X["Input embeddings"]
+    H1["Head 1 attention<br/>(syntax/structure)"]
+    H2["Head 2 attention<br/>(causality/time)"]
+    H3["Head 3 attention<br/>(entity relation)"]
+    C["Concatenate head outputs"]
+    O["Output projection W_o"]
+    R["Final contextual representation"]
+
+    X --> H1
+    X --> H2
+    X --> H3
+    H1 --> C
+    H2 --> C
+    H3 --> C
+    C --> O --> R
+```
 
 Core blocks I cover:
 
