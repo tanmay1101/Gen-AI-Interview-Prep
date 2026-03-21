@@ -11,18 +11,13 @@ This project targets **AIOps Intelligent Incident Investigator**: the gap betwee
 - **Current pain:** When production breaks, SREs and support engineers spend **hours** in hypothesis–query–refine loops across **millions of log lines** and fragmented consoles. Symptoms are visible early; **root cause narrative** arrives late. Cognitive load, alert noise, and tool fragmentation make MTTR feel bounded by **interpretation**, not by how fast a fix could be applied once known.
 - **Desired outcome (directional — not a solution spec):** Stakeholders align on *why* investigation is slow and costly, so prioritization and expectations match operational reality.
 
-The detailed narrative below is **problem and impact only** (no proposed solutions), written so stakeholders can **feel** the on-call experience.
-
----
-
 ## Stakeholder problem brief — AIOps Intelligent Incident Investigator
 
 **Perspective:** Lived experience of an on-call / support engineering role.  
-**Scope:** Problem and impact only — **no proposed solutions.**
-
+**Scope:** Problem and impact 
 ### 1. The use case in one sentence
 
-**“AIOps Intelligent Incident Investigator”** addresses a reality many large organizations already live with: when a production incident fires, engineers must find truth inside **enormous, noisy telemetry** — often by **manually searching and querying logs** in platforms such as **Azure Data Explorer (Kusto / ADX)** or **Amazon CloudWatch** — while the business is waiting and every minute counts.
+**“AIOps Intelligent Incident Investigator”** addresses a reality many large organizations already live with: when a production incident fires, engineers must find truth inside **enormous, noisy telemetry** — often by **manually searching and querying logs** in platforms such as **Azure Data Explorer (Kusto / ADX)** — while the business is waiting and every minute counts.
 
 ### 2. What stakeholders see vs. what responders live through
 
@@ -113,16 +108,6 @@ This is not “engineers need to try harder.” It is a **mismatch**:
 
 That mismatch is why **“AIOps Intelligent Incident Investigator”** resonates: a name for the gap between **data abundance** and **understanding under pressure**.
 
-### 8. References (industry / vendor context)
-
-- Google SRE — incident management: https://sre.google/sre-book/managing-incidents/  
-- Google SRE Workbook — incident response: https://sre.google/workbook/incident-response/  
-- Microsoft Q&A — ADX / high-volume log query performance: https://learn.microsoft.com/en-us/answers/questions/5587264/how-can-i-improve-query-performance-in-azure-data-explorer-for-high-volume-application  
-- Microsoft — Kusto runaway queries: https://learn.microsoft.com/en-us/azure/data-explorer/kusto/concepts/runaway-queries  
-- AWS — CloudWatch Investigations: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Investigations.html  
-- AWS Big Data Blog — MTTR / observability: https://aws.amazon.com/blogs/big-data/reduce-mean-time-to-resolution-with-an-observability-agent/  
-- Industry — MTTR / operational complexity: https://www.sherlocks.ai/how-to/reduce-mttr-in-2026-from-alert-to-root-cause-in-minutes  
-- Industry — incident management burden / AI era: https://traversal.com/blog/incident-management-how-ai-sre-changes-equation  
 
 ---
 
