@@ -317,6 +317,66 @@ I always apply hard filters first: environment, service/resource scope, and inci
 Finally, I rerank, expand child-to-parent context, and require citations in the response.  
 I validate the setup with incident-style evals focused on retrieval recall, citation accuracy, and latency/cost tradeoffs.”
 
+### Query flow example (filter -> hybrid retrieve -> rerank -> parent expand)
+
+**User question:**  
+“Why did checkout API fail in prod around 14:00 East US, and did any deployment happen before that?”
+
+**Step 1: Parse intent and entities**
+
+- Intent A: incident root-cause evidence (telemetry/platform)
+- Intent B: pre-incident change check (deploy/config/activity)
+- Entities: `service=checkout-api`, `env=prod`, `region=eastus`, time window around `14:00`
+
+**Step 2: Apply hard metadata filters first**
+
+- Filter all retrieval calls by:
+  - `env = prod`
+  - `service = checkout-api` (or mapped `resourceId`)
+  - `region = eastus`
+  - `time in [13:30, 14:30]` (example incident window)
+
+**Step 3: Run hybrid retrieval in parallel (by index)**
+
+- `telemetry_index`: dense + BM25 for terms like `timeout`, `5xx`, `operation_Id`, `trace_id`
+- `change_index`: dense + BM25 for terms like `deploy`, `release`, `commit`, `config change`
+- (optional) `knowledge_index`: retrieve runbook/SOP sections if user asks “what should we do next?”
+
+**Step 4: Merge, deduplicate, rerank**
+
+- Combine candidates from all indices.
+- Deduplicate by stable keys (`source_path`, `event_id`, `trace_id`, `timestamp`).
+- Rerank with query-aware scorer so top evidence matches both symptom and timeline.
+
+**Step 5: Parent-child context expansion**
+
+- If a top hit is a child chunk, expand to its parent context:
+  - telemetry: expand from event snippet to trace/time window bundle
+  - knowledge: expand from sentence/paragraph to section-level procedure
+
+**Step 6: Build grounded prompt**
+
+- Prompt includes:
+  - top evidence chunks (with source tags)
+  - top change events
+  - optional runbook excerpts
+  - explicit instruction to separate **observed evidence** vs **hypothesis**
+
+**Step 7: Return cited answer**
+
+- Output structure:
+  - What happened (evidence-backed)
+  - What changed before incident
+  - Most likely contributing factors
+  - Confidence + gaps
+  - Citations (`timestamp`, `service`, `trace_id/operation_Id`, `releaseId/incidentId`, source path)
+
+**Example concise answer style:**
+
+- “Checkout API 5xx spike aligns with SQL dependency timeouts between 13:57-14:06 (trace-linked evidence).”
+- “Deployment `2026.03.18.3` completed ~45 minutes before spike; configuration key `Payments:TimeoutSeconds` changed in same pre-window.”
+- “Likely contributing path: dependency saturation/timeouts, not isolated app-only failure.”
+
 ## All Chunking Strategies
 
 - Fixed-size chunking
