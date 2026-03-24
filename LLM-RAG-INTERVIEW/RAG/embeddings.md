@@ -85,3 +85,81 @@ For incident-investigation use cases:
 | Hierarchical embeddings | You need child precision + parent context expansion |
 | Query expansion embeddings | Queries are vague, underspecified, or have many synonyms |
 | Multimodal embeddings | Evidence includes images/audio/video plus text |
+
+## Embedding defaults for our project (AIOps Incident Investigator)
+
+### Recommended baseline (industry-standard)
+
+- **Primary dense embedding model:** `text-embedding-3-large`
+- **Retrieval mode:** hybrid retrieval (**dense + BM25/sparse**)
+- **Second-stage quality:** reranking on merged candidates
+- **Hard filters first:** `env`, `service`, `resourceId`, `time range`, `region`, tenant scope
+
+Why this baseline:
+
+- incident queries need semantic recall (dense embeddings),
+- incident evidence also depends on exact identifiers and codes (BM25/sparse),
+- reranking improves final precision before generation.
+
+### Index and source defaults
+
+- **Telemetry index:** dense embeddings + lexical layer, rich metadata (`trace_id`, `operation_Id`, `timestamp`, `service`, `env`).
+- **Change index:** one-event embeddings for deployments/config/activity/alerts, strong exact-token support.
+- **Knowledge index:** heading-aware chunks embedded for runbooks/SLO/KQL docs.
+- **Inventory:** mostly filter/orchestration data, optional light embedding only where needed.
+- **Governance pack:** not part of normal user retrieval context.
+
+### Dimension and cost tuning plan
+
+Start with quality-first, then optimize:
+
+1. Baseline with full default dimensions for `text-embedding-3-large`.
+2. Evaluate reduced dimensions using the model `dimensions` parameter.
+3. Compare quality vs cost/latency and choose the smallest dimension that keeps retrieval quality acceptable.
+
+Suggested evaluation candidates:
+
+- full default dimension,
+- medium reduced dimension,
+- lower reduced dimension.
+
+### Evals to run before production lock
+
+Use real incident-style questions and measure:
+
+- **Recall@k** (did we retrieve the right evidence?),
+- **Ranking quality** (nDCG/MRR),
+- **Citation accuracy** (source/timestamp/ID correctness),
+- **Latency and cost** (P95 query latency and per-query retrieval cost).
+
+### Rollout checklist
+
+- [ ] Use the same embedding model family for indexing and query embedding.
+- [ ] Enforce redaction/PII policy before embedding.
+- [ ] Ensure metadata schema is consistent across all indices.
+- [ ] Enable hybrid retrieval and reranking in the query path.
+- [ ] Add fallback behavior for low-confidence retrieval (ask clarifying question or say insufficient evidence).
+- [ ] Monitor retrieval quality drift after major schema/source changes.
+
+### 30-second interview answer
+
+“For our incident-investigation RAG, I use `text-embedding-3-large` as the dense baseline, but not dense-only. I pair it with BM25/sparse for exact IDs and error codes, apply hard metadata filters first, and rerank merged candidates before generation. Then I run an eval matrix across dimension settings to reduce cost without losing retrieval quality, and lock the best configuration by recall, citation accuracy, and latency.”
+
+## Embedding model alternatives (interview quick compare)
+
+| Option | Strengths | Trade-offs | Best fit |
+|--------|-----------|------------|----------|
+| OpenAI `text-embedding-3-large` | Strong retrieval quality, flexible dimensions, mature ecosystem | Higher cost than small/open models | Quality-first production RAG |
+| OpenAI `text-embedding-3-small` | Good cost-performance balance, easy to deploy | Lower recall/precision than large on harder queries | Cost-sensitive baseline at scale |
+| Azure OpenAI embeddings | Enterprise governance/compliance, regional deployment, integration with Azure AI Search | Cloud/provider lock-in considerations | Azure-first enterprise stacks |
+| Cohere embeddings (`embed-v3`) | Strong multilingual options, enterprise APIs | Additional vendor integration and eval needed | Multilingual-heavy corpora |
+| Voyage embeddings | Often strong retrieval benchmarks, good rerank ecosystem pairing | Extra vendor dependency/cost evaluation | Teams optimizing pure retrieval quality |
+| Local HF models (e.g., BGE family) | No per-call API cost, on-prem/self-host control | Ops burden, model serving/monitoring, often lower out-of-box quality | Privacy-constrained or offline deployments |
+
+### How to choose in practice
+
+- Start with a strong hosted baseline (`text-embedding-3-large`) and measure.
+- If cost is high, test downshift (`text-embedding-3-small`) and/or reduced dimensions.
+- If multilingual recall is weak, benchmark Cohere/Voyage multilingual models.
+- If compliance requires self-hosting, benchmark local BGE/E5 models with the same eval set.
+- Lock the model only after comparing retrieval metrics, citation quality, latency, and total cost.
