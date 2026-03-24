@@ -21,6 +21,16 @@ There is no single best chunker for every corpus. **Strategy choice ties directl
 
 **Choosing and tuning a strategy** (often with overlap, hierarchy, or structure-aware rules) is one of the most **leverage-heavy** steps in building a RAG pipeline: it affects recall, precision, latency, and cost without changing the base LLM.
 
+## Practical industry example: internal support assistant
+
+**Scenario:** A company ships an **internal “IT + HR policy” chatbot** over hundreds of Confluence pages and PDF handbooks. Employees ask things like “How many days of PTO carry over?” or “What’s the laptop return process when I leave?”
+
+**Why you need chunking:** Each source page can be **long and multi-topic** (travel policy, security, and benefits on one page). If you embed **whole pages**, a user’s question matches a **blended vector**—retrieval often pulls the **wrong section** or ranks the right paragraph low. If you embed **nothing** and stuff full documents into the prompt, you exceed **context limits**, pay more, and the model **confuses** unrelated rules.
+
+**What chunking does here:** Split content into **units that match how people ask questions**—typically **per heading or per short section**, with **overlap** so a rule is not lost on a boundary. In production, teams often use **heading-based** or **Markdown/Confluence-structure-aware** splits, optionally **parent–child** (retrieve a small chunk, send the parent section to the LLM for context).
+
+**Takeaway:** Chunking is not academic; in this use case it is the difference between **“finds the exact policy paragraph”** and **“retrieves a noisy page and hallucinates details.”**
+
 ## Most Used Chunking Strategies
 
 - Recursive character text splitting
