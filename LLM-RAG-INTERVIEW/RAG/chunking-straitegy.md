@@ -148,10 +148,31 @@ Important: the recommendation below is for your **actual production RAG corpus**
 
 Use a **source-aware hybrid strategy**:
 
+Don’t treat all data the same. You have logs, alerts, runbooks, deployments, inventory — each has different structure and retrieval behavior. So you use different chunking/indexing rules per source, then combine results at query time.
+
 - **Multi-index design** by source type.
+Keep separate indexes (or clearly separated collections/namespaces), e.g.:
+
+telemetry index (app/platform logs)
+change index (deploy/config/activity)
+knowledge index (runbooks/SLO/KQL)
+optional inventory index
+This improves control, tuning, and relevance (instead of one noisy mega-index).
+
 - **Parent-child retrieval** where context expansion is needed.
+Store small child chunks for precise matching, but link them to bigger parent chunks for full context.
+Query flow: retrieve child -> expand to parent -> send parent context to LLM.
+Result: better precision + enough context for high-quality answer
+
 - **Hybrid search** (dense + BM25) for exact identifiers and semantic intent.
+Combine:
+
+        - Dense/vector search for semantic meaning (“why did checkout fail?”)
+        - BM25 keyword search for exact terms (trace_id, INC001234, 500, timeout)
+        - This is crucial for incident data where exact IDs/codes matter.
+
 - **Hard metadata filters first** (`env`, `service`, `time range`, `region`, tenant scope).
+This prevents wrong-environment/wrong-tenant retrieval and improves both speed and accuracy.
 
 ### Index layout (industry pattern)
 
