@@ -140,203 +140,182 @@ Use this as a **practical map**: match **your data** and **failure mode** to a t
 - **Web / CMS HTML:** **HTML-aware** chunking after cleaning boilerplate.
 - **Still poor retrieval after tuning size/overlap:** **Parent–child** or **semantic** chunking, and improve **evaluation** (queries + labels) before chasing exotic splitters.
 
-## Best chunking for this project (Projects folder)
+## Best chunking for this use case (AIOps Incident Investigator)
 
-For this project’s current corpus (`Projects/Problem-Statement.md` and `Projects/solution.md`), the best fit is a **hybrid strategy**:
+Important: the recommendation below is for your **actual production RAG corpus** (logs, diagnostics, changes, runbooks, alerts, inventory), not for chunking the two project writeups.
 
-**Markdown/heading-aware chunking + token-based recursive splitting + parent-child retrieval**
+### Recommended strategy
 
-### Why this is best for this corpus
+Use a **source-aware hybrid strategy**:
 
-- The files are strongly **sectioned** with Markdown headings (`##`, `###`), so structure-aware splitting preserves topic boundaries.
-- The documents include **tables**, **JSON samples**, and **KQL/code-like blocks**, which should not be split like plain prose.
-- Questions will likely mix **exact terms** (`trace_id`, `operation_Id`, `CloudWatch`, `Kusto`) and semantic intent, so chunks need both precision and context.
+- **Multi-index design** by source type.
+- **Parent-child retrieval** where context expansion is needed.
+- **Hybrid search** (dense + BM25) for exact identifiers and semantic intent.
+- **Hard metadata filters first** (`env`, `service`, `time range`, `region`, tenant scope).
 
-### Recommended implementation settings
+### Index layout (industry pattern)
 
-- **Primary split:** by Markdown headings (`##` first, then `###`).
-- **Secondary split (for long sections):** recursive token split at **550 tokens**.
-- **Overlap:** **100 tokens**.
-- **Parent-child layout:** child chunks for retrieval, parent sections for answer context.
-- **Parent size target:** **1200-1600 tokens** (with ~150 token overlap if needed).
+- `telemetry_index`: app logs + platform diagnostics (primary incident evidence)
+- `change_index`: activity log, deployments, config changes, alerts/incidents
+- `knowledge_index`: runbooks, SLOs, KQL/procedures
+- `inventory_index` (optional/light): resource disambiguation and scope resolution
+- governance schemas/policies: **not user-facing retrieval content**
 
-### Chunking rules for special content
+### Chunking by source type
 
-- Keep **tables** intact where possible.
-- Keep **JSON and code fences** intact; only line-split if they exceed token limits.
-- Keep section metadata on each chunk: `doc_name`, `section_path`, `chunk_type`, and relevant domain fields.
+#### 1) App + platform telemetry logs
 
-### Retrieval strategy to pair with this chunking
+- Build canonical, redacted text per event (or per very small event bundle).
+- Use trace-aware grouping when possible (`trace_id`, `operation_Id`).
+- **Child chunk size:** 180-320 tokens.
+- **Parent chunk size:** 800-1200 tokens.
+- **Overlap:** 10-15%.
+- Keep strong metadata: `timestamp`, `env`, `service`, `trace_id`, `operation_Id`, `resourceId`, severity.
 
-- Use **hybrid retrieval** (dense + BM25).
-- Retrieve top child chunks, then expand to parent section before final LLM answer.
-- Add reranking only if first-pass retrieval quality is not enough.
+Why: incident answers rely on exact event evidence plus nearby correlation context.
 
-### Industry-standard selection process (how to validate)
+#### 2) Change history (deployments/config/activity/alerts/incidents)
 
-Run a small A/B evaluation with realistic project questions:
+- Prefer **one event = one chunk** (or hourly micro-batches for very high volume).
+- Minimal or zero overlap.
+- Emphasize exact fields in metadata and lexical index (`releaseId`, `commitSha`, `incidentNumber`).
 
-1. Recursive token-only.
-2. Heading-aware + recursive token split.
-3. Heading-aware + recursive + parent-child.
+Why: these are atomic facts; over-chunking can blur causal timelines.
 
-Select the winner by retrieval metrics (Recall@k, ranking quality) and grounded answer quality, then lock those parameters as your default indexing profile.
+#### 3) Knowledge docs (runbooks, SLOs, KQL, playbooks)
 
-## LangChain implementation snippet (for this project)
+- Heading/section-aware split first.
+- Recursive token split only for long sections.
+- **Chunk size:** 450-700 tokens.
+- **Overlap:** 80-120 tokens.
+- Parent-child retrieval enabled.
+- Keep section path/version metadata.
+
+Why: preserves procedure semantics and improves grounded remediation answers.
+
+#### 4) Inventory/topology snapshots
+
+- Primarily metadata/filter/orchestration driven.
+- Optional light embedding for name disambiguation.
+- Do not over-index full inventory text into generation path.
+
+Why: inventory is mostly a routing/filter control plane for retrieval scope.
+
+#### 5) Governance pack (schema + PII policy)
+
+- Use in ETL/chunk-builder/redaction logic.
+- Do not embed as normal user Q&A retrieval context.
+
+Why: governance data controls safety/consistency; it is not incident evidence.
+
+### Retrieval flow to pair with this chunking
+
+1. Parse query intent (incident vs procedure vs change question).
+2. Apply filters (`env`, service/resource, incident window).
+3. Retrieve from appropriate indices (parallel when needed).
+4. Merge + deduplicate + rerank.
+5. Expand child -> parent where needed.
+6. Generate cited answer with evidence/procedure separation.
+
+### Recommended starting parameters
+
+- Telemetry child: 256 tokens, 32 overlap.
+- Telemetry parent: 1000 tokens, 120 overlap.
+- Knowledge child: 550 tokens, 100 overlap.
+- Top-k before rerank: 30-60 combined candidates.
+- Final context: 8-20 chunks (measure latency vs quality).
+
+### How to validate (industry-standard)
+
+Create an eval set from real incident-style questions:
+
+1. “What changed before spike?”
+2. “Which service first failed?”
+3. “Which runbook step applies?”
+4. “Any evidence of platform quota/throttle/auth issue?”
+
+Compare at least 3 variants:
+
+- Single universal chunker.
+- Source-aware chunking (no parent-child).
+- Source-aware + parent-child + hybrid retrieval.
+
+Select by retrieval quality (Recall@k / nDCG), grounded citation accuracy, and latency/cost targets.
+
+## LangChain implementation sketch (source-aware)
 
 ```python
 """
-Chunking pipeline for:
-- Projects/Problem-Statement.md
-- Projects/solution.md
-
-Strategy:
-1) Markdown header-aware split
-2) Recursive token split for long sections
-3) Parent-child mapping metadata
+High-level ingestion sketch for AIOps Incident Investigator.
+The key point is source-specific chunking, not one global splitter.
 """
 
-from __future__ import annotations
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-from pathlib import Path
-from typing import Dict, List, Tuple
-import re
-
-from langchain_core.documents import Document
-from langchain_text_splitters import (
-    MarkdownHeaderTextSplitter,
-    RecursiveCharacterTextSplitter,
+# Example splitters by corpus type
+telemetry_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
+    chunk_size=256,
+    chunk_overlap=32,
+    separators=["\n\n", "\n", " ", ""],
 )
 
+knowledge_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
+    chunk_size=550,
+    chunk_overlap=100,
+    separators=["\n\n", "\n", " ", ""],
+)
 
-PROJECT_DIR = Path("Gen-AI-Interview-Prep/Projects")
-TARGET_FILES = ["Problem-Statement.md", "solution.md"]
-
-
-def detect_chunk_type(text: str) -> str:
-    lowered = text.lower()
-    if "```json" in lowered:
-        return "json"
-    if "```kusto" in lowered or "```python" in lowered or "```" in lowered:
-        return "code"
-    if re.search(r"^\|.*\|$", text, flags=re.MULTILINE):
-        return "table"
-    return "narrative"
-
-
-def build_section_path(metadata: Dict[str, str]) -> str:
-    ordered: List[str] = []
-    for key in sorted(metadata.keys()):
-        if key.lower().startswith("header") and metadata[key]:
-            ordered.append(metadata[key].strip())
-    return " > ".join(ordered) if ordered else "root"
-
-
-def load_markdown_docs() -> List[Document]:
-    docs: List[Document] = []
-    for filename in TARGET_FILES:
-        path = PROJECT_DIR / filename
-        text = path.read_text(encoding="utf-8")
-        docs.append(
-            Document(
-                page_content=text,
-                metadata={
-                    "doc_name": filename,
-                    "source": str(path),
-                },
-            )
-        )
-    return docs
-
-
-def header_aware_split(docs: List[Document]) -> List[Document]:
-    splitter = MarkdownHeaderTextSplitter(
-        headers_to_split_on=[
-            ("##", "Header 2"),
-            ("###", "Header 3"),
-        ],
-        strip_headers=False,
-    )
-    out: List[Document] = []
-    for doc in docs:
-        sections = splitter.split_text(doc.page_content)
-        for section in sections:
-            section_path = build_section_path(section.metadata)
-            out.append(
-                Document(
-                    page_content=section.page_content,
-                    metadata={
-                        **doc.metadata,
-                        **section.metadata,
-                        "section_path": section_path,
-                        "chunk_level": "parent",
-                    },
-                )
-            )
-    return out
-
-
-def child_recursive_split(parent_sections: List[Document]) -> Tuple[List[Document], List[Document]]:
-    token_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
-        chunk_size=550,
-        chunk_overlap=100,
-        separators=["\n\n", "\n", " ", ""],
-    )
-
-    parent_chunks: List[Document] = []
-    child_chunks: List[Document] = []
-
-    for idx, parent in enumerate(parent_sections):
-        parent_id = f"{parent.metadata['doc_name']}::parent::{idx}"
-        parent_text = parent.page_content
-
-        parent_doc = Document(
-            page_content=parent_text,
-            metadata={
-                **parent.metadata,
-                "parent_id": parent_id,
-                "chunk_type": detect_chunk_type(parent_text),
-                "chunk_level": "parent",
-            },
-        )
-        parent_chunks.append(parent_doc)
-
-        children = token_splitter.split_documents([parent_doc])
-        for c_idx, child in enumerate(children):
-            child_chunks.append(
-                Document(
-                    page_content=child.page_content,
-                    metadata={
-                        **child.metadata,
-                        "child_id": f"{parent_id}::child::{c_idx}",
-                        "parent_id": parent_id,
-                        "chunk_type": detect_chunk_type(child.page_content),
-                        "chunk_level": "child",
-                    },
-                )
-            )
-
-    return parent_chunks, child_chunks
-
-
-def main() -> None:
-    docs = load_markdown_docs()
-    parent_sections = header_aware_split(docs)
-    parent_chunks, child_chunks = child_recursive_split(parent_sections)
-
-    print(f"Parent chunks: {len(parent_chunks)}")
-    print(f"Child chunks: {len(child_chunks)}")
-    print("Sample child metadata:", child_chunks[0].metadata if child_chunks else "N/A")
-
-    # Next steps:
-    # 1) Embed child_chunks for retrieval index.
-    # 2) Build BM25 index over child_chunks text for hybrid search.
-    # 3) At query time: retrieve children -> map to parent_id -> pass parent context to LLM.
-
-
-if __name__ == "__main__":
-    main()
+def build_chunks(records, source_type):
+    if source_type == "telemetry":
+        # 1) canonicalize + redact
+        # 2) group by trace_id/operation_Id when available
+        # 3) split with telemetry_splitter
+        ...
+    elif source_type == "knowledge":
+        # 1) heading/section split first
+        # 2) split long sections with knowledge_splitter
+        ...
+    elif source_type == "changes":
+        # one event = one chunk (or hourly micro-batch)
+        ...
+    elif source_type == "inventory":
+        # mostly metadata/filter use; optional light embedding
+        ...
+    else:
+        raise ValueError("Unsupported source type")
 ```
+
+## Final recommended defaults (quick reference)
+
+| Area | Default |
+|------|---------|
+| **Overall pattern** | Source-aware chunking + hybrid retrieval (dense + BM25) + parent-child expansion |
+| **Hard filters first** | `env`, `service`, `resourceId`, `time range`, `region`, tenant scope |
+| **Telemetry (child)** | 256 tokens, 32 overlap |
+| **Telemetry (parent)** | 1000 tokens, 120 overlap |
+| **Knowledge docs (child)** | 550 tokens, 100 overlap |
+| **Knowledge docs (parent)** | 1200-1600 tokens, ~150 overlap |
+| **Changes/alerts/incidents** | One event = one chunk (or hourly micro-batch at high volume) |
+| **Inventory/topology** | Mostly filter/orchestration metadata; optional light embedding only |
+| **Governance pack** | Not in user retrieval path; use only in ETL/chunk-builder/redaction logic |
+| **Top-k before rerank** | 30-60 candidates combined across relevant indices |
+| **Final context window** | 8-20 chunks (tune for latency/cost/quality) |
+| **Citations** | Always include source + timestamp + IDs (`trace_id`, `operation_Id`, incident/release IDs) |
+
+### 30-second interview answer
+
+“For this incident-investigation RAG, I use source-aware chunking instead of one global chunk size: small trace-aware chunks for telemetry, event-level chunks for change data, section-aware chunks for runbooks, and metadata-driven filtering for inventory. Retrieval is hybrid (dense + BM25), filtered by env/service/time first, then child-to-parent expansion for context, with strict citation output.”
+
+### 90-second interview answer
+
+“My chunking design is source-aware because incident investigation combines very different data types.  
+For telemetry logs, I keep chunks small and correlation-friendly: around 256 tokens with light overlap, grouped by trace or operation IDs where possible, then expanded to parent context during answer generation. That improves precision while preserving incident narrative.  
+For change data—deployments, activity logs, config updates, alerts—I usually keep one event per chunk because these are atomic timeline facts.  
+For runbooks and SLO documents, I use heading-based structural splitting and then recursive token splitting for long sections, because procedure text needs semantic continuity.  
+Inventory is mainly used for disambiguation and pre-retrieval filters rather than heavy embedding.  
+I always apply hard filters first: environment, service/resource scope, and incident time window. Then I run hybrid retrieval—vector plus BM25—because we need semantic matching and exact identifier hits like trace IDs, incident numbers, and release IDs.  
+Finally, I rerank, expand child-to-parent context, and require citations in the response.  
+I validate the setup with incident-style evals focused on retrieval recall, citation accuracy, and latency/cost tradeoffs.”
 
 ## All Chunking Strategies
 
