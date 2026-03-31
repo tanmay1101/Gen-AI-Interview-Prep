@@ -1,0 +1,5 @@
+2026-03-24T02:30:11.210Z checkout-api INFO operation_Id=ff00aa11bb22cc33 trace_id=abcddcba1234abcd Start HTTPS call dependency=payments-gateway.company.local
+{"timestamp":"2026-03-24T02:30:11.330Z","service":"checkout-api","level":"ERROR","trace_id":"abcddcba1234abcd","operation_Id":"ff00aa11bb22cc33","dependency":"payments-gateway.company.local","error":"x509: certificate has expired","durationMs":118,"message":"TLS handshake failed: certificate expired","env":"prod","region":"eastus"}
+at System.Net.Security.SslStream.AuthenticateAsClient(SslStream.cs:410)
+{"timestamp":"2026-03-24T02:30:11.360Z","service":"checkout-api","level":"WARN","trace_id":"abcddcba1234abcd","operation_Id":"ff00aa11bb22cc33","message":"retry=2 (tls error) upstream=payments-gateway.company.local trace_id=abcddcba1234abcd","env":"prod","region":"eastus"}
+2026-03-24T02:30:19.100Z checkout-api ERROR operation_Id=ff00aa11bb22cc33 trace_id=abcddcba1234abcd Returning 502 to client

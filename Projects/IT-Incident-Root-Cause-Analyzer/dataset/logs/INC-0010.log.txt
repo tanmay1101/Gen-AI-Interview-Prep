@@ -1,0 +1,5 @@
+2026-03-30T03:15:12.010Z payments-worker INFO operation_Id=beef0000-1234-5678-9abc-def012345678 trace_id=9090aa11bb22cc33dd44ee55ff66
+{"timestamp":"2026-03-30T03:15:12.250Z","service":"payments-worker","level":"ERROR","trace_id":"9090aa11bb22cc33dd44ee55ff66","operation_Id":"beef0000-1234-5678-9abc-def012345678","dependency":"payment-gateway","error":"x509: certificate is not valid","durationMs":97,"message":"TLS handshake failed: certificate not valid","env":"prod","region":"westus"}
+at System.Net.Security.SslStream.AuthenticateAsClient(...)
+{"timestamp":"2026-03-30T03:15:12.260Z","service":"payments-worker","level":"WARN","trace_id":"9090aa11bb22cc33dd44ee55ff66","operation_Id":"beef0000-1234-5678-9abc-def012345678","message":"retry=2 (tls error) upstream=payment-gateway trace_id=9090aa11bb22cc33dd44ee55ff66","env":"prod","region":"westus"}
+2026-03-30T03:15:13.000Z payments-worker ERROR Returning transient failure to queue

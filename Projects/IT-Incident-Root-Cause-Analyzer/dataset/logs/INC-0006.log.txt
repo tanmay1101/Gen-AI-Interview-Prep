@@ -1,0 +1,6 @@
+2026-03-26T07:40:20.220Z api-gateway INFO operation_Id=aaaa0000-bbbb-1111-2222-333344445555 trace_id=aa11bb22cc33dd44ee55ff66
+{"timestamp":"2026-03-26T07:40:20.410Z","service":"api-gateway","level":"ERROR","trace_id":"aa11bb22cc33dd44ee55ff66","operation_Id":"aaaa0000-bbbb-1111-2222-333344445555","dependency":"auth-provider","statusCode":401,"error":"invalid token signature","durationMs":3,"message":"JWT validation failed: signature invalid","env":"prod","region":"eastus"}
+at AuthMiddleware.ValidateJwt(JwtMiddleware.cs:91)
+{"timestamp":"2026-03-26T07:40:20.420Z","service":"api-gateway","level":"WARN","trace_id":"aa11bb22cc33dd44ee55ff66","operation_Id":"aaaa0000-bbbb-1111-2222-333344445555","message":"request denied: unauthorized client token=***REDACTED***","env":"prod","region":"eastus"}
+2026-03-26T07:40:21.050Z api-gateway ERROR operation_Id=aaaa0000-bbbb-1111-2222-333344445555 Returning 401
+2026-03-26T07:45:00.001Z config-watch INFO changed signing key (unrelated - simulated)

@@ -1,0 +1,221 @@
+mapping_id,symptom_text,department_name,hospital_name,city,priority,confidence,reviewed_by
+MAP0001,severe headache,Neurology,"Max Super Speciality Hospital, Saket",delhi,low,0.92,ops_admin
+MAP0002,dizziness,Neurosurgery,"Max Super Speciality Hospital, Patparganj",noida,high,0.85,triage_nurse
+MAP0003,seizure episodes,Urology,"Max Super Speciality Hospital, Vaishali",ghaziabad,medium,0.93,triage_nurse
+MAP0004,urinary burning,Nephrology,"Max Super Speciality Hospital, Shalimar Bagh",gurugram,medium,0.86,ops_admin
+MAP0005,kidney stone pain,Gastroenterology,"Max Super Speciality Hospital, Gurgaon",lucknow,low,0.78,ops_admin
+MAP0006,abdominal pain,GI Surgery,"Max Hospital, Noida",pune,high,0.80,clinical_lead
+MAP0007,acid reflux,Cardiology,"Max Hospital, Lucknow",Mumbai,high,0.78,ops_admin
+MAP0008,toothache,Cardiothoracic Surgery,"Max Healthcare Partner Centre, Pune",Banguluru,low,0.85,ops_admin
+MAP0009,gum swelling,Orthopaedics,"Max Healthcare Partner Centre, Mumbai",delhi,low,0.91,triage_nurse
+MAP0010,chest discomfort,Oncology,"Max Healthcare Partner Centre, Banguluru",noida,low,0.88,triage_nurse
+MAP0011,shortness of breath,Dental Sciences,"Max Super Speciality Hospital, Saket",ghaziabad,high,0.94,ops_admin
+MAP0012,joint pain,ENT,"Max Super Speciality Hospital, Patparganj",gurugram,medium,0.86,clinical_lead
+MAP0013,skin rash,Pulmonology,"Max Super Speciality Hospital, Vaishali",lucknow,high,0.94,clinical_lead
+MAP0014,ear pain,Dermatology,"Max Super Speciality Hospital, Shalimar Bagh",pune,low,0.85,triage_nurse
+MAP0015,severe headache,Obstetrics and Gynaecology,"Max Super Speciality Hospital, Gurgaon",Mumbai,low,0.90,clinical_lead
+MAP0016,dizziness,Pediatrics,"Max Hospital, Noida",Banguluru,low,0.89,triage_nurse
+MAP0017,seizure episodes,Endocrinology,"Max Hospital, Lucknow",delhi,medium,0.73,ops_admin
+MAP0018,urinary burning,Internal Medicine,"Max Healthcare Partner Centre, Pune",noida,low,0.92,clinical_lead
+MAP0019,kidney stone pain,Neurology,"Max Healthcare Partner Centre, Mumbai",ghaziabad,high,0.94,clinical_lead
+MAP0020,abdominal pain,Neurosurgery,"Max Healthcare Partner Centre, Banguluru",gurugram,medium,0.97,clinical_lead
+MAP0021,acid reflux,Urology,"Max Super Speciality Hospital, Saket",lucknow,high,0.94,triage_nurse
+MAP0022,toothache,Nephrology,"Max Super Speciality Hospital, Patparganj",pune,high,0.78,ops_admin
+MAP0023,gum swelling,Gastroenterology,"Max Super Speciality Hospital, Vaishali",Mumbai,low,0.76,ops_admin
+MAP0024,chest discomfort,GI Surgery,"Max Super Speciality Hospital, Shalimar Bagh",Banguluru,high,0.96,ops_admin
+MAP0025,shortness of breath,Cardiology,"Max Super Speciality Hospital, Gurgaon",delhi,medium,0.92,clinical_lead
+MAP0026,joint pain,Cardiothoracic Surgery,"Max Hospital, Noida",noida,low,0.93,clinical_lead
+MAP0027,skin rash,Orthopaedics,"Max Hospital, Lucknow",ghaziabad,low,0.84,triage_nurse
+MAP0028,ear pain,Oncology,"Max Healthcare Partner Centre, Pune",gurugram,medium,0.80,ops_admin
+MAP0029,severe headache,Dental Sciences,"Max Healthcare Partner Centre, Mumbai",lucknow,high,0.78,ops_admin
+MAP0030,dizziness,ENT,"Max Healthcare Partner Centre, Banguluru",pune,medium,0.77,triage_nurse
+MAP0031,seizure episodes,Pulmonology,"Max Super Speciality Hospital, Saket",Mumbai,low,0.91,ops_admin
+MAP0032,urinary burning,Dermatology,"Max Super Speciality Hospital, Patparganj",Banguluru,low,0.85,ops_admin
+MAP0033,kidney stone pain,Obstetrics and Gynaecology,"Max Super Speciality Hospital, Vaishali",delhi,medium,0.87,clinical_lead
+MAP0034,abdominal pain,Pediatrics,"Max Super Speciality Hospital, Shalimar Bagh",noida,low,0.93,clinical_lead
+MAP0035,acid reflux,Endocrinology,"Max Super Speciality Hospital, Gurgaon",ghaziabad,medium,0.98,ops_admin
+MAP0036,toothache,Internal Medicine,"Max Hospital, Noida",gurugram,low,0.72,ops_admin
+MAP0037,gum swelling,Neurology,"Max Hospital, Lucknow",lucknow,medium,0.71,triage_nurse
+MAP0038,chest discomfort,Neurosurgery,"Max Healthcare Partner Centre, Pune",pune,high,0.82,ops_admin
+MAP0039,shortness of breath,Urology,"Max Healthcare Partner Centre, Mumbai",Mumbai,high,0.78,ops_admin
+MAP0040,joint pain,Nephrology,"Max Healthcare Partner Centre, Banguluru",Banguluru,low,0.89,ops_admin
+MAP0041,skin rash,Gastroenterology,"Max Super Speciality Hospital, Saket",delhi,medium,0.75,triage_nurse
+MAP0042,ear pain,GI Surgery,"Max Super Speciality Hospital, Patparganj",noida,medium,0.81,clinical_lead
+MAP0043,severe headache,Cardiology,"Max Super Speciality Hospital, Vaishali",ghaziabad,low,0.76,clinical_lead
+MAP0044,dizziness,Cardiothoracic Surgery,"Max Super Speciality Hospital, Shalimar Bagh",gurugram,medium,0.98,clinical_lead
+MAP0045,seizure episodes,Orthopaedics,"Max Super Speciality Hospital, Gurgaon",lucknow,low,0.87,ops_admin
+MAP0046,urinary burning,Oncology,"Max Hospital, Noida",pune,medium,0.82,triage_nurse
+MAP0047,kidney stone pain,Dental Sciences,"Max Hospital, Lucknow",Mumbai,low,0.92,triage_nurse
+MAP0048,abdominal pain,ENT,"Max Healthcare Partner Centre, Pune",Banguluru,high,0.97,triage_nurse
+MAP0049,acid reflux,Pulmonology,"Max Healthcare Partner Centre, Mumbai",delhi,low,0.84,clinical_lead
+MAP0050,toothache,Dermatology,"Max Healthcare Partner Centre, Banguluru",noida,medium,0.73,clinical_lead
+MAP0051,gum swelling,Obstetrics and Gynaecology,"Max Super Speciality Hospital, Saket",ghaziabad,medium,0.77,clinical_lead
+MAP0052,chest discomfort,Pediatrics,"Max Super Speciality Hospital, Patparganj",gurugram,medium,0.73,ops_admin
+MAP0053,shortness of breath,Endocrinology,"Max Super Speciality Hospital, Vaishali",lucknow,medium,0.96,ops_admin
+MAP0054,joint pain,Internal Medicine,"Max Super Speciality Hospital, Shalimar Bagh",pune,low,0.90,clinical_lead
+MAP0055,skin rash,Neurology,"Max Super Speciality Hospital, Gurgaon",Mumbai,low,0.88,ops_admin
+MAP0056,ear pain,Neurosurgery,"Max Hospital, Noida",Banguluru,medium,0.89,ops_admin
+MAP0057,severe headache,Urology,"Max Hospital, Lucknow",delhi,low,0.71,ops_admin
+MAP0058,dizziness,Nephrology,"Max Healthcare Partner Centre, Pune",noida,low,0.73,ops_admin
+MAP0059,seizure episodes,Gastroenterology,"Max Healthcare Partner Centre, Mumbai",ghaziabad,medium,0.96,clinical_lead
+MAP0060,urinary burning,GI Surgery,"Max Healthcare Partner Centre, Banguluru",gurugram,low,0.74,triage_nurse
+MAP0061,kidney stone pain,Cardiology,"Max Super Speciality Hospital, Saket",lucknow,medium,0.79,clinical_lead
+MAP0062,abdominal pain,Cardiothoracic Surgery,"Max Super Speciality Hospital, Patparganj",pune,medium,0.88,triage_nurse
+MAP0063,acid reflux,Orthopaedics,"Max Super Speciality Hospital, Vaishali",Mumbai,low,0.84,clinical_lead
+MAP0064,toothache,Oncology,"Max Super Speciality Hospital, Shalimar Bagh",Banguluru,medium,0.95,ops_admin
+MAP0065,gum swelling,Dental Sciences,"Max Super Speciality Hospital, Gurgaon",delhi,high,0.96,triage_nurse
+MAP0066,chest discomfort,ENT,"Max Hospital, Noida",noida,low,0.81,triage_nurse
+MAP0067,shortness of breath,Pulmonology,"Max Hospital, Lucknow",ghaziabad,high,0.93,triage_nurse
+MAP0068,joint pain,Dermatology,"Max Healthcare Partner Centre, Pune",gurugram,high,0.81,triage_nurse
+MAP0069,skin rash,Obstetrics and Gynaecology,"Max Healthcare Partner Centre, Mumbai",lucknow,low,0.75,triage_nurse
+MAP0070,ear pain,Pediatrics,"Max Healthcare Partner Centre, Banguluru",pune,high,0.87,triage_nurse
+MAP0071,severe headache,Endocrinology,"Max Super Speciality Hospital, Saket",Mumbai,medium,0.86,clinical_lead
+MAP0072,dizziness,Internal Medicine,"Max Super Speciality Hospital, Patparganj",Banguluru,medium,0.74,triage_nurse
+MAP0073,seizure episodes,Neurology,"Max Super Speciality Hospital, Vaishali",delhi,medium,0.85,ops_admin
+MAP0074,urinary burning,Neurosurgery,"Max Super Speciality Hospital, Shalimar Bagh",noida,medium,0.92,ops_admin
+MAP0075,kidney stone pain,Urology,"Max Super Speciality Hospital, Gurgaon",ghaziabad,low,0.85,clinical_lead
+MAP0076,abdominal pain,Nephrology,"Max Hospital, Noida",gurugram,medium,0.83,clinical_lead
+MAP0077,acid reflux,Gastroenterology,"Max Hospital, Lucknow",lucknow,medium,0.91,triage_nurse
+MAP0078,toothache,GI Surgery,"Max Healthcare Partner Centre, Pune",pune,medium,0.83,triage_nurse
+MAP0079,gum swelling,Cardiology,"Max Healthcare Partner Centre, Mumbai",Mumbai,low,0.82,clinical_lead
+MAP0080,chest discomfort,Cardiothoracic Surgery,"Max Healthcare Partner Centre, Banguluru",Banguluru,high,0.75,triage_nurse
+MAP0081,shortness of breath,Orthopaedics,"Max Super Speciality Hospital, Saket",delhi,high,0.87,ops_admin
+MAP0082,joint pain,Oncology,"Max Super Speciality Hospital, Patparganj",noida,high,0.93,triage_nurse
+MAP0083,skin rash,Dental Sciences,"Max Super Speciality Hospital, Vaishali",ghaziabad,high,0.90,triage_nurse
+MAP0084,ear pain,ENT,"Max Super Speciality Hospital, Shalimar Bagh",gurugram,low,0.72,triage_nurse
+MAP0085,severe headache,Pulmonology,"Max Super Speciality Hospital, Gurgaon",lucknow,low,0.74,triage_nurse
+MAP0086,dizziness,Dermatology,"Max Hospital, Noida",pune,low,0.79,triage_nurse
+MAP0087,seizure episodes,Obstetrics and Gynaecology,"Max Hospital, Lucknow",Mumbai,medium,0.96,triage_nurse
+MAP0088,urinary burning,Pediatrics,"Max Healthcare Partner Centre, Pune",Banguluru,medium,0.72,triage_nurse
+MAP0089,kidney stone pain,Endocrinology,"Max Healthcare Partner Centre, Mumbai",delhi,high,0.71,ops_admin
+MAP0090,abdominal pain,Internal Medicine,"Max Healthcare Partner Centre, Banguluru",noida,low,0.78,ops_admin
+MAP0091,acid reflux,Neurology,"Max Super Speciality Hospital, Saket",ghaziabad,low,0.99,triage_nurse
+MAP0092,toothache,Neurosurgery,"Max Super Speciality Hospital, Patparganj",gurugram,low,0.74,ops_admin
+MAP0093,gum swelling,Urology,"Max Super Speciality Hospital, Vaishali",lucknow,high,0.95,clinical_lead
+MAP0094,chest discomfort,Nephrology,"Max Super Speciality Hospital, Shalimar Bagh",pune,high,0.93,ops_admin
+MAP0095,shortness of breath,Gastroenterology,"Max Super Speciality Hospital, Gurgaon",Mumbai,low,0.71,triage_nurse
+MAP0096,joint pain,GI Surgery,"Max Hospital, Noida",Banguluru,low,0.79,clinical_lead
+MAP0097,skin rash,Cardiology,"Max Hospital, Lucknow",delhi,high,0.82,triage_nurse
+MAP0098,ear pain,Cardiothoracic Surgery,"Max Healthcare Partner Centre, Pune",noida,low,0.87,triage_nurse
+MAP0099,severe headache,Orthopaedics,"Max Healthcare Partner Centre, Mumbai",ghaziabad,medium,0.94,ops_admin
+MAP0100,dizziness,Oncology,"Max Healthcare Partner Centre, Banguluru",gurugram,high,0.96,ops_admin
+MAP0101,seizure episodes,Dental Sciences,"Max Super Speciality Hospital, Saket",lucknow,low,0.97,triage_nurse
+MAP0102,urinary burning,ENT,"Max Super Speciality Hospital, Patparganj",pune,low,0.98,triage_nurse
+MAP0103,kidney stone pain,Pulmonology,"Max Super Speciality Hospital, Vaishali",Mumbai,high,0.73,ops_admin
+MAP0104,abdominal pain,Dermatology,"Max Super Speciality Hospital, Shalimar Bagh",Banguluru,low,0.81,triage_nurse
+MAP0105,acid reflux,Obstetrics and Gynaecology,"Max Super Speciality Hospital, Gurgaon",delhi,high,0.99,clinical_lead
+MAP0106,toothache,Pediatrics,"Max Hospital, Noida",noida,high,0.96,ops_admin
+MAP0107,gum swelling,Endocrinology,"Max Hospital, Lucknow",ghaziabad,high,0.93,ops_admin
+MAP0108,chest discomfort,Internal Medicine,"Max Healthcare Partner Centre, Pune",gurugram,medium,0.79,clinical_lead
+MAP0109,shortness of breath,Neurology,"Max Healthcare Partner Centre, Mumbai",lucknow,high,0.89,ops_admin
+MAP0110,joint pain,Neurosurgery,"Max Healthcare Partner Centre, Banguluru",pune,high,0.73,triage_nurse
+MAP0111,skin rash,Urology,"Max Super Speciality Hospital, Saket",Mumbai,low,0.78,clinical_lead
+MAP0112,ear pain,Nephrology,"Max Super Speciality Hospital, Patparganj",Banguluru,medium,0.77,clinical_lead
+MAP0113,severe headache,Gastroenterology,"Max Super Speciality Hospital, Vaishali",delhi,high,0.88,clinical_lead
+MAP0114,dizziness,GI Surgery,"Max Super Speciality Hospital, Shalimar Bagh",noida,high,0.71,ops_admin
+MAP0115,seizure episodes,Cardiology,"Max Super Speciality Hospital, Gurgaon",ghaziabad,medium,0.87,clinical_lead
+MAP0116,urinary burning,Cardiothoracic Surgery,"Max Hospital, Noida",gurugram,high,0.71,ops_admin
+MAP0117,kidney stone pain,Orthopaedics,"Max Hospital, Lucknow",lucknow,medium,0.98,clinical_lead
+MAP0118,abdominal pain,Oncology,"Max Healthcare Partner Centre, Pune",pune,low,0.73,clinical_lead
+MAP0119,acid reflux,Dental Sciences,"Max Healthcare Partner Centre, Mumbai",Mumbai,high,0.80,ops_admin
+MAP0120,toothache,ENT,"Max Healthcare Partner Centre, Banguluru",Banguluru,high,0.85,ops_admin
+MAP0121,gum swelling,Pulmonology,"Max Super Speciality Hospital, Saket",delhi,low,0.77,clinical_lead
+MAP0122,chest discomfort,Dermatology,"Max Super Speciality Hospital, Patparganj",noida,high,0.77,triage_nurse
+MAP0123,shortness of breath,Obstetrics and Gynaecology,"Max Super Speciality Hospital, Vaishali",ghaziabad,medium,0.94,clinical_lead
+MAP0124,joint pain,Pediatrics,"Max Super Speciality Hospital, Shalimar Bagh",gurugram,medium,0.76,triage_nurse
+MAP0125,skin rash,Endocrinology,"Max Super Speciality Hospital, Gurgaon",lucknow,high,0.87,clinical_lead
+MAP0126,ear pain,Internal Medicine,"Max Hospital, Noida",pune,medium,0.74,clinical_lead
+MAP0127,severe headache,Neurology,"Max Hospital, Lucknow",Mumbai,medium,0.98,clinical_lead
+MAP0128,dizziness,Neurosurgery,"Max Healthcare Partner Centre, Pune",Banguluru,low,0.88,clinical_lead
+MAP0129,seizure episodes,Urology,"Max Healthcare Partner Centre, Mumbai",delhi,low,0.86,triage_nurse
+MAP0130,urinary burning,Nephrology,"Max Healthcare Partner Centre, Banguluru",noida,high,0.76,clinical_lead
+MAP0131,kidney stone pain,Gastroenterology,"Max Super Speciality Hospital, Saket",ghaziabad,low,0.80,clinical_lead
+MAP0132,abdominal pain,GI Surgery,"Max Super Speciality Hospital, Patparganj",gurugram,low,0.74,ops_admin
+MAP0133,acid reflux,Cardiology,"Max Super Speciality Hospital, Vaishali",lucknow,low,0.81,triage_nurse
+MAP0134,toothache,Cardiothoracic Surgery,"Max Super Speciality Hospital, Shalimar Bagh",pune,high,0.71,triage_nurse
+MAP0135,gum swelling,Orthopaedics,"Max Super Speciality Hospital, Gurgaon",Mumbai,medium,0.80,clinical_lead
+MAP0136,chest discomfort,Oncology,"Max Hospital, Noida",Banguluru,high,0.86,clinical_lead
+MAP0137,shortness of breath,Dental Sciences,"Max Hospital, Lucknow",delhi,low,0.88,ops_admin
+MAP0138,joint pain,ENT,"Max Healthcare Partner Centre, Pune",noida,high,0.78,ops_admin
+MAP0139,skin rash,Pulmonology,"Max Healthcare Partner Centre, Mumbai",ghaziabad,high,0.81,clinical_lead
+MAP0140,ear pain,Dermatology,"Max Healthcare Partner Centre, Banguluru",gurugram,medium,0.86,clinical_lead
+MAP0141,severe headache,Obstetrics and Gynaecology,"Max Super Speciality Hospital, Saket",lucknow,low,0.97,clinical_lead
+MAP0142,dizziness,Pediatrics,"Max Super Speciality Hospital, Patparganj",pune,high,0.88,clinical_lead
+MAP0143,seizure episodes,Endocrinology,"Max Super Speciality Hospital, Vaishali",Mumbai,medium,0.94,ops_admin
+MAP0144,urinary burning,Internal Medicine,"Max Super Speciality Hospital, Shalimar Bagh",Banguluru,medium,0.74,triage_nurse
+MAP0145,kidney stone pain,Neurology,"Max Super Speciality Hospital, Gurgaon",delhi,medium,0.91,clinical_lead
+MAP0146,abdominal pain,Neurosurgery,"Max Hospital, Noida",noida,high,0.83,clinical_lead
+MAP0147,acid reflux,Urology,"Max Hospital, Lucknow",ghaziabad,medium,0.94,triage_nurse
+MAP0148,toothache,Nephrology,"Max Healthcare Partner Centre, Pune",gurugram,medium,0.86,ops_admin
+MAP0149,gum swelling,Gastroenterology,"Max Healthcare Partner Centre, Mumbai",lucknow,high,0.91,clinical_lead
+MAP0150,chest discomfort,GI Surgery,"Max Healthcare Partner Centre, Banguluru",pune,high,0.95,clinical_lead
+MAP0151,shortness of breath,Cardiology,"Max Super Speciality Hospital, Saket",Mumbai,high,0.87,clinical_lead
+MAP0152,joint pain,Cardiothoracic Surgery,"Max Super Speciality Hospital, Patparganj",Banguluru,high,0.90,clinical_lead
+MAP0153,skin rash,Orthopaedics,"Max Super Speciality Hospital, Vaishali",delhi,medium,0.78,clinical_lead
+MAP0154,ear pain,Oncology,"Max Super Speciality Hospital, Shalimar Bagh",noida,high,0.96,clinical_lead
+MAP0155,severe headache,Dental Sciences,"Max Super Speciality Hospital, Gurgaon",ghaziabad,medium,0.82,clinical_lead
+MAP0156,dizziness,ENT,"Max Hospital, Noida",gurugram,high,0.86,clinical_lead
+MAP0157,seizure episodes,Pulmonology,"Max Hospital, Lucknow",lucknow,high,0.85,ops_admin
+MAP0158,urinary burning,Dermatology,"Max Healthcare Partner Centre, Pune",pune,high,0.78,clinical_lead
+MAP0159,kidney stone pain,Obstetrics and Gynaecology,"Max Healthcare Partner Centre, Mumbai",Mumbai,medium,0.93,triage_nurse
+MAP0160,abdominal pain,Pediatrics,"Max Healthcare Partner Centre, Banguluru",Banguluru,medium,0.75,ops_admin
+MAP0161,acid reflux,Endocrinology,"Max Super Speciality Hospital, Saket",delhi,low,0.80,ops_admin
+MAP0162,toothache,Internal Medicine,"Max Super Speciality Hospital, Patparganj",noida,high,0.86,triage_nurse
+MAP0163,gum swelling,Neurology,"Max Super Speciality Hospital, Vaishali",ghaziabad,low,0.96,clinical_lead
+MAP0164,chest discomfort,Neurosurgery,"Max Super Speciality Hospital, Shalimar Bagh",gurugram,high,0.98,clinical_lead
+MAP0165,shortness of breath,Urology,"Max Super Speciality Hospital, Gurgaon",lucknow,low,0.70,ops_admin
+MAP0166,joint pain,Nephrology,"Max Hospital, Noida",pune,low,0.90,ops_admin
+MAP0167,skin rash,Gastroenterology,"Max Hospital, Lucknow",Mumbai,medium,0.73,ops_admin
+MAP0168,ear pain,GI Surgery,"Max Healthcare Partner Centre, Pune",Banguluru,low,0.96,triage_nurse
+MAP0169,severe headache,Cardiology,"Max Healthcare Partner Centre, Mumbai",delhi,medium,0.85,ops_admin
+MAP0170,dizziness,Cardiothoracic Surgery,"Max Healthcare Partner Centre, Banguluru",noida,low,0.91,ops_admin
+MAP0171,seizure episodes,Orthopaedics,"Max Super Speciality Hospital, Saket",ghaziabad,high,0.76,triage_nurse
+MAP0172,urinary burning,Oncology,"Max Super Speciality Hospital, Patparganj",gurugram,high,0.87,ops_admin
+MAP0173,kidney stone pain,Dental Sciences,"Max Super Speciality Hospital, Vaishali",lucknow,high,0.91,ops_admin
+MAP0174,abdominal pain,ENT,"Max Super Speciality Hospital, Shalimar Bagh",pune,medium,0.87,ops_admin
+MAP0175,acid reflux,Pulmonology,"Max Super Speciality Hospital, Gurgaon",Mumbai,medium,0.92,triage_nurse
+MAP0176,toothache,Dermatology,"Max Hospital, Noida",Banguluru,low,0.95,triage_nurse
+MAP0177,gum swelling,Obstetrics and Gynaecology,"Max Hospital, Lucknow",delhi,high,0.78,ops_admin
+MAP0178,chest discomfort,Pediatrics,"Max Healthcare Partner Centre, Pune",noida,medium,0.84,ops_admin
+MAP0179,shortness of breath,Endocrinology,"Max Healthcare Partner Centre, Mumbai",ghaziabad,low,0.86,clinical_lead
+MAP0180,joint pain,Internal Medicine,"Max Healthcare Partner Centre, Banguluru",gurugram,low,0.83,clinical_lead
+MAP0181,skin rash,Neurology,"Max Super Speciality Hospital, Saket",lucknow,high,0.91,clinical_lead
+MAP0182,ear pain,Neurosurgery,"Max Super Speciality Hospital, Patparganj",pune,low,0.83,triage_nurse
+MAP0183,severe headache,Urology,"Max Super Speciality Hospital, Vaishali",Mumbai,high,0.97,ops_admin
+MAP0184,dizziness,Nephrology,"Max Super Speciality Hospital, Shalimar Bagh",Banguluru,low,0.74,triage_nurse
+MAP0185,seizure episodes,Gastroenterology,"Max Super Speciality Hospital, Gurgaon",delhi,medium,0.71,triage_nurse
+MAP0186,urinary burning,GI Surgery,"Max Hospital, Noida",noida,high,0.79,ops_admin
+MAP0187,kidney stone pain,Cardiology,"Max Hospital, Lucknow",ghaziabad,low,0.88,triage_nurse
+MAP0188,abdominal pain,Cardiothoracic Surgery,"Max Healthcare Partner Centre, Pune",gurugram,medium,0.86,clinical_lead
+MAP0189,acid reflux,Orthopaedics,"Max Healthcare Partner Centre, Mumbai",lucknow,high,0.84,ops_admin
+MAP0190,toothache,Oncology,"Max Healthcare Partner Centre, Banguluru",pune,high,0.87,clinical_lead
+MAP0191,gum swelling,Dental Sciences,"Max Super Speciality Hospital, Saket",Mumbai,high,0.77,triage_nurse
+MAP0192,chest discomfort,ENT,"Max Super Speciality Hospital, Patparganj",Banguluru,high,0.71,triage_nurse
+MAP0193,shortness of breath,Pulmonology,"Max Super Speciality Hospital, Vaishali",delhi,high,0.95,triage_nurse
+MAP0194,joint pain,Dermatology,"Max Super Speciality Hospital, Shalimar Bagh",noida,medium,0.87,clinical_lead
+MAP0195,skin rash,Obstetrics and Gynaecology,"Max Super Speciality Hospital, Gurgaon",ghaziabad,medium,0.82,clinical_lead
+MAP0196,ear pain,Pediatrics,"Max Hospital, Noida",gurugram,low,0.88,triage_nurse
+MAP0197,severe headache,Endocrinology,"Max Hospital, Lucknow",lucknow,low,0.72,clinical_lead
+MAP0198,dizziness,Internal Medicine,"Max Healthcare Partner Centre, Pune",pune,low,0.89,triage_nurse
+MAP0199,seizure episodes,Neurology,"Max Healthcare Partner Centre, Mumbai",Mumbai,low,0.75,ops_admin
+MAP0200,urinary burning,Neurosurgery,"Max Healthcare Partner Centre, Banguluru",Banguluru,low,0.82,triage_nurse
+MAP0201,kidney stone pain,Urology,"Max Super Speciality Hospital, Saket",delhi,high,0.76,clinical_lead
+MAP0202,abdominal pain,Nephrology,"Max Super Speciality Hospital, Patparganj",noida,low,0.92,ops_admin
+MAP0203,acid reflux,Gastroenterology,"Max Super Speciality Hospital, Vaishali",ghaziabad,medium,0.75,ops_admin
+MAP0204,toothache,GI Surgery,"Max Super Speciality Hospital, Shalimar Bagh",gurugram,low,0.90,ops_admin
+MAP0205,gum swelling,Cardiology,"Max Super Speciality Hospital, Gurgaon",lucknow,low,0.72,ops_admin
+MAP0206,chest discomfort,Cardiothoracic Surgery,"Max Hospital, Noida",pune,high,0.83,clinical_lead
+MAP0207,shortness of breath,Orthopaedics,"Max Hospital, Lucknow",Mumbai,medium,0.98,ops_admin
+MAP0208,joint pain,Oncology,"Max Healthcare Partner Centre, Pune",Banguluru,high,0.92,ops_admin
+MAP0209,skin rash,Dental Sciences,"Max Healthcare Partner Centre, Mumbai",delhi,high,0.91,clinical_lead
+MAP0210,ear pain,ENT,"Max Healthcare Partner Centre, Banguluru",noida,low,0.98,ops_admin
+MAP0211,severe headache,Pulmonology,"Max Super Speciality Hospital, Saket",ghaziabad,high,0.88,ops_admin
+MAP0212,dizziness,Dermatology,"Max Super Speciality Hospital, Patparganj",gurugram,high,0.76,triage_nurse
+MAP0213,seizure episodes,Obstetrics and Gynaecology,"Max Super Speciality Hospital, Vaishali",lucknow,medium,0.96,clinical_lead
+MAP0214,urinary burning,Pediatrics,"Max Super Speciality Hospital, Shalimar Bagh",pune,low,0.74,ops_admin
+MAP0215,kidney stone pain,Endocrinology,"Max Super Speciality Hospital, Gurgaon",Mumbai,medium,0.71,triage_nurse
+MAP0216,abdominal pain,Internal Medicine,"Max Hospital, Noida",Banguluru,high,0.84,triage_nurse
+MAP0217,acid reflux,Neurology,"Max Hospital, Lucknow",delhi,high,0.74,triage_nurse
+MAP0218,toothache,Neurosurgery,"Max Healthcare Partner Centre, Pune",noida,low,0.81,ops_admin
+MAP0219,gum swelling,Urology,"Max Healthcare Partner Centre, Mumbai",ghaziabad,high,0.95,triage_nurse
+MAP0220,chest discomfort,Nephrology,"Max Healthcare Partner Centre, Banguluru",gurugram,low,0.86,ops_admin

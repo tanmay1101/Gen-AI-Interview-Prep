@@ -1,0 +1,5 @@
+2026-03-23T18:05:12.030Z payments-worker INFO operation_Id=77aa66bb55cc44dd trace_id=22223333444455556666777788889999 Processing webhook event webhookId=wh_12031
+{"timestamp":"2026-03-23T18:05:13.120Z","service":"payments-worker","level":"ERROR","trace_id":"22223333444455556666777788889999","operation_Id":"77aa66bb55cc44dd","dependency":"payment-gateway","statusCode":429,"error":"TooManyRequests","durationMs":95,"message":"Rate limit exceeded for payment-gateway","env":"prod","region":"eastus"}
+at PaymentGatewayClient.Charge(PaymentGatewayClient.cs:77)
+{"timestamp":"2026-03-23T18:05:13.130Z","service":"payments-worker","level":"WARN","trace_id":"22223333444455556666777788889999","operation_Id":"77aa66bb55cc44dd","message":"retry=3 backoff=0ms (misconfig) target=payment-gateway trace_id=22223333444455556666777788889999","env":"prod","region":"eastus"}
+2026-03-23T18:06:02.500Z queue-processor ERROR operation_Id=00001111-2222-3333-4444-555566667777 trace_id=99990000aaaa9999 backlog=18450 Returning transient failure to worker

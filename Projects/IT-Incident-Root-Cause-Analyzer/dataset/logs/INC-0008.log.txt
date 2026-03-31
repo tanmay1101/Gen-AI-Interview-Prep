@@ -1,0 +1,5 @@
+2026-03-28T06:00:20.101Z api-gateway INFO operation_Id=1111aaaa2222bbbb trace_id=abcdefabcdefabcdefabcdefabcd Begin call to dependency=checkout-api.internal
+{"timestamp":"2026-03-28T06:00:20.230Z","service":"api-gateway","level":"ERROR","trace_id":"abcdefabcdefabcdefabcdefabcd","operation_Id":"1111aaaa2222bbbb","dependency":"checkout-api.internal","error":"Name or service not known","durationMs":11,"message":"DNS resolution failed for checkout-api.internal","env":"prod","region":"eastus"}
+at System.Net.Sockets.Socket.Connect()
+2026-03-28T06:00:21.200Z api-gateway WARN retry=2 upstream=checkout-api.internal timeout=50ms trace_id=abcdefabcdefabcdefabcdefabcd
+2026-03-28T06:00:22.050Z api-gateway ERROR operation_Id=1111aaaa2222bbbb Returning 502 to client

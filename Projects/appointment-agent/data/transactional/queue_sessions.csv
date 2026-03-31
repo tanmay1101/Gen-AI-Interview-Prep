@@ -1,0 +1,221 @@
+queue_id,hospital_name,city,location_id,doctor_id,doctor_name,current_serving_token,patient_token,avg_minutes_per_patient,estimated_wait_minutes,last_updated
+QUE0001,"Max Super Speciality Hospital, Saket",delhi,LOC0001,DOC0001,Dr. Aarav Kapoor,12,60,7,336,2026-04-01T10:00
+QUE0002,"Max Super Speciality Hospital, Patparganj",noida,LOC0002,DOC0002,Dr. Vivaan Singh,41,59,8,144,2026-04-01T10:00
+QUE0003,"Max Super Speciality Hospital, Vaishali",ghaziabad,LOC0003,DOC0003,Dr. Aditya Agarwal,8,52,5,220,2026-04-01T10:00
+QUE0004,"Max Super Speciality Hospital, Shalimar Bagh",gurugram,LOC0004,DOC0004,Dr. Arjun Mehta,6,46,7,280,2026-04-01T10:00
+QUE0005,"Max Super Speciality Hospital, Gurgaon",lucknow,LOC0005,DOC0005,Dr. Krishna Reddy,15,45,5,150,2026-04-01T10:00
+QUE0006,"Max Hospital, Noida",pune,LOC0006,DOC0006,Dr. Ishaan Das,63,72,8,72,2026-04-01T10:00
+QUE0007,"Max Hospital, Lucknow",Mumbai,LOC0007,DOC0007,Dr. Rohan Verma,70,86,10,160,2026-04-01T10:00
+QUE0008,"Max Healthcare Partner Centre, Pune",Banguluru,LOC0008,DOC0008,Dr. Kunal Malhotra,17,52,10,350,2026-04-01T10:00
+QUE0009,"Max Healthcare Partner Centre, Mumbai",delhi,LOC0009,DOC0009,Dr. Rahul Khanna,79,108,10,290,2026-04-01T10:00
+QUE0010,"Max Healthcare Partner Centre, Banguluru",noida,LOC0010,DOC0010,Dr. Vikram Yadav,79,114,10,350,2026-04-01T10:00
+QUE0011,"Max Super Speciality Hospital, Saket",ghaziabad,LOC0011,DOC0011,Dr. Ananya Nair,72,121,7,343,2026-04-01T10:00
+QUE0012,"Max Super Speciality Hospital, Patparganj",gurugram,LOC0012,DOC0012,Dr. Diya Rao,17,18,6,6,2026-04-01T10:00
+QUE0013,"Max Super Speciality Hospital, Vaishali",lucknow,LOC0013,DOC0013,Dr. Aisha Saxena,55,65,10,100,2026-04-01T10:00
+QUE0014,"Max Super Speciality Hospital, Shalimar Bagh",pune,LOC0014,DOC0014,Dr. Kavya Gupta,38,65,7,189,2026-04-01T10:00
+QUE0015,"Max Super Speciality Hospital, Gurgaon",Mumbai,LOC0015,DOC0015,Dr. Sneha Bhatia,48,82,8,272,2026-04-01T10:00
+QUE0016,"Max Hospital, Noida",Banguluru,LOC0016,DOC0016,Dr. Meera Chopra,53,55,6,12,2026-04-01T10:00
+QUE0017,"Max Hospital, Lucknow",delhi,LOC0017,DOC0017,Dr. Priya Mishra,47,59,7,84,2026-04-01T10:00
+QUE0018,"Max Healthcare Partner Centre, Pune",noida,LOC0018,DOC0018,Dr. Nisha Iyer,69,114,8,360,2026-04-01T10:00
+QUE0019,"Max Healthcare Partner Centre, Mumbai",ghaziabad,LOC0019,DOC0019,Dr. Ritika Pillai,34,39,7,35,2026-04-01T10:00
+QUE0020,"Max Healthcare Partner Centre, Banguluru",gurugram,LOC0020,DOC0020,Dr. Pooja Sharma,28,42,5,70,2026-04-01T10:00
+QUE0021,"Max Super Speciality Hospital, Saket",lucknow,LOC0021,DOC0021,Dr. Sanjay Kapoor,22,54,7,224,2026-04-01T10:00
+QUE0022,"Max Super Speciality Hospital, Patparganj",pune,LOC0022,DOC0022,Dr. Rajiv Singh,49,49,7,0,2026-04-01T10:00
+QUE0023,"Max Super Speciality Hospital, Vaishali",Mumbai,LOC0023,DOC0023,Dr. Manoj Agarwal,20,53,6,198,2026-04-01T10:00
+QUE0024,"Max Super Speciality Hospital, Shalimar Bagh",Banguluru,LOC0024,DOC0024,Dr. Amit Mehta,58,61,6,18,2026-04-01T10:00
+QUE0025,"Max Super Speciality Hospital, Gurgaon",delhi,LOC0025,DOC0025,Dr. Suresh Reddy,7,32,8,200,2026-04-01T10:00
+QUE0026,"Max Hospital, Noida",noida,LOC0026,DOC0026,Dr. Neha Das,33,58,6,150,2026-04-01T10:00
+QUE0027,"Max Hospital, Lucknow",ghaziabad,LOC0027,DOC0027,Dr. Swati Verma,34,49,7,105,2026-04-01T10:00
+QUE0028,"Max Healthcare Partner Centre, Pune",gurugram,LOC0028,DOC0028,Dr. Shreya Malhotra,70,96,7,182,2026-04-01T10:00
+QUE0029,"Max Healthcare Partner Centre, Mumbai",lucknow,LOC0029,DOC0029,Dr. Aarav Khanna,7,11,8,32,2026-04-01T10:00
+QUE0030,"Max Healthcare Partner Centre, Banguluru",pune,LOC0030,DOC0030,Dr. Vivaan Yadav,32,70,10,380,2026-04-01T10:00
+QUE0031,"Max Super Speciality Hospital, Saket",Mumbai,LOC0031,DOC0031,Dr. Aditya Nair,59,62,5,15,2026-04-01T10:00
+QUE0032,"Max Super Speciality Hospital, Patparganj",Banguluru,LOC0032,DOC0032,Dr. Arjun Rao,62,78,7,112,2026-04-01T10:00
+QUE0033,"Max Super Speciality Hospital, Vaishali",delhi,LOC0033,DOC0033,Dr. Krishna Saxena,55,95,5,200,2026-04-01T10:00
+QUE0034,"Max Super Speciality Hospital, Shalimar Bagh",noida,LOC0034,DOC0034,Dr. Ishaan Gupta,63,86,6,138,2026-04-01T10:00
+QUE0035,"Max Super Speciality Hospital, Gurgaon",ghaziabad,LOC0035,DOC0035,Dr. Rohan Bhatia,78,112,10,340,2026-04-01T10:00
+QUE0036,"Max Hospital, Noida",gurugram,LOC0036,DOC0036,Dr. Kunal Chopra,80,115,8,280,2026-04-01T10:00
+QUE0037,"Max Hospital, Lucknow",lucknow,LOC0037,DOC0037,Dr. Rahul Mishra,70,100,10,300,2026-04-01T10:00
+QUE0038,"Max Healthcare Partner Centre, Pune",pune,LOC0038,DOC0038,Dr. Vikram Iyer,20,47,6,162,2026-04-01T10:00
+QUE0039,"Max Healthcare Partner Centre, Mumbai",Mumbai,LOC0039,DOC0039,Dr. Ananya Pillai,28,37,5,45,2026-04-01T10:00
+QUE0040,"Max Healthcare Partner Centre, Banguluru",Banguluru,LOC0040,DOC0040,Dr. Diya Sharma,43,80,5,185,2026-04-01T10:00
+QUE0041,"Max Super Speciality Hospital, Saket",delhi,LOC0041,DOC0041,Dr. Aisha Kapoor,20,27,8,56,2026-04-01T10:00
+QUE0042,"Max Super Speciality Hospital, Patparganj",noida,LOC0042,DOC0042,Dr. Kavya Singh,45,67,5,110,2026-04-01T10:00
+QUE0043,"Max Super Speciality Hospital, Vaishali",ghaziabad,LOC0043,DOC0043,Dr. Sneha Agarwal,5,21,10,160,2026-04-01T10:00
+QUE0044,"Max Super Speciality Hospital, Shalimar Bagh",gurugram,LOC0044,DOC0044,Dr. Meera Mehta,76,107,5,155,2026-04-01T10:00
+QUE0045,"Max Super Speciality Hospital, Gurgaon",lucknow,LOC0045,DOC0045,Dr. Priya Reddy,1,13,7,84,2026-04-01T10:00
+QUE0046,"Max Hospital, Noida",pune,LOC0046,DOC0046,Dr. Nisha Das,70,88,7,126,2026-04-01T10:00
+QUE0047,"Max Hospital, Lucknow",Mumbai,LOC0047,DOC0047,Dr. Ritika Verma,25,32,5,35,2026-04-01T10:00
+QUE0048,"Max Healthcare Partner Centre, Pune",Banguluru,LOC0048,DOC0048,Dr. Pooja Malhotra,14,52,10,380,2026-04-01T10:00
+QUE0049,"Max Healthcare Partner Centre, Mumbai",delhi,LOC0049,DOC0049,Dr. Sanjay Khanna,41,49,8,64,2026-04-01T10:00
+QUE0050,"Max Healthcare Partner Centre, Banguluru",noida,LOC0050,DOC0050,Dr. Rajiv Yadav,6,10,8,32,2026-04-01T10:00
+QUE0051,"Max Super Speciality Hospital, Saket",ghaziabad,LOC0051,DOC0051,Dr. Manoj Nair,7,57,5,250,2026-04-01T10:00
+QUE0052,"Max Super Speciality Hospital, Patparganj",gurugram,LOC0052,DOC0052,Dr. Amit Rao,61,107,8,368,2026-04-01T10:00
+QUE0053,"Max Super Speciality Hospital, Vaishali",lucknow,LOC0053,DOC0053,Dr. Suresh Saxena,66,68,10,20,2026-04-01T10:00
+QUE0054,"Max Super Speciality Hospital, Shalimar Bagh",pune,LOC0054,DOC0054,Dr. Neha Gupta,59,93,6,204,2026-04-01T10:00
+QUE0055,"Max Super Speciality Hospital, Gurgaon",Mumbai,LOC0055,DOC0055,Dr. Swati Bhatia,19,35,8,128,2026-04-01T10:00
+QUE0056,"Max Hospital, Noida",Banguluru,LOC0056,DOC0056,Dr. Shreya Chopra,12,26,6,84,2026-04-01T10:00
+QUE0057,"Max Hospital, Lucknow",delhi,LOC0057,DOC0057,Dr. Aarav Mishra,73,107,7,238,2026-04-01T10:00
+QUE0058,"Max Healthcare Partner Centre, Pune",noida,LOC0058,DOC0058,Dr. Vivaan Iyer,7,49,6,252,2026-04-01T10:00
+QUE0059,"Max Healthcare Partner Centre, Mumbai",ghaziabad,LOC0059,DOC0059,Dr. Aditya Pillai,3,10,6,42,2026-04-01T10:00
+QUE0060,"Max Healthcare Partner Centre, Banguluru",gurugram,LOC0060,DOC0060,Dr. Arjun Sharma,38,59,10,210,2026-04-01T10:00
+QUE0061,"Max Super Speciality Hospital, Saket",lucknow,LOC0061,DOC0061,Dr. Krishna Kapoor,19,57,5,190,2026-04-01T10:00
+QUE0062,"Max Super Speciality Hospital, Patparganj",pune,LOC0062,DOC0062,Dr. Ishaan Singh,8,34,8,208,2026-04-01T10:00
+QUE0063,"Max Super Speciality Hospital, Vaishali",Mumbai,LOC0063,DOC0063,Dr. Rohan Agarwal,48,89,5,205,2026-04-01T10:00
+QUE0064,"Max Super Speciality Hospital, Shalimar Bagh",Banguluru,LOC0064,DOC0064,Dr. Kunal Mehta,56,93,5,185,2026-04-01T10:00
+QUE0065,"Max Super Speciality Hospital, Gurgaon",delhi,LOC0065,DOC0065,Dr. Rahul Reddy,21,22,10,10,2026-04-01T10:00
+QUE0066,"Max Hospital, Noida",noida,LOC0066,DOC0066,Dr. Vikram Das,30,73,7,301,2026-04-01T10:00
+QUE0067,"Max Hospital, Lucknow",ghaziabad,LOC0067,DOC0067,Dr. Ananya Verma,44,90,7,322,2026-04-01T10:00
+QUE0068,"Max Healthcare Partner Centre, Pune",gurugram,LOC0068,DOC0068,Dr. Diya Malhotra,67,80,8,104,2026-04-01T10:00
+QUE0069,"Max Healthcare Partner Centre, Mumbai",lucknow,LOC0069,DOC0069,Dr. Aisha Khanna,7,57,6,300,2026-04-01T10:00
+QUE0070,"Max Healthcare Partner Centre, Banguluru",pune,LOC0070,DOC0070,Dr. Kavya Yadav,25,50,5,125,2026-04-01T10:00
+QUE0071,"Max Super Speciality Hospital, Saket",Mumbai,LOC0071,DOC0071,Dr. Sneha Nair,16,23,5,35,2026-04-01T10:00
+QUE0072,"Max Super Speciality Hospital, Patparganj",Banguluru,LOC0072,DOC0072,Dr. Meera Rao,55,65,10,100,2026-04-01T10:00
+QUE0073,"Max Super Speciality Hospital, Vaishali",delhi,LOC0073,DOC0073,Dr. Priya Saxena,10,59,7,343,2026-04-01T10:00
+QUE0074,"Max Super Speciality Hospital, Shalimar Bagh",noida,LOC0074,DOC0074,Dr. Nisha Gupta,40,56,8,128,2026-04-01T10:00
+QUE0075,"Max Super Speciality Hospital, Gurgaon",ghaziabad,LOC0075,DOC0075,Dr. Ritika Bhatia,31,39,8,64,2026-04-01T10:00
+QUE0076,"Max Hospital, Noida",gurugram,LOC0076,DOC0076,Dr. Pooja Chopra,11,15,7,28,2026-04-01T10:00
+QUE0077,"Max Hospital, Lucknow",lucknow,LOC0077,DOC0077,Dr. Sanjay Mishra,27,59,10,320,2026-04-01T10:00
+QUE0078,"Max Healthcare Partner Centre, Pune",pune,LOC0078,DOC0078,Dr. Rajiv Iyer,37,73,6,216,2026-04-01T10:00
+QUE0079,"Max Healthcare Partner Centre, Mumbai",Mumbai,LOC0079,DOC0079,Dr. Manoj Pillai,35,48,10,130,2026-04-01T10:00
+QUE0080,"Max Healthcare Partner Centre, Banguluru",Banguluru,LOC0080,DOC0080,Dr. Amit Sharma,26,27,5,5,2026-04-01T10:00
+QUE0081,"Max Super Speciality Hospital, Saket",delhi,LOC0081,DOC0081,Dr. Suresh Kapoor,53,58,7,35,2026-04-01T10:00
+QUE0082,"Max Super Speciality Hospital, Patparganj",noida,LOC0082,DOC0082,Dr. Neha Singh,22,44,10,220,2026-04-01T10:00
+QUE0083,"Max Super Speciality Hospital, Vaishali",ghaziabad,LOC0083,DOC0083,Dr. Swati Agarwal,32,37,10,50,2026-04-01T10:00
+QUE0084,"Max Super Speciality Hospital, Shalimar Bagh",gurugram,LOC0084,DOC0084,Dr. Shreya Mehta,54,75,10,210,2026-04-01T10:00
+QUE0085,"Max Super Speciality Hospital, Gurgaon",lucknow,LOC0085,DOC0085,Dr. Aarav Reddy,80,104,8,192,2026-04-01T10:00
+QUE0086,"Max Hospital, Noida",pune,LOC0086,DOC0086,Dr. Vivaan Das,66,95,10,290,2026-04-01T10:00
+QUE0087,"Max Hospital, Lucknow",Mumbai,LOC0087,DOC0087,Dr. Aditya Verma,5,53,7,336,2026-04-01T10:00
+QUE0088,"Max Healthcare Partner Centre, Pune",Banguluru,LOC0088,DOC0088,Dr. Arjun Malhotra,21,29,7,56,2026-04-01T10:00
+QUE0089,"Max Healthcare Partner Centre, Mumbai",delhi,LOC0089,DOC0089,Dr. Krishna Khanna,70,91,6,126,2026-04-01T10:00
+QUE0090,"Max Healthcare Partner Centre, Banguluru",noida,LOC0090,DOC0090,Dr. Ishaan Yadav,20,41,8,168,2026-04-01T10:00
+QUE0091,"Max Super Speciality Hospital, Saket",ghaziabad,LOC0091,DOC0091,Dr. Rohan Nair,68,96,10,280,2026-04-01T10:00
+QUE0092,"Max Super Speciality Hospital, Patparganj",gurugram,LOC0092,DOC0092,Dr. Kunal Rao,63,86,7,161,2026-04-01T10:00
+QUE0093,"Max Super Speciality Hospital, Vaishali",lucknow,LOC0093,DOC0093,Dr. Rahul Saxena,15,34,5,95,2026-04-01T10:00
+QUE0094,"Max Super Speciality Hospital, Shalimar Bagh",pune,LOC0094,DOC0094,Dr. Vikram Gupta,29,51,5,110,2026-04-01T10:00
+QUE0095,"Max Super Speciality Hospital, Gurgaon",Mumbai,LOC0095,DOC0095,Dr. Ananya Bhatia,78,113,5,175,2026-04-01T10:00
+QUE0096,"Max Hospital, Noida",Banguluru,LOC0096,DOC0096,Dr. Diya Chopra,39,60,8,168,2026-04-01T10:00
+QUE0097,"Max Hospital, Lucknow",delhi,LOC0097,DOC0097,Dr. Aisha Mishra,34,35,5,5,2026-04-01T10:00
+QUE0098,"Max Healthcare Partner Centre, Pune",noida,LOC0098,DOC0098,Dr. Kavya Iyer,67,68,8,8,2026-04-01T10:00
+QUE0099,"Max Healthcare Partner Centre, Mumbai",ghaziabad,LOC0099,DOC0099,Dr. Sneha Pillai,48,79,5,155,2026-04-01T10:00
+QUE0100,"Max Healthcare Partner Centre, Banguluru",gurugram,LOC0100,DOC0100,Dr. Meera Sharma,43,63,8,160,2026-04-01T10:00
+QUE0101,"Max Super Speciality Hospital, Saket",lucknow,LOC0101,DOC0101,Dr. Priya Kapoor,38,64,5,130,2026-04-01T10:00
+QUE0102,"Max Super Speciality Hospital, Patparganj",pune,LOC0102,DOC0102,Dr. Nisha Singh,19,21,8,16,2026-04-01T10:00
+QUE0103,"Max Super Speciality Hospital, Vaishali",Mumbai,LOC0103,DOC0103,Dr. Ritika Agarwal,15,60,7,315,2026-04-01T10:00
+QUE0104,"Max Super Speciality Hospital, Shalimar Bagh",Banguluru,LOC0104,DOC0104,Dr. Pooja Mehta,42,73,7,217,2026-04-01T10:00
+QUE0105,"Max Super Speciality Hospital, Gurgaon",delhi,LOC0105,DOC0105,Dr. Sanjay Reddy,70,114,5,220,2026-04-01T10:00
+QUE0106,"Max Hospital, Noida",noida,LOC0106,DOC0106,Dr. Rajiv Das,55,59,5,20,2026-04-01T10:00
+QUE0107,"Max Hospital, Lucknow",ghaziabad,LOC0107,DOC0107,Dr. Manoj Verma,32,76,6,264,2026-04-01T10:00
+QUE0108,"Max Healthcare Partner Centre, Pune",gurugram,LOC0108,DOC0108,Dr. Amit Malhotra,36,44,8,64,2026-04-01T10:00
+QUE0109,"Max Healthcare Partner Centre, Mumbai",lucknow,LOC0109,DOC0109,Dr. Suresh Khanna,27,28,10,10,2026-04-01T10:00
+QUE0110,"Max Healthcare Partner Centre, Banguluru",pune,LOC0110,DOC0110,Dr. Neha Yadav,28,76,8,384,2026-04-01T10:00
+QUE0111,"Max Super Speciality Hospital, Saket",Mumbai,LOC0111,DOC0111,Dr. Swati Nair,46,80,10,340,2026-04-01T10:00
+QUE0112,"Max Super Speciality Hospital, Patparganj",Banguluru,LOC0112,DOC0112,Dr. Shreya Rao,45,54,5,45,2026-04-01T10:00
+QUE0113,"Max Super Speciality Hospital, Vaishali",delhi,LOC0113,DOC0113,Dr. Aarav Saxena,50,66,5,80,2026-04-01T10:00
+QUE0114,"Max Super Speciality Hospital, Shalimar Bagh",noida,LOC0114,DOC0114,Dr. Vivaan Gupta,12,30,8,144,2026-04-01T10:00
+QUE0115,"Max Super Speciality Hospital, Gurgaon",ghaziabad,LOC0115,DOC0115,Dr. Aditya Bhatia,18,64,10,460,2026-04-01T10:00
+QUE0116,"Max Hospital, Noida",gurugram,LOC0116,DOC0116,Dr. Arjun Chopra,52,53,6,6,2026-04-01T10:00
+QUE0117,"Max Hospital, Lucknow",lucknow,LOC0117,DOC0117,Dr. Krishna Mishra,45,92,10,470,2026-04-01T10:00
+QUE0118,"Max Healthcare Partner Centre, Pune",pune,LOC0118,DOC0118,Dr. Ishaan Iyer,3,29,7,182,2026-04-01T10:00
+QUE0119,"Max Healthcare Partner Centre, Mumbai",Mumbai,LOC0119,DOC0119,Dr. Rohan Pillai,71,104,5,165,2026-04-01T10:00
+QUE0120,"Max Healthcare Partner Centre, Banguluru",Banguluru,LOC0120,DOC0120,Dr. Kunal Sharma,2,6,6,24,2026-04-01T10:00
+QUE0121,"Max Super Speciality Hospital, Saket",delhi,LOC0121,DOC0121,Dr. Rahul Kapoor,71,97,10,260,2026-04-01T10:00
+QUE0122,"Max Super Speciality Hospital, Patparganj",noida,LOC0122,DOC0122,Dr. Vikram Singh,11,35,6,144,2026-04-01T10:00
+QUE0123,"Max Super Speciality Hospital, Vaishali",ghaziabad,LOC0123,DOC0123,Dr. Ananya Agarwal,18,30,10,120,2026-04-01T10:00
+QUE0124,"Max Super Speciality Hospital, Shalimar Bagh",gurugram,LOC0124,DOC0124,Dr. Diya Mehta,75,92,5,85,2026-04-01T10:00
+QUE0125,"Max Super Speciality Hospital, Gurgaon",lucknow,LOC0125,DOC0125,Dr. Aisha Reddy,46,69,7,161,2026-04-01T10:00
+QUE0126,"Max Hospital, Noida",pune,LOC0126,DOC0126,Dr. Kavya Das,27,42,5,75,2026-04-01T10:00
+QUE0127,"Max Hospital, Lucknow",Mumbai,LOC0127,DOC0127,Dr. Sneha Verma,46,80,8,272,2026-04-01T10:00
+QUE0128,"Max Healthcare Partner Centre, Pune",Banguluru,LOC0128,DOC0128,Dr. Meera Malhotra,56,80,5,120,2026-04-01T10:00
+QUE0129,"Max Healthcare Partner Centre, Mumbai",delhi,LOC0129,DOC0129,Dr. Priya Khanna,23,64,8,328,2026-04-01T10:00
+QUE0130,"Max Healthcare Partner Centre, Banguluru",noida,LOC0130,DOC0130,Dr. Nisha Yadav,30,79,5,245,2026-04-01T10:00
+QUE0131,"Max Super Speciality Hospital, Saket",ghaziabad,LOC0131,DOC0131,Dr. Ritika Nair,38,39,8,8,2026-04-01T10:00
+QUE0132,"Max Super Speciality Hospital, Patparganj",gurugram,LOC0132,DOC0132,Dr. Pooja Rao,46,70,8,192,2026-04-01T10:00
+QUE0133,"Max Super Speciality Hospital, Vaishali",lucknow,LOC0133,DOC0133,Dr. Sanjay Saxena,68,113,8,360,2026-04-01T10:00
+QUE0134,"Max Super Speciality Hospital, Shalimar Bagh",pune,LOC0134,DOC0134,Dr. Rajiv Gupta,51,68,10,170,2026-04-01T10:00
+QUE0135,"Max Super Speciality Hospital, Gurgaon",Mumbai,LOC0135,DOC0135,Dr. Manoj Bhatia,8,11,5,15,2026-04-01T10:00
+QUE0136,"Max Hospital, Noida",Banguluru,LOC0136,DOC0136,Dr. Amit Chopra,55,74,10,190,2026-04-01T10:00
+QUE0137,"Max Hospital, Lucknow",delhi,LOC0137,DOC0137,Dr. Suresh Mishra,19,67,6,288,2026-04-01T10:00
+QUE0138,"Max Healthcare Partner Centre, Pune",noida,LOC0138,DOC0138,Dr. Neha Iyer,30,56,10,260,2026-04-01T10:00
+QUE0139,"Max Healthcare Partner Centre, Mumbai",ghaziabad,LOC0139,DOC0139,Dr. Swati Pillai,39,80,6,246,2026-04-01T10:00
+QUE0140,"Max Healthcare Partner Centre, Banguluru",gurugram,LOC0140,DOC0140,Dr. Shreya Sharma,47,90,7,301,2026-04-01T10:00
+QUE0141,"Max Super Speciality Hospital, Saket",lucknow,LOC0141,DOC0141,Dr. Aarav Kapoor,15,54,7,273,2026-04-01T10:00
+QUE0142,"Max Super Speciality Hospital, Patparganj",pune,LOC0142,DOC0142,Dr. Vivaan Singh,43,69,8,208,2026-04-01T10:00
+QUE0143,"Max Super Speciality Hospital, Vaishali",Mumbai,LOC0143,DOC0143,Dr. Aditya Agarwal,31,42,8,88,2026-04-01T10:00
+QUE0144,"Max Super Speciality Hospital, Shalimar Bagh",Banguluru,LOC0144,DOC0144,Dr. Arjun Mehta,61,99,10,380,2026-04-01T10:00
+QUE0145,"Max Super Speciality Hospital, Gurgaon",delhi,LOC0145,DOC0145,Dr. Krishna Reddy,1,22,10,210,2026-04-01T10:00
+QUE0146,"Max Hospital, Noida",noida,LOC0146,DOC0146,Dr. Ishaan Das,21,60,7,273,2026-04-01T10:00
+QUE0147,"Max Hospital, Lucknow",ghaziabad,LOC0147,DOC0147,Dr. Rohan Verma,26,44,6,108,2026-04-01T10:00
+QUE0148,"Max Healthcare Partner Centre, Pune",gurugram,LOC0148,DOC0148,Dr. Kunal Malhotra,42,82,10,400,2026-04-01T10:00
+QUE0149,"Max Healthcare Partner Centre, Mumbai",lucknow,LOC0149,DOC0149,Dr. Rahul Khanna,7,25,8,144,2026-04-01T10:00
+QUE0150,"Max Healthcare Partner Centre, Banguluru",pune,LOC0150,DOC0150,Dr. Vikram Yadav,64,92,5,140,2026-04-01T10:00
+QUE0151,"Max Super Speciality Hospital, Saket",Mumbai,LOC0151,DOC0151,Dr. Ananya Nair,79,94,5,75,2026-04-01T10:00
+QUE0152,"Max Super Speciality Hospital, Patparganj",Banguluru,LOC0152,DOC0152,Dr. Diya Rao,68,70,10,20,2026-04-01T10:00
+QUE0153,"Max Super Speciality Hospital, Vaishali",delhi,LOC0153,DOC0153,Dr. Aisha Saxena,80,92,7,84,2026-04-01T10:00
+QUE0154,"Max Super Speciality Hospital, Shalimar Bagh",noida,LOC0154,DOC0154,Dr. Kavya Gupta,32,49,8,136,2026-04-01T10:00
+QUE0155,"Max Super Speciality Hospital, Gurgaon",ghaziabad,LOC0155,DOC0155,Dr. Sneha Bhatia,28,32,6,24,2026-04-01T10:00
+QUE0156,"Max Hospital, Noida",gurugram,LOC0156,DOC0156,Dr. Meera Chopra,20,70,8,400,2026-04-01T10:00
+QUE0157,"Max Hospital, Lucknow",lucknow,LOC0157,DOC0157,Dr. Priya Mishra,14,33,6,114,2026-04-01T10:00
+QUE0158,"Max Healthcare Partner Centre, Pune",pune,LOC0158,DOC0158,Dr. Nisha Iyer,9,20,6,66,2026-04-01T10:00
+QUE0159,"Max Healthcare Partner Centre, Mumbai",Mumbai,LOC0159,DOC0159,Dr. Ritika Pillai,2,38,5,180,2026-04-01T10:00
+QUE0160,"Max Healthcare Partner Centre, Banguluru",Banguluru,LOC0160,DOC0160,Dr. Pooja Sharma,2,52,5,250,2026-04-01T10:00
+QUE0161,"Max Super Speciality Hospital, Saket",delhi,LOC0161,DOC0161,Dr. Sanjay Kapoor,59,95,6,216,2026-04-01T10:00
+QUE0162,"Max Super Speciality Hospital, Patparganj",noida,LOC0162,DOC0162,Dr. Rajiv Singh,71,100,7,203,2026-04-01T10:00
+QUE0163,"Max Super Speciality Hospital, Vaishali",ghaziabad,LOC0163,DOC0163,Dr. Manoj Agarwal,69,94,6,150,2026-04-01T10:00
+QUE0164,"Max Super Speciality Hospital, Shalimar Bagh",gurugram,LOC0164,DOC0164,Dr. Amit Mehta,36,65,7,203,2026-04-01T10:00
+QUE0165,"Max Super Speciality Hospital, Gurgaon",lucknow,LOC0165,DOC0165,Dr. Suresh Reddy,66,95,5,145,2026-04-01T10:00
+QUE0166,"Max Hospital, Noida",pune,LOC0166,DOC0166,Dr. Neha Das,32,32,5,0,2026-04-01T10:00
+QUE0167,"Max Hospital, Lucknow",Mumbai,LOC0167,DOC0167,Dr. Swati Verma,53,69,10,160,2026-04-01T10:00
+QUE0168,"Max Healthcare Partner Centre, Pune",Banguluru,LOC0168,DOC0168,Dr. Shreya Malhotra,67,85,10,180,2026-04-01T10:00
+QUE0169,"Max Healthcare Partner Centre, Mumbai",delhi,LOC0169,DOC0169,Dr. Aarav Khanna,7,26,6,114,2026-04-01T10:00
+QUE0170,"Max Healthcare Partner Centre, Banguluru",noida,LOC0170,DOC0170,Dr. Vivaan Yadav,73,114,6,246,2026-04-01T10:00
+QUE0171,"Max Super Speciality Hospital, Saket",ghaziabad,LOC0171,DOC0171,Dr. Aditya Nair,29,31,7,14,2026-04-01T10:00
+QUE0172,"Max Super Speciality Hospital, Patparganj",gurugram,LOC0172,DOC0172,Dr. Arjun Rao,14,31,8,136,2026-04-01T10:00
+QUE0173,"Max Super Speciality Hospital, Vaishali",lucknow,LOC0173,DOC0173,Dr. Krishna Saxena,69,95,7,182,2026-04-01T10:00
+QUE0174,"Max Super Speciality Hospital, Shalimar Bagh",pune,LOC0174,DOC0174,Dr. Ishaan Gupta,77,107,5,150,2026-04-01T10:00
+QUE0175,"Max Super Speciality Hospital, Gurgaon",Mumbai,LOC0175,DOC0175,Dr. Rohan Bhatia,62,111,10,490,2026-04-01T10:00
+QUE0176,"Max Hospital, Noida",Banguluru,LOC0176,DOC0176,Dr. Kunal Chopra,22,56,5,170,2026-04-01T10:00
+QUE0177,"Max Hospital, Lucknow",delhi,LOC0177,DOC0177,Dr. Rahul Mishra,71,81,6,60,2026-04-01T10:00
+QUE0178,"Max Healthcare Partner Centre, Pune",noida,LOC0178,DOC0178,Dr. Vikram Iyer,60,61,5,5,2026-04-01T10:00
+QUE0179,"Max Healthcare Partner Centre, Mumbai",ghaziabad,LOC0179,DOC0179,Dr. Ananya Pillai,33,82,5,245,2026-04-01T10:00
+QUE0180,"Max Healthcare Partner Centre, Banguluru",gurugram,LOC0180,DOC0180,Dr. Diya Sharma,32,54,10,220,2026-04-01T10:00
+QUE0181,"Max Super Speciality Hospital, Saket",lucknow,LOC0181,DOC0181,Dr. Aisha Kapoor,79,87,8,64,2026-04-01T10:00
+QUE0182,"Max Super Speciality Hospital, Patparganj",pune,LOC0182,DOC0182,Dr. Kavya Singh,48,81,7,231,2026-04-01T10:00
+QUE0183,"Max Super Speciality Hospital, Vaishali",Mumbai,LOC0183,DOC0183,Dr. Sneha Agarwal,23,37,10,140,2026-04-01T10:00
+QUE0184,"Max Super Speciality Hospital, Shalimar Bagh",Banguluru,LOC0184,DOC0184,Dr. Meera Mehta,68,111,8,344,2026-04-01T10:00
+QUE0185,"Max Super Speciality Hospital, Gurgaon",delhi,LOC0185,DOC0185,Dr. Priya Reddy,9,52,10,430,2026-04-01T10:00
+QUE0186,"Max Hospital, Noida",noida,LOC0186,DOC0186,Dr. Nisha Das,67,94,10,270,2026-04-01T10:00
+QUE0187,"Max Hospital, Lucknow",ghaziabad,LOC0187,DOC0187,Dr. Ritika Verma,61,105,10,440,2026-04-01T10:00
+QUE0188,"Max Healthcare Partner Centre, Pune",gurugram,LOC0188,DOC0188,Dr. Pooja Malhotra,77,115,6,228,2026-04-01T10:00
+QUE0189,"Max Healthcare Partner Centre, Mumbai",lucknow,LOC0189,DOC0189,Dr. Sanjay Khanna,2,11,6,54,2026-04-01T10:00
+QUE0190,"Max Healthcare Partner Centre, Banguluru",pune,LOC0190,DOC0190,Dr. Rajiv Yadav,47,70,7,161,2026-04-01T10:00
+QUE0191,"Max Super Speciality Hospital, Saket",Mumbai,LOC0191,DOC0191,Dr. Manoj Nair,23,72,7,343,2026-04-01T10:00
+QUE0192,"Max Super Speciality Hospital, Patparganj",Banguluru,LOC0192,DOC0192,Dr. Amit Rao,33,51,7,126,2026-04-01T10:00
+QUE0193,"Max Super Speciality Hospital, Vaishali",delhi,LOC0193,DOC0193,Dr. Suresh Saxena,28,42,5,70,2026-04-01T10:00
+QUE0194,"Max Super Speciality Hospital, Shalimar Bagh",noida,LOC0194,DOC0194,Dr. Neha Gupta,70,103,6,198,2026-04-01T10:00
+QUE0195,"Max Super Speciality Hospital, Gurgaon",ghaziabad,LOC0195,DOC0195,Dr. Swati Bhatia,78,108,7,210,2026-04-01T10:00
+QUE0196,"Max Hospital, Noida",gurugram,LOC0196,DOC0196,Dr. Shreya Chopra,31,47,8,128,2026-04-01T10:00
+QUE0197,"Max Hospital, Lucknow",lucknow,LOC0197,DOC0197,Dr. Aarav Mishra,73,101,7,196,2026-04-01T10:00
+QUE0198,"Max Healthcare Partner Centre, Pune",pune,LOC0198,DOC0198,Dr. Vivaan Iyer,4,41,5,185,2026-04-01T10:00
+QUE0199,"Max Healthcare Partner Centre, Mumbai",Mumbai,LOC0199,DOC0199,Dr. Aditya Pillai,79,81,10,20,2026-04-01T10:00
+QUE0200,"Max Healthcare Partner Centre, Banguluru",Banguluru,LOC0200,DOC0200,Dr. Arjun Sharma,64,69,6,30,2026-04-01T10:00
+QUE0201,"Max Super Speciality Hospital, Saket",delhi,LOC0201,DOC0201,Dr. Krishna Kapoor,60,73,10,130,2026-04-01T10:00
+QUE0202,"Max Super Speciality Hospital, Patparganj",noida,LOC0202,DOC0202,Dr. Ishaan Singh,57,79,5,110,2026-04-01T10:00
+QUE0203,"Max Super Speciality Hospital, Vaishali",ghaziabad,LOC0203,DOC0203,Dr. Rohan Agarwal,31,49,6,108,2026-04-01T10:00
+QUE0204,"Max Super Speciality Hospital, Shalimar Bagh",gurugram,LOC0204,DOC0204,Dr. Kunal Mehta,20,67,5,235,2026-04-01T10:00
+QUE0205,"Max Super Speciality Hospital, Gurgaon",lucknow,LOC0205,DOC0205,Dr. Rahul Reddy,46,55,10,90,2026-04-01T10:00
+QUE0206,"Max Hospital, Noida",pune,LOC0206,DOC0206,Dr. Vikram Das,10,48,10,380,2026-04-01T10:00
+QUE0207,"Max Hospital, Lucknow",Mumbai,LOC0207,DOC0207,Dr. Ananya Verma,10,30,10,200,2026-04-01T10:00
+QUE0208,"Max Healthcare Partner Centre, Pune",Banguluru,LOC0208,DOC0208,Dr. Diya Malhotra,40,48,6,48,2026-04-01T10:00
+QUE0209,"Max Healthcare Partner Centre, Mumbai",delhi,LOC0209,DOC0209,Dr. Aisha Khanna,5,49,7,308,2026-04-01T10:00
+QUE0210,"Max Healthcare Partner Centre, Banguluru",noida,LOC0210,DOC0210,Dr. Kavya Yadav,8,30,10,220,2026-04-01T10:00
+QUE0211,"Max Super Speciality Hospital, Saket",ghaziabad,LOC0211,DOC0211,Dr. Sneha Nair,16,45,5,145,2026-04-01T10:00
+QUE0212,"Max Super Speciality Hospital, Patparganj",gurugram,LOC0212,DOC0212,Dr. Meera Rao,4,6,6,12,2026-04-01T10:00
+QUE0213,"Max Super Speciality Hospital, Vaishali",lucknow,LOC0213,DOC0213,Dr. Priya Saxena,43,58,8,120,2026-04-01T10:00
+QUE0214,"Max Super Speciality Hospital, Shalimar Bagh",pune,LOC0214,DOC0214,Dr. Nisha Gupta,3,38,5,175,2026-04-01T10:00
+QUE0215,"Max Super Speciality Hospital, Gurgaon",Mumbai,LOC0215,DOC0215,Dr. Ritika Bhatia,24,48,10,240,2026-04-01T10:00
+QUE0216,"Max Hospital, Noida",Banguluru,LOC0216,DOC0216,Dr. Pooja Chopra,44,79,10,350,2026-04-01T10:00
+QUE0217,"Max Hospital, Lucknow",delhi,LOC0217,DOC0217,Dr. Sanjay Mishra,66,79,5,65,2026-04-01T10:00
+QUE0218,"Max Healthcare Partner Centre, Pune",noida,LOC0218,DOC0218,Dr. Rajiv Iyer,57,106,8,392,2026-04-01T10:00
+QUE0219,"Max Healthcare Partner Centre, Mumbai",ghaziabad,LOC0219,DOC0219,Dr. Manoj Pillai,7,24,8,136,2026-04-01T10:00
+QUE0220,"Max Healthcare Partner Centre, Banguluru",gurugram,LOC0220,DOC0220,Dr. Amit Sharma,13,51,10,380,2026-04-01T10:00

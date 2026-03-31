@@ -1,0 +1,221 @@
+schedule_id,doctor_id,hospital_name,location_id,weekday,start_time,end_time,slot_duration_mins,valid_from,valid_to
+SCH0001,DOC0001,"Max Super Speciality Hospital, Saket",LOC0001,Friday,11:00,17:00,20,2026-04-01,2026-07-31
+SCH0002,DOC0002,"Max Super Speciality Hospital, Patparganj",LOC0002,Thursday,11:00,15:00,15,2026-04-01,2026-07-31
+SCH0003,DOC0003,"Max Super Speciality Hospital, Vaishali",LOC0003,Wednesday,10:00,15:00,15,2026-04-01,2026-07-31
+SCH0004,DOC0004,"Max Super Speciality Hospital, Shalimar Bagh",LOC0004,Friday,10:00,16:00,10,2026-04-01,2026-07-31
+SCH0005,DOC0005,"Max Super Speciality Hospital, Gurgaon",LOC0005,Monday,09:00,17:00,15,2026-04-01,2026-07-31
+SCH0006,DOC0006,"Max Hospital, Noida",LOC0006,Wednesday,09:00,16:00,15,2026-04-01,2026-07-31
+SCH0007,DOC0007,"Max Hospital, Lucknow",LOC0007,Tuesday,11:00,17:00,10,2026-04-01,2026-07-31
+SCH0008,DOC0008,"Max Healthcare Partner Centre, Pune",LOC0008,Saturday,09:00,16:00,20,2026-04-01,2026-07-31
+SCH0009,DOC0009,"Max Healthcare Partner Centre, Mumbai",LOC0009,Thursday,10:00,17:00,10,2026-04-01,2026-07-31
+SCH0010,DOC0010,"Max Healthcare Partner Centre, Banguluru",LOC0010,Monday,11:00,16:00,20,2026-04-01,2026-07-31
+SCH0011,DOC0011,"Max Super Speciality Hospital, Saket",LOC0011,Monday,10:00,15:00,10,2026-04-01,2026-07-31
+SCH0012,DOC0012,"Max Super Speciality Hospital, Patparganj",LOC0012,Saturday,11:00,16:00,10,2026-04-01,2026-07-31
+SCH0013,DOC0013,"Max Super Speciality Hospital, Vaishali",LOC0013,Friday,09:00,17:00,20,2026-04-01,2026-07-31
+SCH0014,DOC0014,"Max Super Speciality Hospital, Shalimar Bagh",LOC0014,Monday,11:00,15:00,10,2026-04-01,2026-07-31
+SCH0015,DOC0015,"Max Super Speciality Hospital, Gurgaon",LOC0015,Monday,11:00,16:00,10,2026-04-01,2026-07-31
+SCH0016,DOC0016,"Max Hospital, Noida",LOC0016,Thursday,10:00,17:00,20,2026-04-01,2026-07-31
+SCH0017,DOC0017,"Max Hospital, Lucknow",LOC0017,Saturday,10:00,16:00,15,2026-04-01,2026-07-31
+SCH0018,DOC0018,"Max Healthcare Partner Centre, Pune",LOC0018,Friday,10:00,17:00,15,2026-04-01,2026-07-31
+SCH0019,DOC0019,"Max Healthcare Partner Centre, Mumbai",LOC0019,Wednesday,11:00,16:00,15,2026-04-01,2026-07-31
+SCH0020,DOC0020,"Max Healthcare Partner Centre, Banguluru",LOC0020,Friday,09:00,17:00,10,2026-04-01,2026-07-31
+SCH0021,DOC0021,"Max Super Speciality Hospital, Saket",LOC0021,Thursday,10:00,15:00,15,2026-04-01,2026-07-31
+SCH0022,DOC0022,"Max Super Speciality Hospital, Patparganj",LOC0022,Friday,11:00,16:00,10,2026-04-01,2026-07-31
+SCH0023,DOC0023,"Max Super Speciality Hospital, Vaishali",LOC0023,Monday,09:00,17:00,15,2026-04-01,2026-07-31
+SCH0024,DOC0024,"Max Super Speciality Hospital, Shalimar Bagh",LOC0024,Wednesday,11:00,15:00,10,2026-04-01,2026-07-31
+SCH0025,DOC0025,"Max Super Speciality Hospital, Gurgaon",LOC0025,Friday,11:00,16:00,15,2026-04-01,2026-07-31
+SCH0026,DOC0026,"Max Hospital, Noida",LOC0026,Friday,10:00,17:00,20,2026-04-01,2026-07-31
+SCH0027,DOC0027,"Max Hospital, Lucknow",LOC0027,Friday,10:00,16:00,15,2026-04-01,2026-07-31
+SCH0028,DOC0028,"Max Healthcare Partner Centre, Pune",LOC0028,Thursday,11:00,17:00,10,2026-04-01,2026-07-31
+SCH0029,DOC0029,"Max Healthcare Partner Centre, Mumbai",LOC0029,Friday,09:00,17:00,10,2026-04-01,2026-07-31
+SCH0030,DOC0030,"Max Healthcare Partner Centre, Banguluru",LOC0030,Tuesday,09:00,17:00,15,2026-04-01,2026-07-31
+SCH0031,DOC0031,"Max Super Speciality Hospital, Saket",LOC0031,Tuesday,10:00,15:00,15,2026-04-01,2026-07-31
+SCH0032,DOC0032,"Max Super Speciality Hospital, Patparganj",LOC0032,Wednesday,10:00,17:00,20,2026-04-01,2026-07-31
+SCH0033,DOC0033,"Max Super Speciality Hospital, Vaishali",LOC0033,Tuesday,09:00,16:00,10,2026-04-01,2026-07-31
+SCH0034,DOC0034,"Max Super Speciality Hospital, Shalimar Bagh",LOC0034,Friday,11:00,15:00,10,2026-04-01,2026-07-31
+SCH0035,DOC0035,"Max Super Speciality Hospital, Gurgaon",LOC0035,Saturday,09:00,15:00,15,2026-04-01,2026-07-31
+SCH0036,DOC0036,"Max Hospital, Noida",LOC0036,Thursday,09:00,15:00,10,2026-04-01,2026-07-31
+SCH0037,DOC0037,"Max Hospital, Lucknow",LOC0037,Friday,09:00,17:00,10,2026-04-01,2026-07-31
+SCH0038,DOC0038,"Max Healthcare Partner Centre, Pune",LOC0038,Thursday,09:00,16:00,20,2026-04-01,2026-07-31
+SCH0039,DOC0039,"Max Healthcare Partner Centre, Mumbai",LOC0039,Wednesday,09:00,17:00,10,2026-04-01,2026-07-31
+SCH0040,DOC0040,"Max Healthcare Partner Centre, Banguluru",LOC0040,Wednesday,10:00,17:00,15,2026-04-01,2026-07-31
+SCH0041,DOC0041,"Max Super Speciality Hospital, Saket",LOC0041,Thursday,10:00,15:00,20,2026-04-01,2026-07-31
+SCH0042,DOC0042,"Max Super Speciality Hospital, Patparganj",LOC0042,Thursday,11:00,16:00,15,2026-04-01,2026-07-31
+SCH0043,DOC0043,"Max Super Speciality Hospital, Vaishali",LOC0043,Thursday,11:00,15:00,20,2026-04-01,2026-07-31
+SCH0044,DOC0044,"Max Super Speciality Hospital, Shalimar Bagh",LOC0044,Friday,10:00,16:00,15,2026-04-01,2026-07-31
+SCH0045,DOC0045,"Max Super Speciality Hospital, Gurgaon",LOC0045,Saturday,09:00,17:00,15,2026-04-01,2026-07-31
+SCH0046,DOC0046,"Max Hospital, Noida",LOC0046,Thursday,11:00,16:00,15,2026-04-01,2026-07-31
+SCH0047,DOC0047,"Max Hospital, Lucknow",LOC0047,Monday,10:00,16:00,15,2026-04-01,2026-07-31
+SCH0048,DOC0048,"Max Healthcare Partner Centre, Pune",LOC0048,Saturday,10:00,15:00,10,2026-04-01,2026-07-31
+SCH0049,DOC0049,"Max Healthcare Partner Centre, Mumbai",LOC0049,Wednesday,10:00,16:00,20,2026-04-01,2026-07-31
+SCH0050,DOC0050,"Max Healthcare Partner Centre, Banguluru",LOC0050,Wednesday,10:00,15:00,15,2026-04-01,2026-07-31
+SCH0051,DOC0051,"Max Super Speciality Hospital, Saket",LOC0051,Friday,09:00,15:00,20,2026-04-01,2026-07-31
+SCH0052,DOC0052,"Max Super Speciality Hospital, Patparganj",LOC0052,Wednesday,11:00,17:00,20,2026-04-01,2026-07-31
+SCH0053,DOC0053,"Max Super Speciality Hospital, Vaishali",LOC0053,Monday,09:00,15:00,15,2026-04-01,2026-07-31
+SCH0054,DOC0054,"Max Super Speciality Hospital, Shalimar Bagh",LOC0054,Tuesday,09:00,16:00,10,2026-04-01,2026-07-31
+SCH0055,DOC0055,"Max Super Speciality Hospital, Gurgaon",LOC0055,Monday,11:00,15:00,10,2026-04-01,2026-07-31
+SCH0056,DOC0056,"Max Hospital, Noida",LOC0056,Thursday,10:00,15:00,20,2026-04-01,2026-07-31
+SCH0057,DOC0057,"Max Hospital, Lucknow",LOC0057,Wednesday,11:00,17:00,20,2026-04-01,2026-07-31
+SCH0058,DOC0058,"Max Healthcare Partner Centre, Pune",LOC0058,Friday,10:00,16:00,10,2026-04-01,2026-07-31
+SCH0059,DOC0059,"Max Healthcare Partner Centre, Mumbai",LOC0059,Saturday,10:00,16:00,15,2026-04-01,2026-07-31
+SCH0060,DOC0060,"Max Healthcare Partner Centre, Banguluru",LOC0060,Saturday,10:00,16:00,20,2026-04-01,2026-07-31
+SCH0061,DOC0061,"Max Super Speciality Hospital, Saket",LOC0061,Monday,10:00,15:00,15,2026-04-01,2026-07-31
+SCH0062,DOC0062,"Max Super Speciality Hospital, Patparganj",LOC0062,Thursday,11:00,17:00,20,2026-04-01,2026-07-31
+SCH0063,DOC0063,"Max Super Speciality Hospital, Vaishali",LOC0063,Tuesday,09:00,15:00,20,2026-04-01,2026-07-31
+SCH0064,DOC0064,"Max Super Speciality Hospital, Shalimar Bagh",LOC0064,Wednesday,09:00,16:00,20,2026-04-01,2026-07-31
+SCH0065,DOC0065,"Max Super Speciality Hospital, Gurgaon",LOC0065,Wednesday,11:00,16:00,10,2026-04-01,2026-07-31
+SCH0066,DOC0066,"Max Hospital, Noida",LOC0066,Thursday,10:00,17:00,15,2026-04-01,2026-07-31
+SCH0067,DOC0067,"Max Hospital, Lucknow",LOC0067,Monday,09:00,17:00,10,2026-04-01,2026-07-31
+SCH0068,DOC0068,"Max Healthcare Partner Centre, Pune",LOC0068,Tuesday,10:00,17:00,10,2026-04-01,2026-07-31
+SCH0069,DOC0069,"Max Healthcare Partner Centre, Mumbai",LOC0069,Wednesday,10:00,17:00,10,2026-04-01,2026-07-31
+SCH0070,DOC0070,"Max Healthcare Partner Centre, Banguluru",LOC0070,Tuesday,10:00,16:00,20,2026-04-01,2026-07-31
+SCH0071,DOC0071,"Max Super Speciality Hospital, Saket",LOC0071,Wednesday,10:00,15:00,20,2026-04-01,2026-07-31
+SCH0072,DOC0072,"Max Super Speciality Hospital, Patparganj",LOC0072,Saturday,11:00,17:00,20,2026-04-01,2026-07-31
+SCH0073,DOC0073,"Max Super Speciality Hospital, Vaishali",LOC0073,Thursday,09:00,17:00,15,2026-04-01,2026-07-31
+SCH0074,DOC0074,"Max Super Speciality Hospital, Shalimar Bagh",LOC0074,Saturday,09:00,16:00,10,2026-04-01,2026-07-31
+SCH0075,DOC0075,"Max Super Speciality Hospital, Gurgaon",LOC0075,Saturday,09:00,15:00,15,2026-04-01,2026-07-31
+SCH0076,DOC0076,"Max Hospital, Noida",LOC0076,Monday,09:00,15:00,20,2026-04-01,2026-07-31
+SCH0077,DOC0077,"Max Hospital, Lucknow",LOC0077,Thursday,11:00,17:00,15,2026-04-01,2026-07-31
+SCH0078,DOC0078,"Max Healthcare Partner Centre, Pune",LOC0078,Thursday,09:00,15:00,15,2026-04-01,2026-07-31
+SCH0079,DOC0079,"Max Healthcare Partner Centre, Mumbai",LOC0079,Tuesday,11:00,15:00,20,2026-04-01,2026-07-31
+SCH0080,DOC0080,"Max Healthcare Partner Centre, Banguluru",LOC0080,Monday,09:00,16:00,10,2026-04-01,2026-07-31
+SCH0081,DOC0081,"Max Super Speciality Hospital, Saket",LOC0081,Wednesday,10:00,15:00,10,2026-04-01,2026-07-31
+SCH0082,DOC0082,"Max Super Speciality Hospital, Patparganj",LOC0082,Friday,11:00,15:00,20,2026-04-01,2026-07-31
+SCH0083,DOC0083,"Max Super Speciality Hospital, Vaishali",LOC0083,Thursday,10:00,17:00,10,2026-04-01,2026-07-31
+SCH0084,DOC0084,"Max Super Speciality Hospital, Shalimar Bagh",LOC0084,Friday,09:00,16:00,15,2026-04-01,2026-07-31
+SCH0085,DOC0085,"Max Super Speciality Hospital, Gurgaon",LOC0085,Thursday,10:00,16:00,10,2026-04-01,2026-07-31
+SCH0086,DOC0086,"Max Hospital, Noida",LOC0086,Thursday,11:00,17:00,15,2026-04-01,2026-07-31
+SCH0087,DOC0087,"Max Hospital, Lucknow",LOC0087,Wednesday,11:00,16:00,20,2026-04-01,2026-07-31
+SCH0088,DOC0088,"Max Healthcare Partner Centre, Pune",LOC0088,Friday,10:00,16:00,10,2026-04-01,2026-07-31
+SCH0089,DOC0089,"Max Healthcare Partner Centre, Mumbai",LOC0089,Monday,09:00,16:00,10,2026-04-01,2026-07-31
+SCH0090,DOC0090,"Max Healthcare Partner Centre, Banguluru",LOC0090,Monday,09:00,17:00,15,2026-04-01,2026-07-31
+SCH0091,DOC0091,"Max Super Speciality Hospital, Saket",LOC0091,Tuesday,09:00,17:00,15,2026-04-01,2026-07-31
+SCH0092,DOC0092,"Max Super Speciality Hospital, Patparganj",LOC0092,Wednesday,10:00,16:00,10,2026-04-01,2026-07-31
+SCH0093,DOC0093,"Max Super Speciality Hospital, Vaishali",LOC0093,Monday,10:00,16:00,15,2026-04-01,2026-07-31
+SCH0094,DOC0094,"Max Super Speciality Hospital, Shalimar Bagh",LOC0094,Saturday,11:00,16:00,10,2026-04-01,2026-07-31
+SCH0095,DOC0095,"Max Super Speciality Hospital, Gurgaon",LOC0095,Friday,10:00,17:00,10,2026-04-01,2026-07-31
+SCH0096,DOC0096,"Max Hospital, Noida",LOC0096,Wednesday,09:00,15:00,10,2026-04-01,2026-07-31
+SCH0097,DOC0097,"Max Hospital, Lucknow",LOC0097,Friday,10:00,17:00,10,2026-04-01,2026-07-31
+SCH0098,DOC0098,"Max Healthcare Partner Centre, Pune",LOC0098,Wednesday,11:00,15:00,20,2026-04-01,2026-07-31
+SCH0099,DOC0099,"Max Healthcare Partner Centre, Mumbai",LOC0099,Thursday,10:00,16:00,10,2026-04-01,2026-07-31
+SCH0100,DOC0100,"Max Healthcare Partner Centre, Banguluru",LOC0100,Thursday,10:00,15:00,15,2026-04-01,2026-07-31
+SCH0101,DOC0101,"Max Super Speciality Hospital, Saket",LOC0101,Wednesday,11:00,15:00,15,2026-04-01,2026-07-31
+SCH0102,DOC0102,"Max Super Speciality Hospital, Patparganj",LOC0102,Friday,10:00,16:00,20,2026-04-01,2026-07-31
+SCH0103,DOC0103,"Max Super Speciality Hospital, Vaishali",LOC0103,Saturday,11:00,17:00,10,2026-04-01,2026-07-31
+SCH0104,DOC0104,"Max Super Speciality Hospital, Shalimar Bagh",LOC0104,Tuesday,11:00,16:00,20,2026-04-01,2026-07-31
+SCH0105,DOC0105,"Max Super Speciality Hospital, Gurgaon",LOC0105,Saturday,09:00,17:00,15,2026-04-01,2026-07-31
+SCH0106,DOC0106,"Max Hospital, Noida",LOC0106,Saturday,11:00,16:00,10,2026-04-01,2026-07-31
+SCH0107,DOC0107,"Max Hospital, Lucknow",LOC0107,Saturday,10:00,15:00,15,2026-04-01,2026-07-31
+SCH0108,DOC0108,"Max Healthcare Partner Centre, Pune",LOC0108,Monday,09:00,17:00,10,2026-04-01,2026-07-31
+SCH0109,DOC0109,"Max Healthcare Partner Centre, Mumbai",LOC0109,Saturday,10:00,15:00,20,2026-04-01,2026-07-31
+SCH0110,DOC0110,"Max Healthcare Partner Centre, Banguluru",LOC0110,Tuesday,10:00,17:00,20,2026-04-01,2026-07-31
+SCH0111,DOC0111,"Max Super Speciality Hospital, Saket",LOC0111,Thursday,09:00,17:00,10,2026-04-01,2026-07-31
+SCH0112,DOC0112,"Max Super Speciality Hospital, Patparganj",LOC0112,Wednesday,11:00,16:00,10,2026-04-01,2026-07-31
+SCH0113,DOC0113,"Max Super Speciality Hospital, Vaishali",LOC0113,Friday,10:00,17:00,20,2026-04-01,2026-07-31
+SCH0114,DOC0114,"Max Super Speciality Hospital, Shalimar Bagh",LOC0114,Saturday,11:00,16:00,15,2026-04-01,2026-07-31
+SCH0115,DOC0115,"Max Super Speciality Hospital, Gurgaon",LOC0115,Wednesday,10:00,16:00,10,2026-04-01,2026-07-31
+SCH0116,DOC0116,"Max Hospital, Noida",LOC0116,Wednesday,11:00,16:00,10,2026-04-01,2026-07-31
+SCH0117,DOC0117,"Max Hospital, Lucknow",LOC0117,Monday,11:00,16:00,10,2026-04-01,2026-07-31
+SCH0118,DOC0118,"Max Healthcare Partner Centre, Pune",LOC0118,Friday,10:00,16:00,10,2026-04-01,2026-07-31
+SCH0119,DOC0119,"Max Healthcare Partner Centre, Mumbai",LOC0119,Wednesday,11:00,16:00,10,2026-04-01,2026-07-31
+SCH0120,DOC0120,"Max Healthcare Partner Centre, Banguluru",LOC0120,Saturday,10:00,15:00,15,2026-04-01,2026-07-31
+SCH0121,DOC0121,"Max Super Speciality Hospital, Saket",LOC0121,Thursday,11:00,17:00,10,2026-04-01,2026-07-31
+SCH0122,DOC0122,"Max Super Speciality Hospital, Patparganj",LOC0122,Saturday,09:00,17:00,10,2026-04-01,2026-07-31
+SCH0123,DOC0123,"Max Super Speciality Hospital, Vaishali",LOC0123,Tuesday,10:00,15:00,15,2026-04-01,2026-07-31
+SCH0124,DOC0124,"Max Super Speciality Hospital, Shalimar Bagh",LOC0124,Friday,09:00,15:00,20,2026-04-01,2026-07-31
+SCH0125,DOC0125,"Max Super Speciality Hospital, Gurgaon",LOC0125,Tuesday,09:00,15:00,10,2026-04-01,2026-07-31
+SCH0126,DOC0126,"Max Hospital, Noida",LOC0126,Wednesday,09:00,15:00,15,2026-04-01,2026-07-31
+SCH0127,DOC0127,"Max Hospital, Lucknow",LOC0127,Friday,09:00,17:00,15,2026-04-01,2026-07-31
+SCH0128,DOC0128,"Max Healthcare Partner Centre, Pune",LOC0128,Tuesday,10:00,16:00,20,2026-04-01,2026-07-31
+SCH0129,DOC0129,"Max Healthcare Partner Centre, Mumbai",LOC0129,Tuesday,10:00,15:00,10,2026-04-01,2026-07-31
+SCH0130,DOC0130,"Max Healthcare Partner Centre, Banguluru",LOC0130,Saturday,11:00,17:00,20,2026-04-01,2026-07-31
+SCH0131,DOC0131,"Max Super Speciality Hospital, Saket",LOC0131,Monday,11:00,15:00,15,2026-04-01,2026-07-31
+SCH0132,DOC0132,"Max Super Speciality Hospital, Patparganj",LOC0132,Monday,11:00,15:00,10,2026-04-01,2026-07-31
+SCH0133,DOC0133,"Max Super Speciality Hospital, Vaishali",LOC0133,Thursday,11:00,16:00,15,2026-04-01,2026-07-31
+SCH0134,DOC0134,"Max Super Speciality Hospital, Shalimar Bagh",LOC0134,Tuesday,10:00,16:00,20,2026-04-01,2026-07-31
+SCH0135,DOC0135,"Max Super Speciality Hospital, Gurgaon",LOC0135,Wednesday,11:00,16:00,20,2026-04-01,2026-07-31
+SCH0136,DOC0136,"Max Hospital, Noida",LOC0136,Tuesday,11:00,16:00,10,2026-04-01,2026-07-31
+SCH0137,DOC0137,"Max Hospital, Lucknow",LOC0137,Saturday,11:00,17:00,20,2026-04-01,2026-07-31
+SCH0138,DOC0138,"Max Healthcare Partner Centre, Pune",LOC0138,Friday,11:00,15:00,20,2026-04-01,2026-07-31
+SCH0139,DOC0139,"Max Healthcare Partner Centre, Mumbai",LOC0139,Saturday,11:00,16:00,20,2026-04-01,2026-07-31
+SCH0140,DOC0140,"Max Healthcare Partner Centre, Banguluru",LOC0140,Thursday,10:00,16:00,20,2026-04-01,2026-07-31
+SCH0141,DOC0141,"Max Super Speciality Hospital, Saket",LOC0141,Wednesday,09:00,17:00,20,2026-04-01,2026-07-31
+SCH0142,DOC0142,"Max Super Speciality Hospital, Patparganj",LOC0142,Saturday,11:00,17:00,15,2026-04-01,2026-07-31
+SCH0143,DOC0143,"Max Super Speciality Hospital, Vaishali",LOC0143,Saturday,10:00,17:00,10,2026-04-01,2026-07-31
+SCH0144,DOC0144,"Max Super Speciality Hospital, Shalimar Bagh",LOC0144,Friday,09:00,17:00,20,2026-04-01,2026-07-31
+SCH0145,DOC0145,"Max Super Speciality Hospital, Gurgaon",LOC0145,Saturday,11:00,16:00,20,2026-04-01,2026-07-31
+SCH0146,DOC0146,"Max Hospital, Noida",LOC0146,Saturday,11:00,17:00,15,2026-04-01,2026-07-31
+SCH0147,DOC0147,"Max Hospital, Lucknow",LOC0147,Tuesday,09:00,15:00,20,2026-04-01,2026-07-31
+SCH0148,DOC0148,"Max Healthcare Partner Centre, Pune",LOC0148,Monday,10:00,15:00,10,2026-04-01,2026-07-31
+SCH0149,DOC0149,"Max Healthcare Partner Centre, Mumbai",LOC0149,Friday,10:00,15:00,20,2026-04-01,2026-07-31
+SCH0150,DOC0150,"Max Healthcare Partner Centre, Banguluru",LOC0150,Friday,10:00,16:00,20,2026-04-01,2026-07-31
+SCH0151,DOC0151,"Max Super Speciality Hospital, Saket",LOC0151,Wednesday,09:00,16:00,15,2026-04-01,2026-07-31
+SCH0152,DOC0152,"Max Super Speciality Hospital, Patparganj",LOC0152,Wednesday,11:00,15:00,10,2026-04-01,2026-07-31
+SCH0153,DOC0153,"Max Super Speciality Hospital, Vaishali",LOC0153,Thursday,11:00,17:00,15,2026-04-01,2026-07-31
+SCH0154,DOC0154,"Max Super Speciality Hospital, Shalimar Bagh",LOC0154,Friday,09:00,17:00,15,2026-04-01,2026-07-31
+SCH0155,DOC0155,"Max Super Speciality Hospital, Gurgaon",LOC0155,Saturday,11:00,16:00,10,2026-04-01,2026-07-31
+SCH0156,DOC0156,"Max Hospital, Noida",LOC0156,Wednesday,10:00,16:00,10,2026-04-01,2026-07-31
+SCH0157,DOC0157,"Max Hospital, Lucknow",LOC0157,Tuesday,10:00,15:00,20,2026-04-01,2026-07-31
+SCH0158,DOC0158,"Max Healthcare Partner Centre, Pune",LOC0158,Monday,09:00,16:00,20,2026-04-01,2026-07-31
+SCH0159,DOC0159,"Max Healthcare Partner Centre, Mumbai",LOC0159,Tuesday,11:00,16:00,10,2026-04-01,2026-07-31
+SCH0160,DOC0160,"Max Healthcare Partner Centre, Banguluru",LOC0160,Monday,11:00,17:00,15,2026-04-01,2026-07-31
+SCH0161,DOC0161,"Max Super Speciality Hospital, Saket",LOC0161,Thursday,09:00,17:00,15,2026-04-01,2026-07-31
+SCH0162,DOC0162,"Max Super Speciality Hospital, Patparganj",LOC0162,Thursday,11:00,16:00,10,2026-04-01,2026-07-31
+SCH0163,DOC0163,"Max Super Speciality Hospital, Vaishali",LOC0163,Monday,09:00,15:00,10,2026-04-01,2026-07-31
+SCH0164,DOC0164,"Max Super Speciality Hospital, Shalimar Bagh",LOC0164,Friday,09:00,16:00,15,2026-04-01,2026-07-31
+SCH0165,DOC0165,"Max Super Speciality Hospital, Gurgaon",LOC0165,Monday,11:00,17:00,20,2026-04-01,2026-07-31
+SCH0166,DOC0166,"Max Hospital, Noida",LOC0166,Thursday,09:00,15:00,20,2026-04-01,2026-07-31
+SCH0167,DOC0167,"Max Hospital, Lucknow",LOC0167,Wednesday,09:00,16:00,20,2026-04-01,2026-07-31
+SCH0168,DOC0168,"Max Healthcare Partner Centre, Pune",LOC0168,Monday,11:00,17:00,15,2026-04-01,2026-07-31
+SCH0169,DOC0169,"Max Healthcare Partner Centre, Mumbai",LOC0169,Thursday,09:00,15:00,20,2026-04-01,2026-07-31
+SCH0170,DOC0170,"Max Healthcare Partner Centre, Banguluru",LOC0170,Monday,10:00,16:00,20,2026-04-01,2026-07-31
+SCH0171,DOC0171,"Max Super Speciality Hospital, Saket",LOC0171,Monday,09:00,17:00,20,2026-04-01,2026-07-31
+SCH0172,DOC0172,"Max Super Speciality Hospital, Patparganj",LOC0172,Thursday,09:00,16:00,15,2026-04-01,2026-07-31
+SCH0173,DOC0173,"Max Super Speciality Hospital, Vaishali",LOC0173,Wednesday,10:00,17:00,15,2026-04-01,2026-07-31
+SCH0174,DOC0174,"Max Super Speciality Hospital, Shalimar Bagh",LOC0174,Tuesday,10:00,16:00,15,2026-04-01,2026-07-31
+SCH0175,DOC0175,"Max Super Speciality Hospital, Gurgaon",LOC0175,Saturday,09:00,15:00,15,2026-04-01,2026-07-31
+SCH0176,DOC0176,"Max Hospital, Noida",LOC0176,Thursday,10:00,16:00,20,2026-04-01,2026-07-31
+SCH0177,DOC0177,"Max Hospital, Lucknow",LOC0177,Tuesday,10:00,15:00,15,2026-04-01,2026-07-31
+SCH0178,DOC0178,"Max Healthcare Partner Centre, Pune",LOC0178,Friday,09:00,16:00,15,2026-04-01,2026-07-31
+SCH0179,DOC0179,"Max Healthcare Partner Centre, Mumbai",LOC0179,Saturday,11:00,16:00,10,2026-04-01,2026-07-31
+SCH0180,DOC0180,"Max Healthcare Partner Centre, Banguluru",LOC0180,Monday,10:00,17:00,10,2026-04-01,2026-07-31
+SCH0181,DOC0181,"Max Super Speciality Hospital, Saket",LOC0181,Thursday,09:00,15:00,15,2026-04-01,2026-07-31
+SCH0182,DOC0182,"Max Super Speciality Hospital, Patparganj",LOC0182,Monday,10:00,17:00,20,2026-04-01,2026-07-31
+SCH0183,DOC0183,"Max Super Speciality Hospital, Vaishali",LOC0183,Tuesday,11:00,17:00,15,2026-04-01,2026-07-31
+SCH0184,DOC0184,"Max Super Speciality Hospital, Shalimar Bagh",LOC0184,Tuesday,10:00,17:00,20,2026-04-01,2026-07-31
+SCH0185,DOC0185,"Max Super Speciality Hospital, Gurgaon",LOC0185,Tuesday,11:00,17:00,10,2026-04-01,2026-07-31
+SCH0186,DOC0186,"Max Hospital, Noida",LOC0186,Tuesday,10:00,17:00,20,2026-04-01,2026-07-31
+SCH0187,DOC0187,"Max Hospital, Lucknow",LOC0187,Friday,10:00,15:00,15,2026-04-01,2026-07-31
+SCH0188,DOC0188,"Max Healthcare Partner Centre, Pune",LOC0188,Friday,11:00,15:00,20,2026-04-01,2026-07-31
+SCH0189,DOC0189,"Max Healthcare Partner Centre, Mumbai",LOC0189,Wednesday,09:00,15:00,15,2026-04-01,2026-07-31
+SCH0190,DOC0190,"Max Healthcare Partner Centre, Banguluru",LOC0190,Monday,10:00,17:00,10,2026-04-01,2026-07-31
+SCH0191,DOC0191,"Max Super Speciality Hospital, Saket",LOC0191,Monday,10:00,16:00,15,2026-04-01,2026-07-31
+SCH0192,DOC0192,"Max Super Speciality Hospital, Patparganj",LOC0192,Monday,11:00,15:00,15,2026-04-01,2026-07-31
+SCH0193,DOC0193,"Max Super Speciality Hospital, Vaishali",LOC0193,Monday,11:00,15:00,10,2026-04-01,2026-07-31
+SCH0194,DOC0194,"Max Super Speciality Hospital, Shalimar Bagh",LOC0194,Friday,09:00,16:00,10,2026-04-01,2026-07-31
+SCH0195,DOC0195,"Max Super Speciality Hospital, Gurgaon",LOC0195,Wednesday,11:00,15:00,15,2026-04-01,2026-07-31
+SCH0196,DOC0196,"Max Hospital, Noida",LOC0196,Tuesday,09:00,17:00,10,2026-04-01,2026-07-31
+SCH0197,DOC0197,"Max Hospital, Lucknow",LOC0197,Friday,09:00,17:00,20,2026-04-01,2026-07-31
+SCH0198,DOC0198,"Max Healthcare Partner Centre, Pune",LOC0198,Monday,10:00,15:00,10,2026-04-01,2026-07-31
+SCH0199,DOC0199,"Max Healthcare Partner Centre, Mumbai",LOC0199,Thursday,10:00,17:00,10,2026-04-01,2026-07-31
+SCH0200,DOC0200,"Max Healthcare Partner Centre, Banguluru",LOC0200,Monday,10:00,17:00,20,2026-04-01,2026-07-31
+SCH0201,DOC0201,"Max Super Speciality Hospital, Saket",LOC0201,Friday,09:00,15:00,20,2026-04-01,2026-07-31
+SCH0202,DOC0202,"Max Super Speciality Hospital, Patparganj",LOC0202,Friday,11:00,17:00,20,2026-04-01,2026-07-31
+SCH0203,DOC0203,"Max Super Speciality Hospital, Vaishali",LOC0203,Saturday,09:00,15:00,20,2026-04-01,2026-07-31
+SCH0204,DOC0204,"Max Super Speciality Hospital, Shalimar Bagh",LOC0204,Monday,10:00,17:00,20,2026-04-01,2026-07-31
+SCH0205,DOC0205,"Max Super Speciality Hospital, Gurgaon",LOC0205,Friday,10:00,17:00,20,2026-04-01,2026-07-31
+SCH0206,DOC0206,"Max Hospital, Noida",LOC0206,Wednesday,09:00,15:00,20,2026-04-01,2026-07-31
+SCH0207,DOC0207,"Max Hospital, Lucknow",LOC0207,Tuesday,11:00,17:00,20,2026-04-01,2026-07-31
+SCH0208,DOC0208,"Max Healthcare Partner Centre, Pune",LOC0208,Saturday,09:00,16:00,15,2026-04-01,2026-07-31
+SCH0209,DOC0209,"Max Healthcare Partner Centre, Mumbai",LOC0209,Thursday,11:00,16:00,20,2026-04-01,2026-07-31
+SCH0210,DOC0210,"Max Healthcare Partner Centre, Banguluru",LOC0210,Tuesday,09:00,16:00,10,2026-04-01,2026-07-31
+SCH0211,DOC0211,"Max Super Speciality Hospital, Saket",LOC0211,Monday,11:00,17:00,20,2026-04-01,2026-07-31
+SCH0212,DOC0212,"Max Super Speciality Hospital, Patparganj",LOC0212,Friday,10:00,15:00,15,2026-04-01,2026-07-31
+SCH0213,DOC0213,"Max Super Speciality Hospital, Vaishali",LOC0213,Thursday,09:00,15:00,10,2026-04-01,2026-07-31
+SCH0214,DOC0214,"Max Super Speciality Hospital, Shalimar Bagh",LOC0214,Saturday,09:00,16:00,15,2026-04-01,2026-07-31
+SCH0215,DOC0215,"Max Super Speciality Hospital, Gurgaon",LOC0215,Monday,09:00,15:00,10,2026-04-01,2026-07-31
+SCH0216,DOC0216,"Max Hospital, Noida",LOC0216,Saturday,10:00,16:00,20,2026-04-01,2026-07-31
+SCH0217,DOC0217,"Max Hospital, Lucknow",LOC0217,Wednesday,09:00,16:00,15,2026-04-01,2026-07-31
+SCH0218,DOC0218,"Max Healthcare Partner Centre, Pune",LOC0218,Monday,11:00,15:00,10,2026-04-01,2026-07-31
+SCH0219,DOC0219,"Max Healthcare Partner Centre, Mumbai",LOC0219,Friday,10:00,17:00,20,2026-04-01,2026-07-31
+SCH0220,DOC0220,"Max Healthcare Partner Centre, Banguluru",LOC0220,Tuesday,09:00,16:00,15,2026-04-01,2026-07-31

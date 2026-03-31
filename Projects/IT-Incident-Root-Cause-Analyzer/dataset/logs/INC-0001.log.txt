@@ -1,0 +1,13 @@
+2026-03-20T14:00:12.441Z checkout-api INFO  operation_Id=a1b2c3d4e5f67890 trace_id=4bf92f3577b34da6a3ce929d0e0e4736 Starting charge flow orderId=ord_99212
+{"timestamp":"2026-03-20T14:00:20.120Z","service":"checkout-api","level":"ERROR","trace_id":"4bf92f3577b34da6a3ce929d0e0e4736","operation_Id":"a1b2c3d4e5f67890","dependency":"payments-sql","error":"System.TimeoutException","durationMs":30012,"message":"Charge call exceeded 30s budget","env":"prod","region":"eastus"}
+at PaymentClient.Charge(PaymentClient.cs:214)
+at CheckoutController.Charge(CheckoutController.cs:88)
+at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+{"timestamp":"2026-03-20T14:00:21.003Z","service":"checkout-api","level":"WARN","trace_id":"4bf92f3577b34da6a3ce929d0e0e4736","operation_Id":"a1b2c3d4e5f67890","message":"retry=2 upstream=payments timeout=30s trace_id=4bf92f3577b34da6a3ce929d0e0e4736","env":"prod","region":"eastus"}
+{"timestamp":"2026-03-20T14:00:22.902Z","service":"checkout-api","level":"ERROR","trace_id":"4bf92f3577b34da6a3ce929d0e0e4736","operation_Id":"a1b2c3d4e5f67890","error":"Timeout","resultCode":"Timeout","durationMs":30244,"message":"Upstream dependency timed out while charging order","env":"prod","region":"eastus"}
+2026-03-20T14:00:35.801Z checkout-api INFO operation_Id=a1b2c3d4e5f67890 trace_id=4bf92f3577b34da6a3ce929d0e0e4736 Returning 502 to client
+
+--- noise from other services ---
+{"timestamp":"2026-03-20T14:01:05.120Z","service":"shipping-api","level":"WARN","message":"retry=1 upstream=shipping timeout=5000ms","env":"prod","region":"eastus"}
+2026-03-20T14:01:10.000Z billing-worker INFO operation_Id=zz99yy88xx77 trace_id=0000 no-op
+

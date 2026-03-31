@@ -1,0 +1,6 @@
+2026-03-27T21:10:12.020Z checkout-api INFO operation_Id=0abc0def0abc0def trace_id=0a0b0c0d0e0f10111213141516171819 Starting order payment
+{"timestamp":"2026-03-27T21:10:18.889Z","service":"checkout-api","level":"ERROR","trace_id":"0a0b0c0d0e0f10111213141516171819","operation_Id":"0abc0def0abc0def","dependency":"payments-sql","error":"Timeout","durationMs":24533,"message":"Read timed out while waiting for SQL response","env":"prod","region":"westus"}
+at SqlClient.ExecuteReaderAsync(...)
+2026-03-27T21:10:19.020Z checkout-api WARN retry=3 upstream=payments-sql timeout=30s trace_id=0a0b0c0d0e0f10111213141516171819
+{"timestamp":"2026-03-27T21:10:41.144Z","service":"checkout-api","level":"ERROR","trace_id":"0a0b0c0d0e0f10111213141516171819","operation_Id":"0abc0def0abc0def","error":"System.TimeoutException","durationMs":30012,"message":"PaymentClient charge call exceeded 30s","env":"prod","region":"westus"}
+2026-03-27T21:10:45.000Z checkout-api INFO Returning 504 to client

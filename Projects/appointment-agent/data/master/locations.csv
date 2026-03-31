@@ -1,0 +1,221 @@
+location_id,hospital_name,branch_code,city,state,pincode,timezone
+LOC0001,"Max Super Speciality Hospital, Saket",MAX-0001,delhi,DL,110001,Asia/Kolkata
+LOC0002,"Max Super Speciality Hospital, Patparganj",MAX-0002,noida,UP,201302,Asia/Kolkata
+LOC0003,"Max Super Speciality Hospital, Vaishali",MAX-0003,ghaziabad,UP,201003,Asia/Kolkata
+LOC0004,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0004,gurugram,HR,122004,Asia/Kolkata
+LOC0005,"Max Super Speciality Hospital, Gurgaon",MAX-0005,lucknow,UP,226005,Asia/Kolkata
+LOC0006,"Max Hospital, Noida",MAX-0006,pune,MH,411006,Asia/Kolkata
+LOC0007,"Max Hospital, Lucknow",MAX-0007,Mumbai,MH,400007,Asia/Kolkata
+LOC0008,"Max Healthcare Partner Centre, Pune",MAX-0008,Banguluru,KA,560008,Asia/Kolkata
+LOC0009,"Max Healthcare Partner Centre, Mumbai",MAX-0009,delhi,DL,110009,Asia/Kolkata
+LOC0010,"Max Healthcare Partner Centre, Banguluru",MAX-0010,noida,UP,201310,Asia/Kolkata
+LOC0011,"Max Super Speciality Hospital, Saket",MAX-0011,ghaziabad,UP,201011,Asia/Kolkata
+LOC0012,"Max Super Speciality Hospital, Patparganj",MAX-0012,gurugram,HR,122012,Asia/Kolkata
+LOC0013,"Max Super Speciality Hospital, Vaishali",MAX-0013,lucknow,UP,226013,Asia/Kolkata
+LOC0014,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0014,pune,MH,411014,Asia/Kolkata
+LOC0015,"Max Super Speciality Hospital, Gurgaon",MAX-0015,Mumbai,MH,400015,Asia/Kolkata
+LOC0016,"Max Hospital, Noida",MAX-0016,Banguluru,KA,560016,Asia/Kolkata
+LOC0017,"Max Hospital, Lucknow",MAX-0017,delhi,DL,110017,Asia/Kolkata
+LOC0018,"Max Healthcare Partner Centre, Pune",MAX-0018,noida,UP,201318,Asia/Kolkata
+LOC0019,"Max Healthcare Partner Centre, Mumbai",MAX-0019,ghaziabad,UP,201019,Asia/Kolkata
+LOC0020,"Max Healthcare Partner Centre, Banguluru",MAX-0020,gurugram,HR,122020,Asia/Kolkata
+LOC0021,"Max Super Speciality Hospital, Saket",MAX-0021,lucknow,UP,226021,Asia/Kolkata
+LOC0022,"Max Super Speciality Hospital, Patparganj",MAX-0022,pune,MH,411022,Asia/Kolkata
+LOC0023,"Max Super Speciality Hospital, Vaishali",MAX-0023,Mumbai,MH,400023,Asia/Kolkata
+LOC0024,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0024,Banguluru,KA,560024,Asia/Kolkata
+LOC0025,"Max Super Speciality Hospital, Gurgaon",MAX-0025,delhi,DL,110025,Asia/Kolkata
+LOC0026,"Max Hospital, Noida",MAX-0026,noida,UP,201326,Asia/Kolkata
+LOC0027,"Max Hospital, Lucknow",MAX-0027,ghaziabad,UP,201027,Asia/Kolkata
+LOC0028,"Max Healthcare Partner Centre, Pune",MAX-0028,gurugram,HR,122028,Asia/Kolkata
+LOC0029,"Max Healthcare Partner Centre, Mumbai",MAX-0029,lucknow,UP,226029,Asia/Kolkata
+LOC0030,"Max Healthcare Partner Centre, Banguluru",MAX-0030,pune,MH,411030,Asia/Kolkata
+LOC0031,"Max Super Speciality Hospital, Saket",MAX-0031,Mumbai,MH,400031,Asia/Kolkata
+LOC0032,"Max Super Speciality Hospital, Patparganj",MAX-0032,Banguluru,KA,560032,Asia/Kolkata
+LOC0033,"Max Super Speciality Hospital, Vaishali",MAX-0033,delhi,DL,110033,Asia/Kolkata
+LOC0034,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0034,noida,UP,201334,Asia/Kolkata
+LOC0035,"Max Super Speciality Hospital, Gurgaon",MAX-0035,ghaziabad,UP,201035,Asia/Kolkata
+LOC0036,"Max Hospital, Noida",MAX-0036,gurugram,HR,122036,Asia/Kolkata
+LOC0037,"Max Hospital, Lucknow",MAX-0037,lucknow,UP,226037,Asia/Kolkata
+LOC0038,"Max Healthcare Partner Centre, Pune",MAX-0038,pune,MH,411038,Asia/Kolkata
+LOC0039,"Max Healthcare Partner Centre, Mumbai",MAX-0039,Mumbai,MH,400039,Asia/Kolkata
+LOC0040,"Max Healthcare Partner Centre, Banguluru",MAX-0040,Banguluru,KA,560040,Asia/Kolkata
+LOC0041,"Max Super Speciality Hospital, Saket",MAX-0041,delhi,DL,110041,Asia/Kolkata
+LOC0042,"Max Super Speciality Hospital, Patparganj",MAX-0042,noida,UP,201342,Asia/Kolkata
+LOC0043,"Max Super Speciality Hospital, Vaishali",MAX-0043,ghaziabad,UP,201043,Asia/Kolkata
+LOC0044,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0044,gurugram,HR,122044,Asia/Kolkata
+LOC0045,"Max Super Speciality Hospital, Gurgaon",MAX-0045,lucknow,UP,226045,Asia/Kolkata
+LOC0046,"Max Hospital, Noida",MAX-0046,pune,MH,411046,Asia/Kolkata
+LOC0047,"Max Hospital, Lucknow",MAX-0047,Mumbai,MH,400047,Asia/Kolkata
+LOC0048,"Max Healthcare Partner Centre, Pune",MAX-0048,Banguluru,KA,560048,Asia/Kolkata
+LOC0049,"Max Healthcare Partner Centre, Mumbai",MAX-0049,delhi,DL,110049,Asia/Kolkata
+LOC0050,"Max Healthcare Partner Centre, Banguluru",MAX-0050,noida,UP,201350,Asia/Kolkata
+LOC0051,"Max Super Speciality Hospital, Saket",MAX-0051,ghaziabad,UP,201051,Asia/Kolkata
+LOC0052,"Max Super Speciality Hospital, Patparganj",MAX-0052,gurugram,HR,122052,Asia/Kolkata
+LOC0053,"Max Super Speciality Hospital, Vaishali",MAX-0053,lucknow,UP,226053,Asia/Kolkata
+LOC0054,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0054,pune,MH,411054,Asia/Kolkata
+LOC0055,"Max Super Speciality Hospital, Gurgaon",MAX-0055,Mumbai,MH,400055,Asia/Kolkata
+LOC0056,"Max Hospital, Noida",MAX-0056,Banguluru,KA,560056,Asia/Kolkata
+LOC0057,"Max Hospital, Lucknow",MAX-0057,delhi,DL,110057,Asia/Kolkata
+LOC0058,"Max Healthcare Partner Centre, Pune",MAX-0058,noida,UP,201358,Asia/Kolkata
+LOC0059,"Max Healthcare Partner Centre, Mumbai",MAX-0059,ghaziabad,UP,201059,Asia/Kolkata
+LOC0060,"Max Healthcare Partner Centre, Banguluru",MAX-0060,gurugram,HR,122060,Asia/Kolkata
+LOC0061,"Max Super Speciality Hospital, Saket",MAX-0061,lucknow,UP,226061,Asia/Kolkata
+LOC0062,"Max Super Speciality Hospital, Patparganj",MAX-0062,pune,MH,411062,Asia/Kolkata
+LOC0063,"Max Super Speciality Hospital, Vaishali",MAX-0063,Mumbai,MH,400063,Asia/Kolkata
+LOC0064,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0064,Banguluru,KA,560064,Asia/Kolkata
+LOC0065,"Max Super Speciality Hospital, Gurgaon",MAX-0065,delhi,DL,110065,Asia/Kolkata
+LOC0066,"Max Hospital, Noida",MAX-0066,noida,UP,201366,Asia/Kolkata
+LOC0067,"Max Hospital, Lucknow",MAX-0067,ghaziabad,UP,201067,Asia/Kolkata
+LOC0068,"Max Healthcare Partner Centre, Pune",MAX-0068,gurugram,HR,122068,Asia/Kolkata
+LOC0069,"Max Healthcare Partner Centre, Mumbai",MAX-0069,lucknow,UP,226069,Asia/Kolkata
+LOC0070,"Max Healthcare Partner Centre, Banguluru",MAX-0070,pune,MH,411070,Asia/Kolkata
+LOC0071,"Max Super Speciality Hospital, Saket",MAX-0071,Mumbai,MH,400001,Asia/Kolkata
+LOC0072,"Max Super Speciality Hospital, Patparganj",MAX-0072,Banguluru,KA,560002,Asia/Kolkata
+LOC0073,"Max Super Speciality Hospital, Vaishali",MAX-0073,delhi,DL,110003,Asia/Kolkata
+LOC0074,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0074,noida,UP,201304,Asia/Kolkata
+LOC0075,"Max Super Speciality Hospital, Gurgaon",MAX-0075,ghaziabad,UP,201005,Asia/Kolkata
+LOC0076,"Max Hospital, Noida",MAX-0076,gurugram,HR,122006,Asia/Kolkata
+LOC0077,"Max Hospital, Lucknow",MAX-0077,lucknow,UP,226007,Asia/Kolkata
+LOC0078,"Max Healthcare Partner Centre, Pune",MAX-0078,pune,MH,411008,Asia/Kolkata
+LOC0079,"Max Healthcare Partner Centre, Mumbai",MAX-0079,Mumbai,MH,400009,Asia/Kolkata
+LOC0080,"Max Healthcare Partner Centre, Banguluru",MAX-0080,Banguluru,KA,560010,Asia/Kolkata
+LOC0081,"Max Super Speciality Hospital, Saket",MAX-0081,delhi,DL,110011,Asia/Kolkata
+LOC0082,"Max Super Speciality Hospital, Patparganj",MAX-0082,noida,UP,201312,Asia/Kolkata
+LOC0083,"Max Super Speciality Hospital, Vaishali",MAX-0083,ghaziabad,UP,201013,Asia/Kolkata
+LOC0084,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0084,gurugram,HR,122014,Asia/Kolkata
+LOC0085,"Max Super Speciality Hospital, Gurgaon",MAX-0085,lucknow,UP,226015,Asia/Kolkata
+LOC0086,"Max Hospital, Noida",MAX-0086,pune,MH,411016,Asia/Kolkata
+LOC0087,"Max Hospital, Lucknow",MAX-0087,Mumbai,MH,400017,Asia/Kolkata
+LOC0088,"Max Healthcare Partner Centre, Pune",MAX-0088,Banguluru,KA,560018,Asia/Kolkata
+LOC0089,"Max Healthcare Partner Centre, Mumbai",MAX-0089,delhi,DL,110019,Asia/Kolkata
+LOC0090,"Max Healthcare Partner Centre, Banguluru",MAX-0090,noida,UP,201320,Asia/Kolkata
+LOC0091,"Max Super Speciality Hospital, Saket",MAX-0091,ghaziabad,UP,201021,Asia/Kolkata
+LOC0092,"Max Super Speciality Hospital, Patparganj",MAX-0092,gurugram,HR,122022,Asia/Kolkata
+LOC0093,"Max Super Speciality Hospital, Vaishali",MAX-0093,lucknow,UP,226023,Asia/Kolkata
+LOC0094,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0094,pune,MH,411024,Asia/Kolkata
+LOC0095,"Max Super Speciality Hospital, Gurgaon",MAX-0095,Mumbai,MH,400025,Asia/Kolkata
+LOC0096,"Max Hospital, Noida",MAX-0096,Banguluru,KA,560026,Asia/Kolkata
+LOC0097,"Max Hospital, Lucknow",MAX-0097,delhi,DL,110027,Asia/Kolkata
+LOC0098,"Max Healthcare Partner Centre, Pune",MAX-0098,noida,UP,201328,Asia/Kolkata
+LOC0099,"Max Healthcare Partner Centre, Mumbai",MAX-0099,ghaziabad,UP,201029,Asia/Kolkata
+LOC0100,"Max Healthcare Partner Centre, Banguluru",MAX-0100,gurugram,HR,122030,Asia/Kolkata
+LOC0101,"Max Super Speciality Hospital, Saket",MAX-0101,lucknow,UP,226031,Asia/Kolkata
+LOC0102,"Max Super Speciality Hospital, Patparganj",MAX-0102,pune,MH,411032,Asia/Kolkata
+LOC0103,"Max Super Speciality Hospital, Vaishali",MAX-0103,Mumbai,MH,400033,Asia/Kolkata
+LOC0104,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0104,Banguluru,KA,560034,Asia/Kolkata
+LOC0105,"Max Super Speciality Hospital, Gurgaon",MAX-0105,delhi,DL,110035,Asia/Kolkata
+LOC0106,"Max Hospital, Noida",MAX-0106,noida,UP,201336,Asia/Kolkata
+LOC0107,"Max Hospital, Lucknow",MAX-0107,ghaziabad,UP,201037,Asia/Kolkata
+LOC0108,"Max Healthcare Partner Centre, Pune",MAX-0108,gurugram,HR,122038,Asia/Kolkata
+LOC0109,"Max Healthcare Partner Centre, Mumbai",MAX-0109,lucknow,UP,226039,Asia/Kolkata
+LOC0110,"Max Healthcare Partner Centre, Banguluru",MAX-0110,pune,MH,411040,Asia/Kolkata
+LOC0111,"Max Super Speciality Hospital, Saket",MAX-0111,Mumbai,MH,400041,Asia/Kolkata
+LOC0112,"Max Super Speciality Hospital, Patparganj",MAX-0112,Banguluru,KA,560042,Asia/Kolkata
+LOC0113,"Max Super Speciality Hospital, Vaishali",MAX-0113,delhi,DL,110043,Asia/Kolkata
+LOC0114,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0114,noida,UP,201344,Asia/Kolkata
+LOC0115,"Max Super Speciality Hospital, Gurgaon",MAX-0115,ghaziabad,UP,201045,Asia/Kolkata
+LOC0116,"Max Hospital, Noida",MAX-0116,gurugram,HR,122046,Asia/Kolkata
+LOC0117,"Max Hospital, Lucknow",MAX-0117,lucknow,UP,226047,Asia/Kolkata
+LOC0118,"Max Healthcare Partner Centre, Pune",MAX-0118,pune,MH,411048,Asia/Kolkata
+LOC0119,"Max Healthcare Partner Centre, Mumbai",MAX-0119,Mumbai,MH,400049,Asia/Kolkata
+LOC0120,"Max Healthcare Partner Centre, Banguluru",MAX-0120,Banguluru,KA,560050,Asia/Kolkata
+LOC0121,"Max Super Speciality Hospital, Saket",MAX-0121,delhi,DL,110051,Asia/Kolkata
+LOC0122,"Max Super Speciality Hospital, Patparganj",MAX-0122,noida,UP,201352,Asia/Kolkata
+LOC0123,"Max Super Speciality Hospital, Vaishali",MAX-0123,ghaziabad,UP,201053,Asia/Kolkata
+LOC0124,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0124,gurugram,HR,122054,Asia/Kolkata
+LOC0125,"Max Super Speciality Hospital, Gurgaon",MAX-0125,lucknow,UP,226055,Asia/Kolkata
+LOC0126,"Max Hospital, Noida",MAX-0126,pune,MH,411056,Asia/Kolkata
+LOC0127,"Max Hospital, Lucknow",MAX-0127,Mumbai,MH,400057,Asia/Kolkata
+LOC0128,"Max Healthcare Partner Centre, Pune",MAX-0128,Banguluru,KA,560058,Asia/Kolkata
+LOC0129,"Max Healthcare Partner Centre, Mumbai",MAX-0129,delhi,DL,110059,Asia/Kolkata
+LOC0130,"Max Healthcare Partner Centre, Banguluru",MAX-0130,noida,UP,201360,Asia/Kolkata
+LOC0131,"Max Super Speciality Hospital, Saket",MAX-0131,ghaziabad,UP,201061,Asia/Kolkata
+LOC0132,"Max Super Speciality Hospital, Patparganj",MAX-0132,gurugram,HR,122062,Asia/Kolkata
+LOC0133,"Max Super Speciality Hospital, Vaishali",MAX-0133,lucknow,UP,226063,Asia/Kolkata
+LOC0134,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0134,pune,MH,411064,Asia/Kolkata
+LOC0135,"Max Super Speciality Hospital, Gurgaon",MAX-0135,Mumbai,MH,400065,Asia/Kolkata
+LOC0136,"Max Hospital, Noida",MAX-0136,Banguluru,KA,560066,Asia/Kolkata
+LOC0137,"Max Hospital, Lucknow",MAX-0137,delhi,DL,110067,Asia/Kolkata
+LOC0138,"Max Healthcare Partner Centre, Pune",MAX-0138,noida,UP,201368,Asia/Kolkata
+LOC0139,"Max Healthcare Partner Centre, Mumbai",MAX-0139,ghaziabad,UP,201069,Asia/Kolkata
+LOC0140,"Max Healthcare Partner Centre, Banguluru",MAX-0140,gurugram,HR,122070,Asia/Kolkata
+LOC0141,"Max Super Speciality Hospital, Saket",MAX-0141,lucknow,UP,226001,Asia/Kolkata
+LOC0142,"Max Super Speciality Hospital, Patparganj",MAX-0142,pune,MH,411002,Asia/Kolkata
+LOC0143,"Max Super Speciality Hospital, Vaishali",MAX-0143,Mumbai,MH,400003,Asia/Kolkata
+LOC0144,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0144,Banguluru,KA,560004,Asia/Kolkata
+LOC0145,"Max Super Speciality Hospital, Gurgaon",MAX-0145,delhi,DL,110005,Asia/Kolkata
+LOC0146,"Max Hospital, Noida",MAX-0146,noida,UP,201306,Asia/Kolkata
+LOC0147,"Max Hospital, Lucknow",MAX-0147,ghaziabad,UP,201007,Asia/Kolkata
+LOC0148,"Max Healthcare Partner Centre, Pune",MAX-0148,gurugram,HR,122008,Asia/Kolkata
+LOC0149,"Max Healthcare Partner Centre, Mumbai",MAX-0149,lucknow,UP,226009,Asia/Kolkata
+LOC0150,"Max Healthcare Partner Centre, Banguluru",MAX-0150,pune,MH,411010,Asia/Kolkata
+LOC0151,"Max Super Speciality Hospital, Saket",MAX-0151,Mumbai,MH,400011,Asia/Kolkata
+LOC0152,"Max Super Speciality Hospital, Patparganj",MAX-0152,Banguluru,KA,560012,Asia/Kolkata
+LOC0153,"Max Super Speciality Hospital, Vaishali",MAX-0153,delhi,DL,110013,Asia/Kolkata
+LOC0154,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0154,noida,UP,201314,Asia/Kolkata
+LOC0155,"Max Super Speciality Hospital, Gurgaon",MAX-0155,ghaziabad,UP,201015,Asia/Kolkata
+LOC0156,"Max Hospital, Noida",MAX-0156,gurugram,HR,122016,Asia/Kolkata
+LOC0157,"Max Hospital, Lucknow",MAX-0157,lucknow,UP,226017,Asia/Kolkata
+LOC0158,"Max Healthcare Partner Centre, Pune",MAX-0158,pune,MH,411018,Asia/Kolkata
+LOC0159,"Max Healthcare Partner Centre, Mumbai",MAX-0159,Mumbai,MH,400019,Asia/Kolkata
+LOC0160,"Max Healthcare Partner Centre, Banguluru",MAX-0160,Banguluru,KA,560020,Asia/Kolkata
+LOC0161,"Max Super Speciality Hospital, Saket",MAX-0161,delhi,DL,110021,Asia/Kolkata
+LOC0162,"Max Super Speciality Hospital, Patparganj",MAX-0162,noida,UP,201322,Asia/Kolkata
+LOC0163,"Max Super Speciality Hospital, Vaishali",MAX-0163,ghaziabad,UP,201023,Asia/Kolkata
+LOC0164,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0164,gurugram,HR,122024,Asia/Kolkata
+LOC0165,"Max Super Speciality Hospital, Gurgaon",MAX-0165,lucknow,UP,226025,Asia/Kolkata
+LOC0166,"Max Hospital, Noida",MAX-0166,pune,MH,411026,Asia/Kolkata
+LOC0167,"Max Hospital, Lucknow",MAX-0167,Mumbai,MH,400027,Asia/Kolkata
+LOC0168,"Max Healthcare Partner Centre, Pune",MAX-0168,Banguluru,KA,560028,Asia/Kolkata
+LOC0169,"Max Healthcare Partner Centre, Mumbai",MAX-0169,delhi,DL,110029,Asia/Kolkata
+LOC0170,"Max Healthcare Partner Centre, Banguluru",MAX-0170,noida,UP,201330,Asia/Kolkata
+LOC0171,"Max Super Speciality Hospital, Saket",MAX-0171,ghaziabad,UP,201031,Asia/Kolkata
+LOC0172,"Max Super Speciality Hospital, Patparganj",MAX-0172,gurugram,HR,122032,Asia/Kolkata
+LOC0173,"Max Super Speciality Hospital, Vaishali",MAX-0173,lucknow,UP,226033,Asia/Kolkata
+LOC0174,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0174,pune,MH,411034,Asia/Kolkata
+LOC0175,"Max Super Speciality Hospital, Gurgaon",MAX-0175,Mumbai,MH,400035,Asia/Kolkata
+LOC0176,"Max Hospital, Noida",MAX-0176,Banguluru,KA,560036,Asia/Kolkata
+LOC0177,"Max Hospital, Lucknow",MAX-0177,delhi,DL,110037,Asia/Kolkata
+LOC0178,"Max Healthcare Partner Centre, Pune",MAX-0178,noida,UP,201338,Asia/Kolkata
+LOC0179,"Max Healthcare Partner Centre, Mumbai",MAX-0179,ghaziabad,UP,201039,Asia/Kolkata
+LOC0180,"Max Healthcare Partner Centre, Banguluru",MAX-0180,gurugram,HR,122040,Asia/Kolkata
+LOC0181,"Max Super Speciality Hospital, Saket",MAX-0181,lucknow,UP,226041,Asia/Kolkata
+LOC0182,"Max Super Speciality Hospital, Patparganj",MAX-0182,pune,MH,411042,Asia/Kolkata
+LOC0183,"Max Super Speciality Hospital, Vaishali",MAX-0183,Mumbai,MH,400043,Asia/Kolkata
+LOC0184,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0184,Banguluru,KA,560044,Asia/Kolkata
+LOC0185,"Max Super Speciality Hospital, Gurgaon",MAX-0185,delhi,DL,110045,Asia/Kolkata
+LOC0186,"Max Hospital, Noida",MAX-0186,noida,UP,201346,Asia/Kolkata
+LOC0187,"Max Hospital, Lucknow",MAX-0187,ghaziabad,UP,201047,Asia/Kolkata
+LOC0188,"Max Healthcare Partner Centre, Pune",MAX-0188,gurugram,HR,122048,Asia/Kolkata
+LOC0189,"Max Healthcare Partner Centre, Mumbai",MAX-0189,lucknow,UP,226049,Asia/Kolkata
+LOC0190,"Max Healthcare Partner Centre, Banguluru",MAX-0190,pune,MH,411050,Asia/Kolkata
+LOC0191,"Max Super Speciality Hospital, Saket",MAX-0191,Mumbai,MH,400051,Asia/Kolkata
+LOC0192,"Max Super Speciality Hospital, Patparganj",MAX-0192,Banguluru,KA,560052,Asia/Kolkata
+LOC0193,"Max Super Speciality Hospital, Vaishali",MAX-0193,delhi,DL,110053,Asia/Kolkata
+LOC0194,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0194,noida,UP,201354,Asia/Kolkata
+LOC0195,"Max Super Speciality Hospital, Gurgaon",MAX-0195,ghaziabad,UP,201055,Asia/Kolkata
+LOC0196,"Max Hospital, Noida",MAX-0196,gurugram,HR,122056,Asia/Kolkata
+LOC0197,"Max Hospital, Lucknow",MAX-0197,lucknow,UP,226057,Asia/Kolkata
+LOC0198,"Max Healthcare Partner Centre, Pune",MAX-0198,pune,MH,411058,Asia/Kolkata
+LOC0199,"Max Healthcare Partner Centre, Mumbai",MAX-0199,Mumbai,MH,400059,Asia/Kolkata
+LOC0200,"Max Healthcare Partner Centre, Banguluru",MAX-0200,Banguluru,KA,560060,Asia/Kolkata
+LOC0201,"Max Super Speciality Hospital, Saket",MAX-0201,delhi,DL,110061,Asia/Kolkata
+LOC0202,"Max Super Speciality Hospital, Patparganj",MAX-0202,noida,UP,201362,Asia/Kolkata
+LOC0203,"Max Super Speciality Hospital, Vaishali",MAX-0203,ghaziabad,UP,201063,Asia/Kolkata
+LOC0204,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0204,gurugram,HR,122064,Asia/Kolkata
+LOC0205,"Max Super Speciality Hospital, Gurgaon",MAX-0205,lucknow,UP,226065,Asia/Kolkata
+LOC0206,"Max Hospital, Noida",MAX-0206,pune,MH,411066,Asia/Kolkata
+LOC0207,"Max Hospital, Lucknow",MAX-0207,Mumbai,MH,400067,Asia/Kolkata
+LOC0208,"Max Healthcare Partner Centre, Pune",MAX-0208,Banguluru,KA,560068,Asia/Kolkata
+LOC0209,"Max Healthcare Partner Centre, Mumbai",MAX-0209,delhi,DL,110069,Asia/Kolkata
+LOC0210,"Max Healthcare Partner Centre, Banguluru",MAX-0210,noida,UP,201370,Asia/Kolkata
+LOC0211,"Max Super Speciality Hospital, Saket",MAX-0211,ghaziabad,UP,201001,Asia/Kolkata
+LOC0212,"Max Super Speciality Hospital, Patparganj",MAX-0212,gurugram,HR,122002,Asia/Kolkata
+LOC0213,"Max Super Speciality Hospital, Vaishali",MAX-0213,lucknow,UP,226003,Asia/Kolkata
+LOC0214,"Max Super Speciality Hospital, Shalimar Bagh",MAX-0214,pune,MH,411004,Asia/Kolkata
+LOC0215,"Max Super Speciality Hospital, Gurgaon",MAX-0215,Mumbai,MH,400005,Asia/Kolkata
+LOC0216,"Max Hospital, Noida",MAX-0216,Banguluru,KA,560006,Asia/Kolkata
+LOC0217,"Max Hospital, Lucknow",MAX-0217,delhi,DL,110007,Asia/Kolkata
+LOC0218,"Max Healthcare Partner Centre, Pune",MAX-0218,noida,UP,201308,Asia/Kolkata
+LOC0219,"Max Healthcare Partner Centre, Mumbai",MAX-0219,ghaziabad,UP,201009,Asia/Kolkata
+LOC0220,"Max Healthcare Partner Centre, Banguluru",MAX-0220,gurugram,HR,122010,Asia/Kolkata

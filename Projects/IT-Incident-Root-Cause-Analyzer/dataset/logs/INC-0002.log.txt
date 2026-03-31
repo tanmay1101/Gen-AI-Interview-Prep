@@ -1,0 +1,7 @@
+2026-03-22T09:20:18.010Z checkout-api INFO operation_Id=cc33aa77dd88ee99 trace_id=11112222333344445555666677778888 Begin payments dependency call target=payments-sql.internal
+{"timestamp":"2026-03-22T09:20:18.140Z","service":"checkout-api","level":"ERROR","trace_id":"11112222333344445555666677778888","operation_Id":"cc33aa77dd88ee99","dependency":"payments-sql.internal","error":"getaddrinfo ENOTFOUND","durationMs":14,"message":"DNS resolution failed for payments-sql.internal","env":"prod","region":"eastus"}
+at System.Net.Dns.GetHostEntry(string hostNameOrAddress)
+at PaymentClient.Connect(PaymentClient.cs:101)
+{"timestamp":"2026-03-22T09:20:18.160Z","service":"checkout-api","level":"WARN","trace_id":"11112222333344445555666677778888","operation_Id":"cc33aa77dd88ee99","message":"retry=1 upstream=payments-sql.internal fast-fail trace_id=11112222333344445555666677778888","env":"prod","region":"eastus"}
+2026-03-22T09:20:19.902Z checkout-api ERROR operation_Id=cc33aa77dd88ee99 trace_id=11112222333344445555666677778888 Returning 502 to client
+2026-03-22T09:21:00.001Z api-gateway INFO operation_Id=0000aaaa-bbbb-cccc-dddd token-refresh ok (unrelated)

@@ -1,0 +1,221 @@
+department_id,department_name,hospital_name,city,department_code,is_active
+DEP0001,Neurology,"Max Super Speciality Hospital, Saket",delhi,DPT-0001,true
+DEP0002,Neurosurgery,"Max Super Speciality Hospital, Patparganj",noida,DPT-0002,true
+DEP0003,Urology,"Max Super Speciality Hospital, Vaishali",ghaziabad,DPT-0003,true
+DEP0004,Nephrology,"Max Super Speciality Hospital, Shalimar Bagh",gurugram,DPT-0004,true
+DEP0005,Gastroenterology,"Max Super Speciality Hospital, Gurgaon",lucknow,DPT-0005,true
+DEP0006,GI Surgery,"Max Hospital, Noida",pune,DPT-0006,true
+DEP0007,Cardiology,"Max Hospital, Lucknow",Mumbai,DPT-0007,true
+DEP0008,Cardiothoracic Surgery,"Max Healthcare Partner Centre, Pune",Banguluru,DPT-0008,true
+DEP0009,Orthopaedics,"Max Healthcare Partner Centre, Mumbai",delhi,DPT-0009,true
+DEP0010,Oncology,"Max Healthcare Partner Centre, Banguluru",noida,DPT-0010,true
+DEP0011,Dental Sciences,"Max Super Speciality Hospital, Saket",ghaziabad,DPT-0011,true
+DEP0012,ENT,"Max Super Speciality Hospital, Patparganj",gurugram,DPT-0012,true
+DEP0013,Pulmonology,"Max Super Speciality Hospital, Vaishali",lucknow,DPT-0013,true
+DEP0014,Dermatology,"Max Super Speciality Hospital, Shalimar Bagh",pune,DPT-0014,true
+DEP0015,Obstetrics and Gynaecology,"Max Super Speciality Hospital, Gurgaon",Mumbai,DPT-0015,true
+DEP0016,Pediatrics,"Max Hospital, Noida",Banguluru,DPT-0016,true
+DEP0017,Endocrinology,"Max Hospital, Lucknow",delhi,DPT-0017,true
+DEP0018,Internal Medicine,"Max Healthcare Partner Centre, Pune",noida,DPT-0018,true
+DEP0019,Neurology,"Max Healthcare Partner Centre, Mumbai",ghaziabad,DPT-0019,true
+DEP0020,Neurosurgery,"Max Healthcare Partner Centre, Banguluru",gurugram,DPT-0020,true
+DEP0021,Urology,"Max Super Speciality Hospital, Saket",lucknow,DPT-0021,true
+DEP0022,Nephrology,"Max Super Speciality Hospital, Patparganj",pune,DPT-0022,true
+DEP0023,Gastroenterology,"Max Super Speciality Hospital, Vaishali",Mumbai,DPT-0023,true
+DEP0024,GI Surgery,"Max Super Speciality Hospital, Shalimar Bagh",Banguluru,DPT-0024,true
+DEP0025,Cardiology,"Max Super Speciality Hospital, Gurgaon",delhi,DPT-0025,true
+DEP0026,Cardiothoracic Surgery,"Max Hospital, Noida",noida,DPT-0026,true
+DEP0027,Orthopaedics,"Max Hospital, Lucknow",ghaziabad,DPT-0027,true
+DEP0028,Oncology,"Max Healthcare Partner Centre, Pune",gurugram,DPT-0028,true
+DEP0029,Dental Sciences,"Max Healthcare Partner Centre, Mumbai",lucknow,DPT-0029,true
+DEP0030,ENT,"Max Healthcare Partner Centre, Banguluru",pune,DPT-0030,true
+DEP0031,Pulmonology,"Max Super Speciality Hospital, Saket",Mumbai,DPT-0031,true
+DEP0032,Dermatology,"Max Super Speciality Hospital, Patparganj",Banguluru,DPT-0032,true
+DEP0033,Obstetrics and Gynaecology,"Max Super Speciality Hospital, Vaishali",delhi,DPT-0033,true
+DEP0034,Pediatrics,"Max Super Speciality Hospital, Shalimar Bagh",noida,DPT-0034,true
+DEP0035,Endocrinology,"Max Super Speciality Hospital, Gurgaon",ghaziabad,DPT-0035,true
+DEP0036,Internal Medicine,"Max Hospital, Noida",gurugram,DPT-0036,true
+DEP0037,Neurology,"Max Hospital, Lucknow",lucknow,DPT-0037,true
+DEP0038,Neurosurgery,"Max Healthcare Partner Centre, Pune",pune,DPT-0038,true
+DEP0039,Urology,"Max Healthcare Partner Centre, Mumbai",Mumbai,DPT-0039,true
+DEP0040,Nephrology,"Max Healthcare Partner Centre, Banguluru",Banguluru,DPT-0040,true
+DEP0041,Gastroenterology,"Max Super Speciality Hospital, Saket",delhi,DPT-0041,true
+DEP0042,GI Surgery,"Max Super Speciality Hospital, Patparganj",noida,DPT-0042,true
+DEP0043,Cardiology,"Max Super Speciality Hospital, Vaishali",ghaziabad,DPT-0043,true
+DEP0044,Cardiothoracic Surgery,"Max Super Speciality Hospital, Shalimar Bagh",gurugram,DPT-0044,true
+DEP0045,Orthopaedics,"Max Super Speciality Hospital, Gurgaon",lucknow,DPT-0045,true
+DEP0046,Oncology,"Max Hospital, Noida",pune,DPT-0046,true
+DEP0047,Dental Sciences,"Max Hospital, Lucknow",Mumbai,DPT-0047,true
+DEP0048,ENT,"Max Healthcare Partner Centre, Pune",Banguluru,DPT-0048,true
+DEP0049,Pulmonology,"Max Healthcare Partner Centre, Mumbai",delhi,DPT-0049,true
+DEP0050,Dermatology,"Max Healthcare Partner Centre, Banguluru",noida,DPT-0050,true
+DEP0051,Obstetrics and Gynaecology,"Max Super Speciality Hospital, Saket",ghaziabad,DPT-0051,true
+DEP0052,Pediatrics,"Max Super Speciality Hospital, Patparganj",gurugram,DPT-0052,true
+DEP0053,Endocrinology,"Max Super Speciality Hospital, Vaishali",lucknow,DPT-0053,true
+DEP0054,Internal Medicine,"Max Super Speciality Hospital, Shalimar Bagh",pune,DPT-0054,true
+DEP0055,Neurology,"Max Super Speciality Hospital, Gurgaon",Mumbai,DPT-0055,true
+DEP0056,Neurosurgery,"Max Hospital, Noida",Banguluru,DPT-0056,true
+DEP0057,Urology,"Max Hospital, Lucknow",delhi,DPT-0057,true
+DEP0058,Nephrology,"Max Healthcare Partner Centre, Pune",noida,DPT-0058,true
+DEP0059,Gastroenterology,"Max Healthcare Partner Centre, Mumbai",ghaziabad,DPT-0059,true
+DEP0060,GI Surgery,"Max Healthcare Partner Centre, Banguluru",gurugram,DPT-0060,true
+DEP0061,Cardiology,"Max Super Speciality Hospital, Saket",lucknow,DPT-0061,true
+DEP0062,Cardiothoracic Surgery,"Max Super Speciality Hospital, Patparganj",pune,DPT-0062,true
+DEP0063,Orthopaedics,"Max Super Speciality Hospital, Vaishali",Mumbai,DPT-0063,true
+DEP0064,Oncology,"Max Super Speciality Hospital, Shalimar Bagh",Banguluru,DPT-0064,true
+DEP0065,Dental Sciences,"Max Super Speciality Hospital, Gurgaon",delhi,DPT-0065,true
+DEP0066,ENT,"Max Hospital, Noida",noida,DPT-0066,true
+DEP0067,Pulmonology,"Max Hospital, Lucknow",ghaziabad,DPT-0067,true
+DEP0068,Dermatology,"Max Healthcare Partner Centre, Pune",gurugram,DPT-0068,true
+DEP0069,Obstetrics and Gynaecology,"Max Healthcare Partner Centre, Mumbai",lucknow,DPT-0069,true
+DEP0070,Pediatrics,"Max Healthcare Partner Centre, Banguluru",pune,DPT-0070,true
+DEP0071,Endocrinology,"Max Super Speciality Hospital, Saket",Mumbai,DPT-0071,true
+DEP0072,Internal Medicine,"Max Super Speciality Hospital, Patparganj",Banguluru,DPT-0072,true
+DEP0073,Neurology,"Max Super Speciality Hospital, Vaishali",delhi,DPT-0073,true
+DEP0074,Neurosurgery,"Max Super Speciality Hospital, Shalimar Bagh",noida,DPT-0074,true
+DEP0075,Urology,"Max Super Speciality Hospital, Gurgaon",ghaziabad,DPT-0075,true
+DEP0076,Nephrology,"Max Hospital, Noida",gurugram,DPT-0076,true
+DEP0077,Gastroenterology,"Max Hospital, Lucknow",lucknow,DPT-0077,true
+DEP0078,GI Surgery,"Max Healthcare Partner Centre, Pune",pune,DPT-0078,true
+DEP0079,Cardiology,"Max Healthcare Partner Centre, Mumbai",Mumbai,DPT-0079,true
+DEP0080,Cardiothoracic Surgery,"Max Healthcare Partner Centre, Banguluru",Banguluru,DPT-0080,true
+DEP0081,Orthopaedics,"Max Super Speciality Hospital, Saket",delhi,DPT-0081,true
+DEP0082,Oncology,"Max Super Speciality Hospital, Patparganj",noida,DPT-0082,true
+DEP0083,Dental Sciences,"Max Super Speciality Hospital, Vaishali",ghaziabad,DPT-0083,true
+DEP0084,ENT,"Max Super Speciality Hospital, Shalimar Bagh",gurugram,DPT-0084,true
+DEP0085,Pulmonology,"Max Super Speciality Hospital, Gurgaon",lucknow,DPT-0085,true
+DEP0086,Dermatology,"Max Hospital, Noida",pune,DPT-0086,true
+DEP0087,Obstetrics and Gynaecology,"Max Hospital, Lucknow",Mumbai,DPT-0087,true
+DEP0088,Pediatrics,"Max Healthcare Partner Centre, Pune",Banguluru,DPT-0088,true
+DEP0089,Endocrinology,"Max Healthcare Partner Centre, Mumbai",delhi,DPT-0089,true
+DEP0090,Internal Medicine,"Max Healthcare Partner Centre, Banguluru",noida,DPT-0090,true
+DEP0091,Neurology,"Max Super Speciality Hospital, Saket",ghaziabad,DPT-0091,true
+DEP0092,Neurosurgery,"Max Super Speciality Hospital, Patparganj",gurugram,DPT-0092,true
+DEP0093,Urology,"Max Super Speciality Hospital, Vaishali",lucknow,DPT-0093,true
+DEP0094,Nephrology,"Max Super Speciality Hospital, Shalimar Bagh",pune,DPT-0094,true
+DEP0095,Gastroenterology,"Max Super Speciality Hospital, Gurgaon",Mumbai,DPT-0095,true
+DEP0096,GI Surgery,"Max Hospital, Noida",Banguluru,DPT-0096,true
+DEP0097,Cardiology,"Max Hospital, Lucknow",delhi,DPT-0097,true
+DEP0098,Cardiothoracic Surgery,"Max Healthcare Partner Centre, Pune",noida,DPT-0098,true
+DEP0099,Orthopaedics,"Max Healthcare Partner Centre, Mumbai",ghaziabad,DPT-0099,true
+DEP0100,Oncology,"Max Healthcare Partner Centre, Banguluru",gurugram,DPT-0100,true
+DEP0101,Dental Sciences,"Max Super Speciality Hospital, Saket",lucknow,DPT-0101,true
+DEP0102,ENT,"Max Super Speciality Hospital, Patparganj",pune,DPT-0102,true
+DEP0103,Pulmonology,"Max Super Speciality Hospital, Vaishali",Mumbai,DPT-0103,true
+DEP0104,Dermatology,"Max Super Speciality Hospital, Shalimar Bagh",Banguluru,DPT-0104,true
+DEP0105,Obstetrics and Gynaecology,"Max Super Speciality Hospital, Gurgaon",delhi,DPT-0105,true
+DEP0106,Pediatrics,"Max Hospital, Noida",noida,DPT-0106,true
+DEP0107,Endocrinology,"Max Hospital, Lucknow",ghaziabad,DPT-0107,true
+DEP0108,Internal Medicine,"Max Healthcare Partner Centre, Pune",gurugram,DPT-0108,true
+DEP0109,Neurology,"Max Healthcare Partner Centre, Mumbai",lucknow,DPT-0109,true
+DEP0110,Neurosurgery,"Max Healthcare Partner Centre, Banguluru",pune,DPT-0110,true
+DEP0111,Urology,"Max Super Speciality Hospital, Saket",Mumbai,DPT-0111,true
+DEP0112,Nephrology,"Max Super Speciality Hospital, Patparganj",Banguluru,DPT-0112,true
+DEP0113,Gastroenterology,"Max Super Speciality Hospital, Vaishali",delhi,DPT-0113,true
+DEP0114,GI Surgery,"Max Super Speciality Hospital, Shalimar Bagh",noida,DPT-0114,true
+DEP0115,Cardiology,"Max Super Speciality Hospital, Gurgaon",ghaziabad,DPT-0115,true
+DEP0116,Cardiothoracic Surgery,"Max Hospital, Noida",gurugram,DPT-0116,true
+DEP0117,Orthopaedics,"Max Hospital, Lucknow",lucknow,DPT-0117,true
+DEP0118,Oncology,"Max Healthcare Partner Centre, Pune",pune,DPT-0118,true
+DEP0119,Dental Sciences,"Max Healthcare Partner Centre, Mumbai",Mumbai,DPT-0119,true
+DEP0120,ENT,"Max Healthcare Partner Centre, Banguluru",Banguluru,DPT-0120,true
+DEP0121,Pulmonology,"Max Super Speciality Hospital, Saket",delhi,DPT-0121,true
+DEP0122,Dermatology,"Max Super Speciality Hospital, Patparganj",noida,DPT-0122,true
+DEP0123,Obstetrics and Gynaecology,"Max Super Speciality Hospital, Vaishali",ghaziabad,DPT-0123,true
+DEP0124,Pediatrics,"Max Super Speciality Hospital, Shalimar Bagh",gurugram,DPT-0124,true
+DEP0125,Endocrinology,"Max Super Speciality Hospital, Gurgaon",lucknow,DPT-0125,true
+DEP0126,Internal Medicine,"Max Hospital, Noida",pune,DPT-0126,true
+DEP0127,Neurology,"Max Hospital, Lucknow",Mumbai,DPT-0127,true
+DEP0128,Neurosurgery,"Max Healthcare Partner Centre, Pune",Banguluru,DPT-0128,true
+DEP0129,Urology,"Max Healthcare Partner Centre, Mumbai",delhi,DPT-0129,true
+DEP0130,Nephrology,"Max Healthcare Partner Centre, Banguluru",noida,DPT-0130,true
+DEP0131,Gastroenterology,"Max Super Speciality Hospital, Saket",ghaziabad,DPT-0131,true
+DEP0132,GI Surgery,"Max Super Speciality Hospital, Patparganj",gurugram,DPT-0132,true
+DEP0133,Cardiology,"Max Super Speciality Hospital, Vaishali",lucknow,DPT-0133,true
+DEP0134,Cardiothoracic Surgery,"Max Super Speciality Hospital, Shalimar Bagh",pune,DPT-0134,true
+DEP0135,Orthopaedics,"Max Super Speciality Hospital, Gurgaon",Mumbai,DPT-0135,true
+DEP0136,Oncology,"Max Hospital, Noida",Banguluru,DPT-0136,true
+DEP0137,Dental Sciences,"Max Hospital, Lucknow",delhi,DPT-0137,true
+DEP0138,ENT,"Max Healthcare Partner Centre, Pune",noida,DPT-0138,true
+DEP0139,Pulmonology,"Max Healthcare Partner Centre, Mumbai",ghaziabad,DPT-0139,true
+DEP0140,Dermatology,"Max Healthcare Partner Centre, Banguluru",gurugram,DPT-0140,true
+DEP0141,Obstetrics and Gynaecology,"Max Super Speciality Hospital, Saket",lucknow,DPT-0141,true
+DEP0142,Pediatrics,"Max Super Speciality Hospital, Patparganj",pune,DPT-0142,true
+DEP0143,Endocrinology,"Max Super Speciality Hospital, Vaishali",Mumbai,DPT-0143,true
+DEP0144,Internal Medicine,"Max Super Speciality Hospital, Shalimar Bagh",Banguluru,DPT-0144,true
+DEP0145,Neurology,"Max Super Speciality Hospital, Gurgaon",delhi,DPT-0145,true
+DEP0146,Neurosurgery,"Max Hospital, Noida",noida,DPT-0146,true
+DEP0147,Urology,"Max Hospital, Lucknow",ghaziabad,DPT-0147,true
+DEP0148,Nephrology,"Max Healthcare Partner Centre, Pune",gurugram,DPT-0148,true
+DEP0149,Gastroenterology,"Max Healthcare Partner Centre, Mumbai",lucknow,DPT-0149,true
+DEP0150,GI Surgery,"Max Healthcare Partner Centre, Banguluru",pune,DPT-0150,true
+DEP0151,Cardiology,"Max Super Speciality Hospital, Saket",Mumbai,DPT-0151,true
+DEP0152,Cardiothoracic Surgery,"Max Super Speciality Hospital, Patparganj",Banguluru,DPT-0152,true
+DEP0153,Orthopaedics,"Max Super Speciality Hospital, Vaishali",delhi,DPT-0153,true
+DEP0154,Oncology,"Max Super Speciality Hospital, Shalimar Bagh",noida,DPT-0154,true
+DEP0155,Dental Sciences,"Max Super Speciality Hospital, Gurgaon",ghaziabad,DPT-0155,true
+DEP0156,ENT,"Max Hospital, Noida",gurugram,DPT-0156,true
+DEP0157,Pulmonology,"Max Hospital, Lucknow",lucknow,DPT-0157,true
+DEP0158,Dermatology,"Max Healthcare Partner Centre, Pune",pune,DPT-0158,true
+DEP0159,Obstetrics and Gynaecology,"Max Healthcare Partner Centre, Mumbai",Mumbai,DPT-0159,true
+DEP0160,Pediatrics,"Max Healthcare Partner Centre, Banguluru",Banguluru,DPT-0160,true
+DEP0161,Endocrinology,"Max Super Speciality Hospital, Saket",delhi,DPT-0161,true
+DEP0162,Internal Medicine,"Max Super Speciality Hospital, Patparganj",noida,DPT-0162,true
+DEP0163,Neurology,"Max Super Speciality Hospital, Vaishali",ghaziabad,DPT-0163,true
+DEP0164,Neurosurgery,"Max Super Speciality Hospital, Shalimar Bagh",gurugram,DPT-0164,true
+DEP0165,Urology,"Max Super Speciality Hospital, Gurgaon",lucknow,DPT-0165,true
+DEP0166,Nephrology,"Max Hospital, Noida",pune,DPT-0166,true
+DEP0167,Gastroenterology,"Max Hospital, Lucknow",Mumbai,DPT-0167,true
+DEP0168,GI Surgery,"Max Healthcare Partner Centre, Pune",Banguluru,DPT-0168,true
+DEP0169,Cardiology,"Max Healthcare Partner Centre, Mumbai",delhi,DPT-0169,true
+DEP0170,Cardiothoracic Surgery,"Max Healthcare Partner Centre, Banguluru",noida,DPT-0170,true
+DEP0171,Orthopaedics,"Max Super Speciality Hospital, Saket",ghaziabad,DPT-0171,true
+DEP0172,Oncology,"Max Super Speciality Hospital, Patparganj",gurugram,DPT-0172,true
+DEP0173,Dental Sciences,"Max Super Speciality Hospital, Vaishali",lucknow,DPT-0173,true
+DEP0174,ENT,"Max Super Speciality Hospital, Shalimar Bagh",pune,DPT-0174,true
+DEP0175,Pulmonology,"Max Super Speciality Hospital, Gurgaon",Mumbai,DPT-0175,true
+DEP0176,Dermatology,"Max Hospital, Noida",Banguluru,DPT-0176,true
+DEP0177,Obstetrics and Gynaecology,"Max Hospital, Lucknow",delhi,DPT-0177,true
+DEP0178,Pediatrics,"Max Healthcare Partner Centre, Pune",noida,DPT-0178,true
+DEP0179,Endocrinology,"Max Healthcare Partner Centre, Mumbai",ghaziabad,DPT-0179,true
+DEP0180,Internal Medicine,"Max Healthcare Partner Centre, Banguluru",gurugram,DPT-0180,true
+DEP0181,Neurology,"Max Super Speciality Hospital, Saket",lucknow,DPT-0181,true
+DEP0182,Neurosurgery,"Max Super Speciality Hospital, Patparganj",pune,DPT-0182,true
+DEP0183,Urology,"Max Super Speciality Hospital, Vaishali",Mumbai,DPT-0183,true
+DEP0184,Nephrology,"Max Super Speciality Hospital, Shalimar Bagh",Banguluru,DPT-0184,true
+DEP0185,Gastroenterology,"Max Super Speciality Hospital, Gurgaon",delhi,DPT-0185,true
+DEP0186,GI Surgery,"Max Hospital, Noida",noida,DPT-0186,true
+DEP0187,Cardiology,"Max Hospital, Lucknow",ghaziabad,DPT-0187,true
+DEP0188,Cardiothoracic Surgery,"Max Healthcare Partner Centre, Pune",gurugram,DPT-0188,true
+DEP0189,Orthopaedics,"Max Healthcare Partner Centre, Mumbai",lucknow,DPT-0189,true
+DEP0190,Oncology,"Max Healthcare Partner Centre, Banguluru",pune,DPT-0190,true
+DEP0191,Dental Sciences,"Max Super Speciality Hospital, Saket",Mumbai,DPT-0191,true
+DEP0192,ENT,"Max Super Speciality Hospital, Patparganj",Banguluru,DPT-0192,true
+DEP0193,Pulmonology,"Max Super Speciality Hospital, Vaishali",delhi,DPT-0193,true
+DEP0194,Dermatology,"Max Super Speciality Hospital, Shalimar Bagh",noida,DPT-0194,true
+DEP0195,Obstetrics and Gynaecology,"Max Super Speciality Hospital, Gurgaon",ghaziabad,DPT-0195,true
+DEP0196,Pediatrics,"Max Hospital, Noida",gurugram,DPT-0196,true
+DEP0197,Endocrinology,"Max Hospital, Lucknow",lucknow,DPT-0197,true
+DEP0198,Internal Medicine,"Max Healthcare Partner Centre, Pune",pune,DPT-0198,true
+DEP0199,Neurology,"Max Healthcare Partner Centre, Mumbai",Mumbai,DPT-0199,true
+DEP0200,Neurosurgery,"Max Healthcare Partner Centre, Banguluru",Banguluru,DPT-0200,true
+DEP0201,Urology,"Max Super Speciality Hospital, Saket",delhi,DPT-0201,true
+DEP0202,Nephrology,"Max Super Speciality Hospital, Patparganj",noida,DPT-0202,true
+DEP0203,Gastroenterology,"Max Super Speciality Hospital, Vaishali",ghaziabad,DPT-0203,true
+DEP0204,GI Surgery,"Max Super Speciality Hospital, Shalimar Bagh",gurugram,DPT-0204,true
+DEP0205,Cardiology,"Max Super Speciality Hospital, Gurgaon",lucknow,DPT-0205,true
+DEP0206,Cardiothoracic Surgery,"Max Hospital, Noida",pune,DPT-0206,true
+DEP0207,Orthopaedics,"Max Hospital, Lucknow",Mumbai,DPT-0207,true
+DEP0208,Oncology,"Max Healthcare Partner Centre, Pune",Banguluru,DPT-0208,true
+DEP0209,Dental Sciences,"Max Healthcare Partner Centre, Mumbai",delhi,DPT-0209,true
+DEP0210,ENT,"Max Healthcare Partner Centre, Banguluru",noida,DPT-0210,true
+DEP0211,Pulmonology,"Max Super Speciality Hospital, Saket",ghaziabad,DPT-0211,true
+DEP0212,Dermatology,"Max Super Speciality Hospital, Patparganj",gurugram,DPT-0212,true
+DEP0213,Obstetrics and Gynaecology,"Max Super Speciality Hospital, Vaishali",lucknow,DPT-0213,true
+DEP0214,Pediatrics,"Max Super Speciality Hospital, Shalimar Bagh",pune,DPT-0214,true
+DEP0215,Endocrinology,"Max Super Speciality Hospital, Gurgaon",Mumbai,DPT-0215,true
+DEP0216,Internal Medicine,"Max Hospital, Noida",Banguluru,DPT-0216,true
+DEP0217,Neurology,"Max Hospital, Lucknow",delhi,DPT-0217,true
+DEP0218,Neurosurgery,"Max Healthcare Partner Centre, Pune",noida,DPT-0218,true
+DEP0219,Urology,"Max Healthcare Partner Centre, Mumbai",ghaziabad,DPT-0219,true
+DEP0220,Nephrology,"Max Healthcare Partner Centre, Banguluru",gurugram,DPT-0220,true

@@ -1,0 +1,5 @@
+2026-03-29T12:10:10.200Z orders-api INFO operation_Id=99990000-aaaa-bbbb-cccc-ddddeeeeffff trace_id=10101010101010101010101010101010 List orders started
+{"timestamp":"2026-03-29T12:10:15.120Z","service":"orders-api","level":"ERROR","trace_id":"10101010101010101010101010101010","operation_Id":"99990000-aaaa-bbbb-cccc-ddddeeeeffff","dependency":"orders-rate-limiter","statusCode":429,"error":"TooManyRequests","durationMs":33,"message":"Rate limit exceeded for orders-rate-limiter","env":"prod","region":"eastus"}
+at RateLimiterClient.Check(RateLimiterClient.cs:44)
+{"timestamp":"2026-03-29T12:10:15.140Z","service":"orders-api","level":"WARN","trace_id":"10101010101010101010101010101010","operation_Id":"99990000-aaaa-bbbb-cccc-ddddeeeeffff","message":"retry=4 (retry-storm) backoff=0ms target=orders-rate-limiter trace_id=10101010101010101010101010101010","env":"prod","region":"eastus"}
+2026-03-29T12:10:16.400Z orders-api INFO Returning 429 to client requestId=req_77aa

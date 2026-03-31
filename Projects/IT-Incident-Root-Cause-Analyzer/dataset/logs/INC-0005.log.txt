@@ -1,0 +1,6 @@
+2026-03-25T11:10:10.015Z billing-worker INFO operation_Id=deadc0de1234beef trace_id=55aa66bb77cc88dd9900eeff00112233 Start billing batch batchId=batch_8401
+{"timestamp":"2026-03-25T11:10:13.220Z","service":"billing-worker","level":"ERROR","trace_id":"55aa66bb77cc88dd9900eeff00112233","operation_Id":"deadc0de1234beef","error":"No space left on device","durationMs":320,"message":"Failed to write temp file /var/tmp/billing/part-0007.csv (No space left on device)","env":"prod","region":"eastus"}
+at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+at BillingExporter.Export(BillingExporter.cs:55)
+2026-03-25T11:10:20.031Z billing-worker ERROR operation_Id=deadc0de1234beef trace_id=55aa66bb77cc88dd9900eeff00112233 Returning transient failure (writes failed)
+2026-03-25T11:11:00.200Z billing-worker WARN operation_Id=deadc0de1234beef backlog=1200 retry=2 temp_fs_full

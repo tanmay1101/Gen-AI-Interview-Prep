@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520">
+  <rect width="900" height="520" fill="#0b1020"/>
+  <text x="40" y="60" fill="#9be7ff" font-family="Arial" font-size="28">INC-0010: TLS certificate not valid</text>
+  <text x="40" y="105" fill="#ffffff" font-family="Arial" font-size="18">Evidence on dashboard:</text>
+  <text x="60" y="140" fill="#ffd166" font-family="Arial" font-size="16">error: x509: certificate is not valid</text>
+  <text x="60" y="165" fill="#ffd166" font-family="Arial" font-size="16">dependency: payment-gateway</text>
+  <text x="60" y="190" fill="#ffd166" font-family="Arial" font-size="16">message: TLS handshake failed</text>
+  <line x1="40" y1="215" x2="860" y2="215" stroke="#2b355c" stroke-width="2"/>
+  <rect x="80" y="310" width="250" height="90" rx="10" fill="#183153" stroke="#3f6ea8"/>
+  <text x="115" y="352" fill="#ffffff" font-family="Arial" font-size="16">payments-worker</text>
+  <rect x="360" y="310" width="320" height="90" rx="10" fill="#183153" stroke="#3f6ea8"/>
+  <text x="410" y="342" fill="#ffffff" font-family="Arial" font-size="16">payment-gateway</text>
+  <text x="430" y="368" fill="#9be7ff" font-family="Arial" font-size="14">cert invalid</text>
+  <line x1="300" y1="360" x2="360" y2="360" stroke="#9be7ff" stroke-width="4" />
+</svg>

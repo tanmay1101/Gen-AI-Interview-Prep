@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520">
+  <rect width="900" height="520" fill="#0b1020"/>
+  <text x="40" y="60" fill="#9be7ff" font-family="Arial" font-size="28">INC-0008: DNS failure for internal host</text>
+  <text x="40" y="105" fill="#ffffff" font-family="Arial" font-size="18">Evidence on dashboard:</text>
+  <text x="60" y="140" fill="#ffd166" font-family="Arial" font-size="16">error: Name or service not known</text>
+  <text x="60" y="165" fill="#ffd166" font-family="Arial" font-size="16">dependency: checkout-api.internal</text>
+  <line x1="40" y1="215" x2="860" y2="215" stroke="#2b355c" stroke-width="2"/>
+  <rect x="80" y="310" width="220" height="90" rx="10" fill="#183153" stroke="#3f6ea8"/>
+  <text x="110" y="352" fill="#ffffff" font-family="Arial" font-size="16">api-gateway</text>
+  <rect x="360" y="310" width="300" height="90" rx="10" fill="#183153" stroke="#3f6ea8"/>
+  <text x="395" y="352" fill="#ffffff" font-family="Arial" font-size="16">checkout-api.internal</text>
+  <text x="410" y="380" fill="#9be7ff" font-family="Arial" font-size="14">unresolved host</text>
+</svg>
